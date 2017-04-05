@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html charset=utf-8">
+	<title>结果分析展示</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	 <script type="text/javascript" src="js/Chart.js"></script>
+	 <script type="text/javascript" src="js/echarts.js"></script>
+</head>
+<body>
+<!-- 登陆/注册+Logo -->
+    <div class="topset clearfix">
+         <!-- logo -->
+          <span><strong>Tips:</strong>分析结果调查</span>
+         <div class="enter">
+         	  <a href="#">登录</a>
+         	  <a href="#">注册</a>
+         </div>
+    </div>
+    <!-- Tab切换 -->
+  <div class="mainbody">
+  <div class="search">
+    请选择你想了解的品牌：
+    <select id="mainselect" class="select_target">
+      <option value="m">蒙牛</option>
+      <option value="y">伊利</option>
+      <option value="g">光明</option>
+    </select>
+     <select  id="subselect" class="select_target">
+      <option value="m">蒙牛</option>
+      <option value="y">伊利</option>
+      <option value="g">光明</option>
+    </select>
+   <!--  <a href="#"" class="joincmp" id="tocmp">加入对比</a> -->
+  </div>
+       <ul class="listset clearfix" id="list">
+           <li>电商网站口碑</li>
+           <li>论坛口碑</li>
+           <li>词云分析</li>
+           <li>产品销量</li>
+           <li>代言人</li>
+       </ul>
+    <!-- 切换图-->
+  <div class="contentView">
+      <!-- 平台的选择 -->
+       <div class="select" id="shopplatform" style="display: none">
+       电商平台：
+            <select class="select_target" id="shopselect">
+                  <option value="0">淘宝</option>
+                  <option value="1">天猫</option>
+                  <option value="2">京东</option>
+           </select>
+       </div>
+    <div class="select" id="tbplatform" style="display: none">
+       论坛平台：
+            <select class="select_target" id="tbselect">
+                  <option value="0">贴吧</option>
+                  <option value="1">红网</option>
+                  <option value="2">百度论坛</option>
+           </select>
+    </div>
+       <!-- 数据展示的区域 -->
+       <div class="showcontent" id="resultset">
+       	   <div id="myecharts" style="width:800px;height: 600px;">
+           </div>
+       </div>
+  </div>
+
+
+    <!-- 对比的区域 -->
+    <div class="cmp" id="cmpcontent">
+        <ul class="cmptop">
+           <li>对比</li>
+        </ul>
+        <div class="hide" id="hidecmp">隐藏</div>
+        <div class="cmparea">
+               <dl class="item">
+                 <dt>1</dt>
+                 <dd>您可以添加对比</dd>
+               </dl>
+               <dl class="item">
+                  <dt>2</dt>
+                 <dd>您可以添加对比</dd>
+               </dl> 
+               <dl class="item">
+                  <dt>3</dt>
+                 <dd>您可以添加对比</dd>
+               </dl>    
+        </div>
+    </div>
+    <script type="text/javascript" src="js/activity.js"></script>
+
+</body>
+</html>

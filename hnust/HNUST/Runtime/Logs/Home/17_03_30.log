@@ -1,0 +1,105 @@
+[ 2017-03-30T09:53:40+08:00 ] 101.226.66.177 /mooc/index.php/nextPage?type%25253D1%252526d%25253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-30T12:53:37+08:00 ] 101.226.68.197 /mooc/index.php/nextPage?type%2525253D1%25252526d%2525253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-30T15:30:11+08:00 ] 180.153.201.79 /mooc/index.php/nextPage?type%252525253D1%2525252526d%252525253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-30T19:00:24+08:00 ] 183.57.53.222 /mooc/index.php/nextPage?type%25252525253D1%252525252526d%25252525253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-30T19:00:33+08:00 ] 101.226.33.221 /mooc/index.php/nextPage?type%25252525253D1%252525252526d%25252525253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+

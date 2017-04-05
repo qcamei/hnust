@@ -1,0 +1,138 @@
+[ 2017-03-24T06:33:07+08:00 ] 101.226.89.123 /mooc/index.php/home/file/getfile?type%25252525252525253D6%252525252525252526id%25252525252525253D9be735f1fb2889cdbe99f5f06622bb8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-03-24T09:15:23+08:00 ] 101.226.51.227 /mooc/index.php/home/file/getfile?type%2525252525252525253D6%25252525252525252526id%2525252525252525253D9be735f1fb2889cdbe99f5f06622bb8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-03-24T12:38:13+08:00 ] 101.226.69.246 /mooc/index.php/home/file/getfile?type%252525252525252525253D6%2525252525252525252526id%252525252525252525253D9be735f1fb2889cdbe99f5f06622bb8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-03-24T15:17:55+08:00 ] 101.226.33.208 /mooc/index.php/home/file/getfile?type%25252525252525252525253D6%252525252525252525252526id%25252525252525252525253D9be735f1fb2889cdbe99f5f06622bb8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-03-24T17:39:53+08:00 ] 112.65.193.13 /mooc/index.php/home/file/getfile?type%2525252525252525252525253D6%25252525252525252525252526id%2525252525252525252525253D9be735f1fb2889cdbe99f5f06622bb8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-03-24T19:58:42+08:00 ] 140.207.185.112 /mooc/index.php/home/file/getfile?type%252525252525252525252525253D6%2525252525252525252525252526id%252525252525252525252525253D9be735f1fb2889cdbe99f5f06622bb8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+

@@ -1,0 +1,12 @@
+[ 2017-03-07T13:41:45+08:00 ] ::1 /download/mooc/index.php/filemore?type=1&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Filemore
+
+[ 2017-03-07T13:42:11+08:00 ] ::1 /download/mooc/index.php/filemore?type=1&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载模块:Filemore
+

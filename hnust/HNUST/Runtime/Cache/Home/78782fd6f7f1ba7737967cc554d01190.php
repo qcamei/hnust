@@ -1,0 +1,198 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>湖南科技大学教学评估网_工作动态</title>
+    <link rel="stylesheet" type="text/css" href="/mooc/Public/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/mooc/Public/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/mooc/Public/css/main_page.css" />
+    <link rel="stylesheet" type="text/css" href="/mooc/Public/css/public_list.css" />
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- 放置学校的logo,搜索框 -->
+    <div class="hwrap">
+        <div class="bg-shadow"></div>
+    </div>
+    <!-- 放置学校的logo,搜索框 -->
+    <div class="container">
+        <div class="row">
+            <div class="head clearfix">
+                <div class="head_img">
+                    <a class="bg">
+                        <img src="/mooc/Public/img/banner3.png" alt="暂无图片" title="湖南科技大学" height="180">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container">
+            <div class="navwarp">
+                <div class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/mooc">网站首页</a></li>
+                        <li><a href="/mooc/index.php/more?type=4&d=inform">评估动态</a></li>
+                        <li><a href="/mooc/index.php/more?type=1&d=inform">政策文件</a></li>
+                        <li><a href="/mooc/index.php/more?type=2&d=inform">专项评估</a></li>
+                        <li><a href="/mooc/index.php/more?type=3&d=inform">教学礼拜</a></li>
+                        <li><a href="/mooc/index.php/more?type=5&d=inform">教学督导</a></li>
+                        <li><a href="/mooc/index.php/more?type=6&d=file">下载专区</a></li>
+                        <li><a href="/mooc/index.php/more?type=7&d=file">他山之石</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="http://www.hnust.edu.cn/" title="湖南科技大学主页" target="_blank">科大主页</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- 导航栏设置 -->
+        <div class="row">
+            <!-- 显示位置 -->
+            <div class="row">
+                <div class="col-md-12 col-sm-12" s>
+                    <div class="location">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#"><span class="glyphicon glyphicon-map-marker"></span><span id="location-title"></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row show">
+                <!-- <?php echo ($content); ?> -->
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <nav aria-label="..." class="pull-right">
+                        <ul class="pager">
+                            <li><a href="javascript:void(0)" data-page='-1'>前一页</a></li>
+                            <li><a href="javascript:void(0)" data-page='1'>后一页</a></li>
+                            <li><a href="javascript:void(0)" data-page='0'>首页</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer clearfix">
+        <div class="footer-center">
+            湖南科技大学大学版权所有©1996,2000,2010年
+            <br> 邮箱：xcb@hnust.edu.cn 网址：www.hnust.edu.cn 地址：湖南·湘潭市桃园路(411201) 电话：0731-58290011
+            <br> 招生：0731-58273804(05、08)
+        </div>
+    </div>
+    <script type="text/javascript">
+    var locations = {
+        'inform': ['首页->公告通知', '首页->政策文件', '首页->专项评估', '首页->教学礼拜', '首页->评估动态', '首页->教学督导', '首页->下载专区', '首页->他山之石']
+    };
+    var buf = [];
+    var page = 1;
+    var url = location.href.replace(/more/, "nextPage");
+    // 控制评估动态的文本显示，超出的显示...
+    function limitShow() {
+        $('.content').each(function() {
+            var maxLen = 160;
+            if ($(this).text().length > maxLen) {
+                $(this).text($(this).text().substring(0, maxLen) + "...");
+                console.log($(this).text().length);
+            }
+        });
+    }
+    // 初始化
+    function init() {
+
+    }
+    $(document).ready(function() {
+        var search = location.search;
+        searchArr = search.split(/&|=/);
+        // console.log(searchArr);
+        var t = parseInt(searchArr[1]);
+        // var d = searchArr[3];
+        $('#location-title').text(locations['inform'][t]);
+        $.ajax({
+            url: url,
+            type: 'get',
+            success: function(res) {
+                $('.pager li').show();
+                buf[page] = res;
+                html = res['data'];
+                next = res['next'];
+                console.log(page);
+                console.log(res);
+                $('.show').html(html);
+                if (next == '') {
+                    $('.pager li').eq(1).hide();
+                }
+                if (page == 1) {
+                    $('.pager li').eq(0).hide();
+                }
+                limitShow();
+            },
+            error: function(res) {
+                alert('请求发生错误！');
+            }
+        });
+        $('.pager a').each(function() {
+            $(this).click(function(e) {
+                e.preventDefault();
+                var index = parseInt($(this).attr('data-page'));
+                if (index == 0) {
+                    page = 1;
+                } else {
+                    page = (page + index) > 0 ? (page + index) : 1;
+                }
+                // 判断是否有缓存
+                if (buf[page]) {
+                    $('.pager li').show();
+                    next = buf[page]['next'];
+                    $('.show').html(buf[page]['data']);
+                    if (next == '') {
+                        $('.pager li').eq(1).hide();
+                    }
+                    if (page == 1) {
+                        $('.pager li').eq(0).hide();
+                    }
+                    limitShow();
+                } else {
+                    $.ajax({
+                        url: url,
+                        type: 'get',
+                        data: {
+                            page: page,
+                        },
+                        success: function(res) {
+                            $('.pager li').show();
+                            buf[page] = res;
+                            html = res['data'];
+                            next = res['next'];
+                            console.log(res);
+                            alert('success');
+                            $('.show').html(html);
+                            if (next == '') {
+                                $('.pager li').eq(1).hide();
+                            }
+                            if (page == 1) {
+                                $('.pager li').eq(0).hide();
+                            }
+                            limitShow();
+                        },
+                        error: function(res) {
+                            alert('请求发生错误！');
+                        }
+                    });
+                }
+
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>

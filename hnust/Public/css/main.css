@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*整个body样式*/
+
+body{
+    min-width: 1170px;
+    min-height: 800px;
+    /*background-color: #F1F2F6;*/
+    background: url(../img/bj.png) repeat;
+    font-family: "Arial", '微软雅黑', "STHeiti";
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .navwarp .nav>li+li {
+        margin-left: 12px;
+    }
+    /*轮播的图片大小*/
+    .inner img {
+        width: 100%;
+        height: 292px;
+    }
+    .show-item .list-group-item a {
+        min-width: 70%;
+    }
+    .friendlink li>a {
+        padding: 8px 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navwarp .nav>li+li {
+        margin-left: 25px;
+    }
+    /*轮播的图片大小*/
+    .inner img {
+        width: 100%;
+        height: 292px;
+    }
+    .show-item .list-group-item a {
+        min-width: 75%;
+    }
+}
+
+.container{
+    min-width: 1170px;
+}
+
+.head {
+    position: relative;
+    /*background-color: #fff;*/
+    /*height:192px;*/
+}
+.hwrap{
+	background-image:url(../img/aa.jpg);
+	background-position:0 725px;
+	position: absolute;
+	top:0;
+	left: 0;
+	height: 350px;
+	width: 100%;
+}
+.bg-shadow{
+	background: url(../img/bg-shade.png) repeat-x;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+/*
+  导航栏的总体设置
+*/
+
+
+/*给导航栏加背景*/
+
+.body {
+    opacity: .9;
+    background: -webkit-linear-gradient(top, #1a49ab, #0c87f2, #00a9ff);
+}
+
+
+/*给导航栏设置最小高度*/
+
+.navwarp .navbar {
+    margin-bottom: 1px;
+    min-height: 40px;
+}
+
+.navwarp .navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+.navwarp .nav>li>a:hover {
+    color: #2889dd;
+    background: #f3b620;
+    border-radius: 3px;
+}
+
+.navwarp .nav>li>a:focus {
+    background-color: #4CAF50;
+}
+
+.navwarp .nav>li>a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.navwarp .nav>li {
+    float: left;
+}
+
+
+/*给面板设置最小高度*/
+
+.panel {
+    min-height: 745px;
+}
+
+
+/*显示位置*/
+
+.location {
+    width: 100%;
+    line-height: 40px;
+    margin: 0;
+    font-size: 14px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.location li.active a {
+    background-color: #59aaef;
+}
+
+
+/*新闻列表的样式*/
+
+.list-style {
+    min-height: 400px;
+    background: url(../img/sub.jpg);
+    margin-bottom: 0;
+}
+
+.location a,
+.list-style a {
+    color: #000;
+    text-decoration: none;
+}
+
+.list-style .list-group-item a {
+    display: inline-block;
+    max-width: 66%;
+    line-height: 100%;
+    text-decoration: none;
+    color: #f4981d;
+    ;
+    word-break: keep-all;
+    /* 不换行 */
+    white-space: nowrap;
+    /* 不换行 */
+    overflow: hidden;
+    /* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow: ellipsis;
+    /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+    font-size: 14px;
+}
+
+.list-style .list-group-item .timer {
+    font-size: 14px;
+    color: #f4981d;
+}
+
+.list-style .list-group-item {
+    border: none;
+    background: none;
+    /*padding: 8px 12px;*/
+}
+
+.list-style .list-group-item:hover a,
+.list-style .list-group-item:hover span {
+    color: rgb(135, 199, 240);
+}
+
+.list-style .list-group-item .glyphicon {
+    color: #f4981d;
+}
+
+
+/*展示具体新闻时的样式设置*/
+
+.newsinfo {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    height: 36px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(2, 10, 16, .3);
+    padding: 5px;
+}
+
+.newsinfo .content {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/*底部设置*/
+.login a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color:#333;
+}
+.login a:hover{
+	color: red;
+}
+.footer {
+    padding: 20px 30px;
+    background-image: url(../img/foot.jpg);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-color: #EBEBEB;
+    color: #999;
+}
+
+.footer-center {
+    height: 60px;
+    /*color: #666;*/
+    text-align: center;
+}

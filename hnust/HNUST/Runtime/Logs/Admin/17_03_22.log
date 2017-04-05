@@ -1,0 +1,9 @@
+[ 2017-03-22T09:16:33+08:00 ] 101.226.66.179 /mooc/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 8 行.
+
