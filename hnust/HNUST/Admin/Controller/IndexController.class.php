@@ -10,9 +10,9 @@ class IndexController extends Controller{
             if($tar=='index'){
                 $user=M('admin');
                 // echo session('id');
-                $nickname=$user->field('nickname')->where(array('userid'=>session('id')))->select();
+                $nickname=$user->field('authority,nickname')->where(array('userid'=>session('id')))->select();
                 // dump($nickname);
-                $this->assign('nickname',$nickname[0]['nickname']);
+                $this->assign('nickname',$nickname[0]);
             }
             $this->display($tar);
         }
@@ -155,9 +155,10 @@ class IndexController extends Controller{
  }
  // 获取通知列表
  public function getinformList(){
-    $this->isLogin();
+    // $this->isLogin();
     $file=M('supervisor');
-    $filelist=$file->field('id,title,author,time,source,type')->order('type')->select();
+    $where['type']=I('type');
+    $filelist=$file->field('id,title,author,time,source,type')->where($where)->order('time')->select();
     // echo $file->getLastSql();
     $this->ajaxReturn($filelist);
  }
@@ -177,39 +178,6 @@ class IndexController extends Controller{
        }
     }
      $this->success('删除成功');
- }
- // 登录验证
- public function login(){
- 	if(IS_POST){
-       $username=I('username','');
-       $psw=I('password','');
-       $user=M('admin');
-       $truepsw=$user->field('password')->find($username);
-       if($psw==$truepsw['password']){
-        header("Content-Type:*/*;charset:utf-8");
-        header("location:".__APP__.'/admin');
-        $_SESSION['id']=$username;
-        cookie('username',$username);
-      }
-    else{
-       $this->assign("error","账号或密码错误");
-       $this->display();
-    }
-    }
-   else{
-   	  $this->display();
-   }
-   var_dump($_SESSION);
- }
- public function updatepsw(){
-     
- }
- public function logout(){
-    session('[destroy]');
-    session(null);
-    // session(array('name'))
-    cookie(null);
-    exit('<script>top.location.href="'.__APP__.'/login"</script>');
  }
  function isLogin(){
    if($_SESSION['id']==null){

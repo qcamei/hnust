@@ -12,11 +12,11 @@ return array(
 		'uploadinfor'=>'Admin/Index/uploadinfor',
 		'updateFile'=>'Admin/Index/updateFile',
 		'updateinform'=>'Admin/Index/updateInfor',
-		'clogin'=>'Admin/Index/clogin',
 		'admin'=>'Admin/Index/index',
-		'login'=>'Admin/Index/login',
-		'logout'=>'Admin/Index/logout',
-		'updatepsw'=>'Admin/Index/updatepsw',
+		'login'=>'Admin/Login/login',
+		'logout'=>'Admin/Login/logout',
+		'updatepsw'=>'Admin/Login/updatepsw',
+		'regedit'=>'Admin/Login/regedit',
 		),
 	'DB_TYPE'               =>  'mysql',     // 数据库类型
 	'DB_HOST'               =>  '127.0.0.1', // 服务器地址

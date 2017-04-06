@@ -12,11 +12,6 @@
     <title> - 主页示例</title>
 
     <link rel="shortcut icon" href="favicon.ico">
-    <!-- <link href="css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
-    <link href="css/font-awesome.css?v=4.4.0" rel="stylesheet">
-
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css?v=4.1.0" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="/mooc/Public//css/bootstrap.min.css?v=3.3.6" />
     <link rel="stylesheet" type="text/css" href="/mooc/Public//css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="/mooc/Public//css/animate.css" />
@@ -48,10 +43,6 @@
        </div>
         </div>
     </div>
-    <!-- 全局js -->
-    <!-- <script src="js/jquery.min.js?v=2.1.4"></script>
-    <script src="js/bootstrap.min.js?v=3.3.6"></script>
-    <script src="js/plugins/layer/layer.min.js"></script> -->
     <script type="text/javascript" src="/mooc/Public/js/jquery.min.js?v=2.1.4"></script>
     <script type="text/javascript" src="/mooc/Public/js/bootstrap.min.js?v=3.3.6"></script>
     <script type="text/javascript" src="/mooc/Public/js/plugins/layer/layer.min.js"></script>

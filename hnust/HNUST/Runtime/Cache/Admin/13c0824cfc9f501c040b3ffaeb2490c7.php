@@ -16,6 +16,12 @@
     <link rel="stylesheet" type="text/css" href="/mooc/Public/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="/mooc/Public/css/animate.css" />
     <link rel="stylesheet" type="text/css" href="/mooc/Public/css/style.css?v=4.1.0" />
+    <style type="text/css">
+    body {
+        min-width: 1170px;
+        overflow: scroll !important;
+    }
+    </style>
 </head>
 
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
@@ -49,12 +55,6 @@
                             <span class="nav-label">主页</span>
                         </a>
                     </li>
-                    <li>
-                        <a class="J_menuItem" href="/mooc/index.php/admin?target=file-manager">
-                            <i class="fa fa fa-bar-chart-o"></i>
-                            <span class="nav-label">文件管理</span>
-                        </a>
-                    </li>
                     <li class="line dk"></li>
                     <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
                         <span class="ng-scope">分类</span>
@@ -62,27 +62,26 @@
                     <li>
                         <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">上传管理</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="/mooc/index.php/admin?target=filesUp">上传文件</a></li>
-                            <li><a class="J_menuItem" href="/mooc/index.php/admin?target=editorNews">编辑新闻</a></li>
+                            <li><a class="J_menuItem" href="/mooc/index.php/admin?target=editorNews">编辑通知</a></li>
+                            <li><a class="J_menuItem" href="/mooc/index.php/admin?target=inform_notice">通知管理</a></li>
                         </ul>
                     </li>
-                    <li class="line dk"></li>
-                    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
-                        <span class="ng-scope">分类</span>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">公告通知管理</span><span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="/mooc/index.php/admin?target=notice">编辑公告</a></li>
-                            <li><a class="J_menuItem" href="/mooc/index.php/admin?target=inform_notice">公告管理</a></li>
-                        </ul>
-                    </li>
+                    <?php if($nickname['authority'] == 0): ?><li class="line dk"></li>
+                        <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+                            <span class="ng-scope"></span>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">注册</span><span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li><a class="J_menuItem" href="/mooc/index.php/admin?target=regedit">注册</a></li>
+                            </ul>
+                        </li><?php endif; ?>
                 </ul>
             </div>
         </nav>
         <!--左侧导航结束-->
         <!--右侧部分开始-->
-        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div id="page-wrapper" class="gray-bg dashbard-1" style="min-width: 1170px;">
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                     <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-info" href="#"><i class="fa fa-bars"></i> </a>
@@ -93,9 +92,8 @@
                         </form>
                     </div>
                     <div class="dropdown pull-right" style="height: 100%;padding: 7px;">
-                        <button class="dropdown-toggle btn btn-default" data-toggle="dropdown">
-                            <span class="glyphicon glyphicon-user"></span> 
-                               <?php echo ($nickname); ?>
+                        <button class="dropdown-toggle btn btn-default" id="show">
+                            <span class="glyphicon glyphicon-user"></span> <?php echo ($nickname['nickname']); ?>
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
@@ -119,6 +117,15 @@
     <script type="text/javascript" src="/mooc/Public/js/plugins/layer/layer.min.js"></script>
     <script type="text/javascript" src="/mooc/Public/js/hAdmin.js?v=4.1.0"></script>
     <script type="text/javascript" src="/mooc/Public/js/index.js"></script>
+    <script type="text/javascript">
+    $('#show').click(function(e) {
+        e.stopPropagation();
+        $('.dropdown').toggleClass('open');
+    });
+    // $('body').click(function(){
+    //  $('.dropdown').toggleClass('open');
+    // });
+    </script>
 </body>
 
 </html>

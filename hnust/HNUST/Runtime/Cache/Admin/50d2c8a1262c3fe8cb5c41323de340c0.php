@@ -8,11 +8,11 @@
     addEventListener("load", function() {
         setTimeout(hideURLbar, 0);
     }, false);
+
     function hideURLbar() {
         window.scrollTo(0, 1);
     }
     </script>
-    <meta name="keywords" content="Flat Dark Web Login Form Responsive Templates, Iphone Widget Template, Smartphone login forms,Login form, Widget Template, Responsive Templates, a Ipad 404 Templates, Flat Responsive Templates" />
     <link href="/mooc/Public/css/loginstyle.css" rel='stylesheet' type='text/css' />
     <link href="/mooc/Public/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
     <script src="/mooc/Public/js/jquery.min.js"></script>
@@ -41,11 +41,11 @@
         <div class="avtar">
             <img src="/mooc/Public/img/avtar.png" />
         </div>
-        <form method="post" action="/mooc/index.php/login">
-            <div class="helping-bolck"><?php echo ($error); ?></div>
-            <input type="text" class="text" name="username"  placeholder="请输入用户名" ">
+        <form method="post" action="/mooc/index.php/login" id="login">
+            <div class="help-block" style="color: red;font-size:16px"><?php echo ($error); ?></div>
+            <input type="text" class="text" name="username" placeholder="请输入用户名" id='username'>
             <div class="key">
-                <input type="password" name="password" placeholder="请输入密码">
+                <input type="password" name="password" placeholder="请输入密码" id="psw">
             </div>
             <div class="signin">
                 <input type="submit" value="登录">
@@ -53,6 +53,17 @@
         </form>
     </div>
     <script type="text/javascript">
+    $('input[type="submit"]').click(function(e) {
+        console.log('111111');
+        e.preventDefault();
+        if ($('#username').val() == '') {
+            $('#login .help-block').text('用户名不能为空');
+        } else if ($('#psw').val() == '') {
+            $('#login .help-block').text('密码不能为空');
+        } else {
+            $('#login').submit();
+        }
+    });
     </script>
 </body>
 

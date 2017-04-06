@@ -11,6 +11,11 @@
     <link rel="stylesheet" type="text/css" href="/mooc/Public/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="/mooc/Public/css/animate.css" />
     <link rel="stylesheet" type="text/css" href="/mooc/Public/css/style.css?v=4.1.0" />
+    <style type="text/css">
+    #eg .form-control {
+        height: auto;
+    }
+    </style>
     <script type="text/javascript">
     var ROOT = "/mooc";
     var APP = "/mooc/index.php";
@@ -56,20 +61,20 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="type" class="col-sm-3 control-label">类型</label>
-                                           <div class="col-md-3">
-                                                <select id="type_choice" class="form-control" onchange="img_show()" name="type">
-                                                    <option value="0">公告通知</option>
-                                                    <option value="1">政策文件</option>
-                                                    <option value="2">专项评估</option>
-                                                    <option value="3">教学礼拜</option>
-                                                    <option value="4">评估动态</option>
-                                                    <option value="5">教学督导</option>
-                                                    <option value="6">下载专区</option>
-                                                    <option value="7">他山之石</option>
-                                                </select>
-                                            </div>
+                                        <div class="col-md-3">
+                                            <select id="type_choice" class="form-control" onchange="img_show()" name="type">
+                                                <option value="0">公告通知</option>
+                                                <option value="1">政策文件</option>
+                                                <option value="2">专项评估</option>
+                                                <option value="3">教学礼拜</option>
+                                                <option value="4">评估动态</option>
+                                                <option value="5">教学督导</option>
+                                                <option value="6">下载专区</option>
+                                                <option value="7">他山之石</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-4" id="files">
+                                    <div class="col-md-3 col-md-offset-3" id="files">
                                         <input type="file" id="up" name="file" />
                                         <div><img id="ImgPr" width="150" height="150" /></div>
                                     </div>

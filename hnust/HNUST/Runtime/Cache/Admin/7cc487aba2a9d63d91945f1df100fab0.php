@@ -79,10 +79,10 @@
         var check=v.match(/^[^\w\d\s]$/);
         if(check){
           $('.help-block').text('包含非法字符');
-          $(this).parent().parent().addClass('has-error');
+           $(this).parent().parent().toggleClass('has-error');
         }else{
           $('.help-block').text('');
-          $(this).parent().parent().removeClass('has-error');
+          $(this).parent().parent().toggleClass('has-error');
         }
     });
     </script>

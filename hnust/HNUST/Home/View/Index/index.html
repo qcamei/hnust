@@ -66,10 +66,9 @@
                         </div>
                         <div class="warp">
                             <span class="to-left">&lt</span>
-                            <span class="to-right">&gt</span> 
-                               {$pg}
+                            <span class="to-right">&gt</span> {$pg}
                             <div class="ctrl">
-                                 {$ctrl}
+                                {$ctrl}
                             </div>
                         </div>
                     </div>
@@ -194,7 +193,7 @@
     </div>
     <div class="footer clearfix">
         <div class="login">
-            <a href="__APP__/clogin" title="管理员登录">管理员登录</a>
+            <a href="__APP__/login" title="管理员登录">管理员登录</a>
         </div>
         <div class="footer-center">
             湖南科技大学大学版权所有©1996,2000,2010年
@@ -218,6 +217,7 @@
             return fun.apply(object, args.concat(Array.prototype.slice.call(arguments)));
         }
     }
+
     function Banner() {
         this.innergroup = $('.inner');
         this.length = this.innergroup.length;
