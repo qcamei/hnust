@@ -1,0 +1,498 @@
+[ 2017-04-16T03:03:14+08:00 ] 101.226.64.174 /mooc/index.php/admin?target%25252525253Dinform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 173 行.
+
+[ 2017-04-16T11:20:13+08:00 ] 112.65.7.166 /mooc/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 173 行.
+
+[ 2017-04-16T14:29:00+08:00 ] 218.75.247.247 /mooc/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/mooc/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-04-16T14:29:07+08:00 ] 218.75.247.247 /mooc/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `hnust_admin` [ RunTime:0.0005s ]
+SQL: SELECT `password` FROM `hnust_admin` WHERE `userid` = 'admin'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-04-16T14:29:07+08:00 ] 218.75.247.247 /mooc/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `hnust_admin` [ RunTime:0.0006s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_admin` WHERE `userid` = 'admin'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-04-16T14:29:07+08:00 ] 218.75.247.247 /mooc/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-04-16T14:29:10+08:00 ] 218.75.247.247 /mooc/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-04-16T14:29:11+08:00 ] 218.75.247.247 /mooc/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0001s ]
+
+[ 2017-04-16T14:29:11+08:00 ] 218.75.247.247 /mooc/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-04-16T20:48:48+08:00 ] 218.75.230.17 /mooc/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 173 行.
+
+[ 2017-04-16T20:48:48+08:00 ] 218.75.230.17 /mooc/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/mooc/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-04-16T20:48:50+08:00 ] 218.75.230.17 /mooc/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `hnust_admin` [ RunTime:0.0007s ]
+SQL: SELECT `password` FROM `hnust_admin` WHERE `userid` = '1405020204'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000113s ]
+
+[ 2017-04-16T20:48:50+08:00 ] 218.75.230.17 /mooc/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `hnust_admin` [ RunTime:0.0006s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_admin` WHERE `userid` = '1405020204'  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-04-16T20:48:50+08:00 ] 218.75.230.17 /mooc/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-04-16T20:48:53+08:00 ] 218.75.230.17 /mooc/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-04-16T20:48:58+08:00 ] 218.75.230.17 /mooc/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0001s ]
+
+[ 2017-04-16T20:49:01+08:00 ] 218.75.230.17 /mooc/index.php/getinformList?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc  [ RunTime:0.0007s ]
+
+[ 2017-04-16T20:49:03+08:00 ] 218.75.230.17 /mooc/index.php/updateNews?id=3d031a7ceff2a0ef859ad36cd6d04d59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '3d031a7ceff2a0ef859ad36cd6d04d59'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-04-16T20:49:06+08:00 ] 218.75.230.17 /mooc/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-04-16T20:49:11+08:00 ] 218.75.230.17 /mooc/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0002s ]
+
+[ 2017-04-16T20:49:15+08:00 ] 218.75.230.17 /mooc/index.php/getinformList?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc  [ RunTime:0.0001s ]
+
+[ 2017-04-16T20:49:17+08:00 ] 218.75.230.17 /mooc/index.php/deleteinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0004s ]
+SQL: SELECT `link` FROM `hnust_document` WHERE `informid` = '3d031a7ceff2a0ef859ad36cd6d04d59'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: DELETE FROM `hnust_supervisor` WHERE `id` = '3d031a7ceff2a0ef859ad36cd6d04d59' [ RunTime:0.0023s ]
+
+[ 2017-04-16T20:49:20+08:00 ] 218.75.230.17 /mooc/index.php/deleteinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0006s ]
+SQL: SELECT `link` FROM `hnust_document` WHERE `informid` = 'd07c220103836a420c4e768155ddcc87'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0008s ]
+SQL: DELETE FROM `hnust_supervisor` WHERE `id` = 'd07c220103836a420c4e768155ddcc87' [ RunTime:0.0022s ]
+
+[ 2017-04-16T20:49:22+08:00 ] 218.75.230.17 /mooc/index.php/deleteinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0006s ]
+SQL: SELECT `link` FROM `hnust_document` WHERE `informid` = '283cacc877f402dfdab3070119404a01'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: DELETE FROM `hnust_supervisor` WHERE `id` = '283cacc877f402dfdab3070119404a01' [ RunTime:0.0014s ]
+
+[ 2017-04-16T20:49:23+08:00 ] 218.75.230.17 /mooc/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-04-16T20:53:40+08:00 ] 218.75.230.17 /mooc/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`simplecontent`,`link`,`author`,`source`,`time`,`type`) VALUES ('52d3c14b500a05706d5863cff0e14d46','关于成立湖南省普通高等学校
+计算机类等专业教学指导委员会的通知',' <div class=\"panel\">
+    <div class=\"panel-heading\">
+      <h3 class=\"news-title\">关于成立湖南省普通高等学校
+计算机类等专业教学指导委员会的通知</h3>
+      <div class=\"news-other\">
+        作者：<span id=\"author\">湖南省教育厅</span>&nbsp;&nbsp;&nbsp;&nbsp;来源：<span id=\"Source\">湖南省教育厅</span>&nbsp;&nbsp;&nbsp;&nbsp;上传时间：<span id=\"Time\">2017-03-27</span>
+      </div>
+      <div class=\"split\"></div>
+    </div>
+  <div class=\"panel-body\" id=\"panel-body\" style=\"padding: 20px\">
+     &lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family:仿宋_GB2312&quot;&gt;湘教通〔2017〕100号&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size: 29px;font-family: 方正小标宋简体&quot;&gt;关于成立湖南省普通高等学校&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size: 29px;font-family: 方正小标宋简体&quot;&gt;计算机类等专业教学指导委员会的通知&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;各普通本科院校、有关单位：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;为贯彻落实《教育部关于全面提高高等教育质量的若干意见》和《国务院教育督导委员会办公室关于组织开展普通高等学校本科专业评估试点工作的通知》（国教督办函〔2016〕6号）要求，进一步发挥专家学者和行业专业人员对高等教育教学改革的研究、咨询、指导作用，加强高校专业建设，着力提升本科人才培养质量，在各高校推荐的基础上，经研究，决定成立湖南省普通高等学校计算机类、外国语言文学类、工商管理类等3个专业教学指导委员会（以下简称“省教指委”）。现将有关事项通知如下：　　&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family: 黑体&quot;&gt;一、&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:黑体&quot;&gt;省教指委&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 黑体&quot;&gt;性质&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:39px&quot;&gt;&lt;span style=&quot;;position: absolute;z-index:251658240;left:0px;margin-top:262px;width:814px;height:8px&quot;&gt;&lt;img width=&quot;814&quot; height=&quot;8&quot; src=&quot;/mooc/Public/js/utf8-php/themes/default/images/spacer.gif&quot;/&gt;&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;省教指委是省教育厅领导的专家组织，具有非常设学术机构的性质，&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;接受省教育厅的委托，开展高等学校相应专业或专业类教学的研究、咨询、指导、评估、服务等工作。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family: 黑体&quot;&gt;二、省教指委主要任务&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;一)研究国内外有关学科专业教育的发展趋势，为省教育厅和高等学校提供咨询意见和建议。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;二)组织和开展各学科专业教学领域的理论与实践研究、交流教学建设和改革经验，宣传推广优秀教学成果，为高等学校的教学建设和改革提供服务。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;三)指导高等学校的学科专业建设、课程建设、教材建设、教师队伍建设、实践教学改革与优质教学资源建设等工作，促进高等学校教学建设水平不断提高。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;四)开展专业教学质量评估，接受省教育厅委托，制定专业综合评价指标体系，组织开展专业综合评价具体实施工作。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;五)&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;组织教师培训、学术研讨和信息交流等工作&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;六)完成省教育厅委托的其他有关教学改革与人才培养工作。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:42px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:黑体&quot;&gt;三、省教指委组成&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:42px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;各&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;教学指导委员会&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;设主任委员1人，副主任委员和委员若干人，秘书长1人。教学指导委员会的工作由主任委员主持、副主任委员协助，秘书长协助主任和副主任委员处理日常工作。委员包括高等学校从事本学科专业本科教学工作的专家以及行业企业单位热心人才培养工作的专家，由省教育厅颁发聘书聘任，任期自公布之日起至2019年12月31日止。名单详见附件。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:黑体&quot;&gt;四、有关要求&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;各高校和有关单位要积极支持省教指委的工作，主任委员、副主任委员和秘书长所在单位应为其开展教指委工作提供必要的条件支持和时间保障，并给予适当的工作经费支持；委员所在单位应为其参加教指委工作提供必要的支持。　&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:40px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 53px; text-align: right;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;湖南省教育厅 &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 292px; text-align: right;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp; 2017年3月27日 &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;附件：&lt;/p&gt;&lt;p style=&quot;line-height: 16px;&quot;&gt;&lt;img src=&quot;/mooc/Public/js/utf8-php/dialogs/attachment/fileTypeImages/icon_doc.gif&quot;/&gt;&lt;a style=&quot;font-size:12px; color:#0066cc;&quot; href=&quot;/mooc/index.php/download?fileid=/file/file/20170416/1492347214120677.doc&amp;filename=湘教通[2017]100号  关于成立湖南省普通高等学校计算机类等专业教学指导委员会的通知.doc&quot; title=&quot;湘教通[2017]100号  关于成立湖南省普通高等学校计算机类等专业教学指导委员会的通知.doc&quot;&gt;湘教通[2017]100号 &amp;nbsp;关于成立湖南省普通高等学校计算机类等专业教学指导委员会的通知.doc&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+  </div>
+</div>','湘教通〔2017〕100号&nbsp;关于成立湖南省普通高等学校计算机类等专业教学指导委员会的通知&nbsp;各普通本科院校、有关单位：为贯彻落实《教育部关于全面提高高等教育质量的若干意见》和《国务院教育督导委员会办公室关于组织开展普通高等学校本科专业评估试点工作的通知》（国教督办函〔2016〕6号）要求，进一步发挥专家学者和行业专业人员对高等教育教学改革的研究、咨询、指导作用，加强高校专业建设，着力提升本科人才培养质量，在各高校推荐的基础上，经研究，决定成立湖南省普通高等学校计算机类、外国语言文学类、工商管理类等3个专业教学指导委员会（以下简称“省教指委”）。现将有关事项通知如下：　　一、省教指委性质省教指委是省教育厅领导的专家组织，具有非常设学术机构的性质，接受省教育厅的委托，开展高等学校相应专业或专业类教学的研究、咨询、指导、评估、服务等工作。二、省教指委主要任务(一)研究国内外有关学科专业教育的发展趋势，为省教育厅和高等学校提供咨询意见和建议。(二)组织和开展各学科专业教学领域的理论与实践研究、交流教学建设和改革经验，宣传推广优秀教学成果，为高等学校的教学建设和改革提供服务。(三)指导高等学校的学科专业建设、课程建设、教材建设、教师队伍建设、实践教学改革与优质教学资源建设等工作，促进高等学校教学建设水平不断提高。(四)开展专业教学质量评估，接受省教育厅委托，制定专业综合评价指标体系，组织开展专业综合评价具体实施工作。(五)组织教师培训、学术研讨和信息交流等工作。(六)完成省教育厅委托的其他有关教学改革与人才培养工作。三、省教指委组成各教学指导委员会设主任委员1人，副主任委员和委员若干人，秘书长1人。教学指导委员会的工作由主任委员主持、副主任委员协助，秘书长协助主任和副主任委员处理日常工作。委员包括高等学校从事本学科专业本科教学工作的专家以及行业企业单位热心人才培养工作的专家，由省教育厅颁发聘书聘任，任期自公布之日起至2019年12月31日止。名单详见附件。四、有关要求各高校和有关单位要积极支持省教指委的工作，主任委员、副主任委员和秘书长所在单位应为其开展教指委工作提供必要的条件支持和时间保障，并给予适当的工作经费支持；委员所在单位应为其参加教指委工作提供必要的支持。　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湖南省教育厅&nbsp;&nbsp;&nbsp;&nbsp;2017年3月27日&nbsp;&nbsp;附件：湘教通[2017]100号&nbsp;关于成立湖南省普通高等学校计算机类等专业教学指导委员会的通知.doc','/mooc/index.php/home/file/getfile?type=2&id=52d3c14b500a05706d5863cff0e14d46','湖南省教育厅','湖南省教育厅','2017-03-27','2') [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0007s ]
+SQL: UPDATE `hnust_document` SET `informid`='52d3c14b500a05706d5863cff0e14d46' WHERE ( informid is null ) [ RunTime:0.0280s ]
+
+[ 2017-04-16T21:00:06+08:00 ] 218.75.230.17 /mooc/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`simplecontent`,`link`,`author`,`source`,`time`,`type`) VALUES ('561754f3d593f8df936f2f91ef763010','关于印发《湖南省普通高等学校本科专业
+综合评价通用指标体系与评价办法》的通知
+',' <div class=\"panel\">
+    <div class=\"panel-heading\">
+      <h3 class=\"news-title\">关于印发《湖南省普通高等学校本科专业
+综合评价通用指标体系与评价办法》的通知
+</h3>
+      <div class=\"news-other\">
+        作者：<span id=\"author\">湖南省教育厅</span>&nbsp;&nbsp;&nbsp;&nbsp;来源：<span id=\"Source\">湖南省教育厅</span>&nbsp;&nbsp;&nbsp;&nbsp;上传时间：<span id=\"Time\">2016-12-20</span>
+      </div>
+      <div class=\"split\"></div>
+    </div>
+  <div class=\"panel-body\" id=\"panel-body\" style=\"padding: 20px\">
+     &lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;湘教发〔2016〕56号&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size:29px;font-family:方正小标宋简体&quot;&gt;关于印发《湖南省普通高等学校本科专业&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size:29px;font-family:方正小标宋简体&quot;&gt;综合评价通用指标体系与评价办法》的通知&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;各普通本科高等学校：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;根据《国务院教育督导委员会办公室关于组织开展普通高等学校本科专业评估试点工作的通知》（国教督办〔2016〕6号）和我厅《关于开展湖南省普通高校本科专业综合评价工作的通知》（湘教通〔2016〕278号）精神，我厅组织专家研究制定了《湖南省普通高校本科专业综合评价通用指标体系与评价办法》（包括湖南省普通高校本科专业综合评价通用指标体系、定量指标计算标准、定性指标评价方案与评价标准），现印发给你们。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;《湖南省普通高校本科专业综合评价通用指标体系与评价办法》是我省组织各专业进行综合评价时的通用框架和参考标准，各专业（类）教学指导委员会在具体组织实施专业综合评价时，应根据各专业的学科特性和实际情况，依据通用指标体系与评价方法，研究制定各专业具体的综合评价指标体系与评价方法，报我厅审定批准后组织实施。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 43px; text-align: center;&quot;&gt;&lt;span style=&quot;font-family: 仿宋_GB2312; font-size: 21px;&quot;&gt;附件：1．湖南省普通高等学校本科专业综合评价通用指标体&lt;/span&gt;&lt;span style=&quot;font-family: 仿宋_GB2312; font-size: 21px;&quot;&gt;系（简表）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 135px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp; &amp;nbsp;2&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．湖南省普通高等学校本科专业综合评价通用指标体系与指标内涵&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 135px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp; &amp;nbsp;3&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．湖南省普通高等学校本科专业综合评价通用定量指标计算标准&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 135px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp; &amp;nbsp;4&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．湖南省普通高等学校本科专业综合评价通用定性指标评价方案与评价标准&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 91px&quot;&gt;&lt;font face=&quot;仿宋_GB2312&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;有关附件请下载附件文件&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 91px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 43px; text-align: right;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;湖南省教育厅 &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2016年12月20日 &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p&gt;附件：&lt;/p&gt;&lt;p style=&quot;line-height: 16px;&quot;&gt;&lt;img src=&quot;/mooc/Public/js/utf8-php/dialogs/attachment/fileTypeImages/icon_doc.gif&quot;/&gt;&lt;a style=&quot;font-size:12px; color:#0066cc;&quot; href=&quot;/mooc/index.php/download?fileid=/file/file/20170416/1492347602300039.doc&amp;filename=湘教发[2016]56号  关于印发《湖南省普通高等学校本科专业综合评价通用指标体系与评价办法》的通知.doc&quot; title=&quot;湘教发[2016]56号  关于印发《湖南省普通高等学校本科专业综合评价通用指标体系与评价办法》的通知.doc&quot;&gt;湘教发[2016]56号 &amp;nbsp;关于印发《湖南省普通高等学校本科专业综合评价通用指标体系与评价办法》的通知.doc&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;
+  </div>
+</div>','湘教发〔2016〕56号关于印发《湖南省普通高等学校本科专业综合评价通用指标体系与评价办法》的通知&nbsp;各普通本科高等学校：根据《国务院教育督导委员会办公室关于组织开展普通高等学校本科专业评估试点工作的通知》（国教督办〔2016〕6号）和我厅《关于开展湖南省普通高校本科专业综合评价工作的通知》（湘教通〔2016〕278号）精神，我厅组织专家研究制定了《湖南省普通高校本科专业综合评价通用指标体系与评价办法》（包括湖南省普通高校本科专业综合评价通用指标体系、定量指标计算标准、定性指标评价方案与评价标准），现印发给你们。《湖南省普通高校本科专业综合评价通用指标体系与评价办法》是我省组织各专业进行综合评价时的通用框架和参考标准，各专业（类）教学指导委员会在具体组织实施专业综合评价时，应根据各专业的学科特性和实际情况，依据通用指标体系与评价方法，研究制定各专业具体的综合评价指标体系与评价方法，报我厅审定批准后组织实施。附件：1．湖南省普通高等学校本科专业综合评价通用指标体系（简表）&nbsp;&nbsp;2．湖南省普通高等学校本科专业综合评价通用指标体系与指标内涵&nbsp;&nbsp;3．湖南省普通高等学校本科专业综合评价通用定量指标计算标准&nbsp;&nbsp;4．湖南省普通高等学校本科专业综合评价通用定性指标评价方案与评价标准有关附件请下载附件文件&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湖南省教育厅&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2016年12月20日&nbsp;&nbsp;&nbsp;附件：湘教发[2016]56号&nbsp;关于印发《湖南省普通高等学校本科专业综合评价通用指标体系与评价办法》的通知.doc','/mooc/index.php/home/file/getfile?type=2&id=561754f3d593f8df936f2f91ef763010','湖南省教育厅','湖南省教育厅','2016-12-20','2') [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0004s ]
+SQL: UPDATE `hnust_document` SET `informid`='561754f3d593f8df936f2f91ef763010' WHERE ( informid is null ) [ RunTime:0.0010s ]
+
+[ 2017-04-16T21:02:43+08:00 ] 218.75.230.17 /mooc/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`simplecontent`,`link`,`author`,`source`,`time`,`type`) VALUES ('2cd063df54336a3d479d79650c9fb7ea','关于召开湖南省普通高校
+首批3个专业类教学指导委员会成立大会
+暨本科专业综合评价专家培训会的通知
+',' <div class=\"panel\">
+    <div class=\"panel-heading\">
+      <h3 class=\"news-title\">关于召开湖南省普通高校
+首批3个专业类教学指导委员会成立大会
+暨本科专业综合评价专家培训会的通知
+</h3>
+      <div class=\"news-other\">
+        作者：<span id=\"author\">湖南省教育厅</span>&nbsp;&nbsp;&nbsp;&nbsp;来源：<span id=\"Source\">湖南省教育厅</span>&nbsp;&nbsp;&nbsp;&nbsp;上传时间：<span id=\"Time\">2017-04-05</span>
+      </div>
+      <div class=\"split\"></div>
+    </div>
+  <div class=\"panel-body\" id=\"panel-body\" style=\"padding: 20px\">
+     &lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 21px;font-family:仿宋_GB2312&quot;&gt;湘教办通〔2017〕30号&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 21px;font-family:仿宋_GB2312&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size: 29px;font-family: 方正小标宋简体&quot;&gt;关于召开湖南省普通高校&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size: 29px;font-family: 方正小标宋简体&quot;&gt;首批3个专业类教学指导委员会成立大会&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size: 29px;font-family: 方正小标宋简体&quot;&gt;暨本科专业综合评价专家培训会的通知&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;各普通本科院校、有关单位：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;月27日&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;，我厅印发了《关于成立湖南省普通高等学校计算机类等专业教学指导委员会的通知》（湘教通〔2017〕100号），成立了湖南省普通高校计算机类、外国语言文学类、工商管理类专业教学指导委员会（以下简称“省教指委”）。为切实发挥好省教指委作用，完成首批试点本科专业综合评价工作，经研究，决定召开湖南省普通高校首批3个专业类教指委成立大会暨本科专业综合评价专家培训会议。现就有关事项通知如下：&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:黑体&quot;&gt;一、会议内容&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．介绍湖南省普通高校本科专业综合评价实施方案，以及通用指标体系、评价办法；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．演示湖南省普通高校本科专业综合评价信息平台；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．&lt;/span&gt;&lt;span style=&quot;font-size: 21px;font-family: 仿宋_GB2312&quot;&gt;研讨&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;计算机科学与技术、英语、会计学3个本科专业综合评价工作。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:40px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:黑体&quot;&gt;二、参会人员&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:40px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;首批3个专业（类）省教指委全体成员（包括主任、副主任、秘书长、委员）以及省本科专业建设与评估专家委员会主任委员和副主任委员。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:40px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:黑体&quot;&gt;三、会议时间、地点&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．会议时间: 2017年4月11日（星期二），会期1天。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px;text-autospace:ideograph-other&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．会议地点:湖南宾馆（地址：长沙市芙蓉区营盘东路193号；总台电话：0731-84404250）。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:40px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:黑体&quot;&gt;四、其他事项&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．会议重要，请各位委员务必准时参会，未经我厅同意，不得缺席。长沙以外参会人员请于4月10日下午到湖南宾馆报到，长沙参会人员可于4月11日上午8:10前直接报到参会。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:44px;text-autospace:ideograph-other&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．本次会议由省教科院高等教育研究所承办。各与会人员以学校为单位填报回执，并于4月8日前传真至省教科院高等教育研究所，或发电子邮件到指定邮箱&lt;a href=&quot;mailto:29330035@qq.com&quot;&gt;&lt;span style=&quot;color: windowtext&quot;&gt;1017935367@qq.com&lt;/span&gt;&lt;/a&gt;；有关会议资料将于4月7日前发送到与会人员个人邮箱，请及时查收邮件并提前熟悉，会议当天另行印发纸质材料。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:44px;text-autospace:ideograph-other&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．会务统一安排食宿，往返交通费及住宿费自理、回所在单位报销。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:44px;text-autospace:ideograph-other&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;．省教科院高等教育研究所联系人：谭杰，联系电话：0731-84402936（兼传真）;厅高教处联系人：曾思亮，联系电话：0731-84720851。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;附件：会议回执&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;有关附件请下载文件&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:43px&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 44px; text-align: right;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;湖南省教育厅办公室 &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: right;&quot;&gt;&lt;span style=&quot;font-size:21px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2017年4月5日 &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 21px;font-family:仿宋_GB2312&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr/&gt;&lt;p style=&quot;line-height: 16px;&quot;&gt;&lt;img src=&quot;/mooc/Public/js/utf8-php/dialogs/attachment/fileTypeImages/icon_doc.gif&quot;/&gt;&lt;a style=&quot;font-size:12px; color:#0066cc;&quot; href=&quot;/mooc/index.php/download?fileid=/file/file/20170416/1492347761140386.doc&amp;filename=湘教办通[2017]30号  关于召开湖南省普通高校首批3个专业类教学指导委员会成立大会暨本科专业综合评价专家培训会的通知.doc&quot; title=&quot;湘教办通[2017]30号  关于召开湖南省普通高校首批3个专业类教学指导委员会成立大会暨本科专业综合评价专家培训会的通知.doc&quot;&gt;湘教办通[2017]30号 &amp;nbsp;关于召开湖南省普通高校首批3个专业类教学指导委员会成立大会暨本科专业综合评价专家培训会的通知.doc&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 21px;font-family:仿宋_GB2312&quot;&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+  </div>
+</div>','湘教办通〔2017〕30号关于召开湖南省普通高校首批3个专业类教学指导委员会成立大会暨本科专业综合评价专家培训会的通知&nbsp;各普通本科院校、有关单位：3月27日，我厅印发了《关于成立湖南省普通高等学校计算机类等专业教学指导委员会的通知》（湘教通〔2017〕100号），成立了湖南省普通高校计算机类、外国语言文学类、工商管理类专业教学指导委员会（以下简称“省教指委”）。为切实发挥好省教指委作用，完成首批试点本科专业综合评价工作，经研究，决定召开湖南省普通高校首批3个专业类教指委成立大会暨本科专业综合评价专家培训会议。现就有关事项通知如下：一、会议内容1．介绍湖南省普通高校本科专业综合评价实施方案，以及通用指标体系、评价办法；2．演示湖南省普通高校本科专业综合评价信息平台；3．研讨计算机科学与技术、英语、会计学3个本科专业综合评价工作。二、参会人员首批3个专业（类）省教指委全体成员（包括主任、副主任、秘书长、委员）以及省本科专业建设与评估专家委员会主任委员和副主任委员。三、会议时间、地点1．会议时间:2017年4月11日（星期二），会期1天。2．会议地点:湖南宾馆（地址：长沙市芙蓉区营盘东路193号；总台电话：0731-84404250）。四、其他事项1．会议重要，请各位委员务必准时参会，未经我厅同意，不得缺席。长沙以外参会人员请于4月10日下午到湖南宾馆报到，长沙参会人员可于4月11日上午8:10前直接报到参会。2．本次会议由省教科院高等教育研究所承办。各与会人员以学校为单位填报回执，并于4月8日前传真至省教科院高等教育研究所，或发电子邮件到指定邮箱1017935367@qq.com；有关会议资料将于4月7日前发送到与会人员个人邮箱，请及时查收邮件并提前熟悉，会议当天另行印发纸质材料。3．会务统一安排食宿，往返交通费及住宿费自理、回所在单位报销。4．省教科院高等教育研究所联系人：谭杰，联系电话：0731-84402936（兼传真）;厅高教处联系人：曾思亮，联系电话：0731-84720851。&nbsp;附件：会议回执&nbsp;有关附件请下载文件&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湖南省教育厅办公室&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017年4月5日&nbsp;&nbsp;&nbsp;湘教办通[2017]30号&nbsp;关于召开湖南省普通高校首批3个专业类教学指导委员会成立大会暨本科专业综合评价专家培训会的通知.doc','/mooc/index.php/home/file/getfile?type=2&id=2cd063df54336a3d479d79650c9fb7ea','湖南省教育厅','湖南省教育厅','2017-04-05','2') [ RunTime:0.0163s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0007s ]
+SQL: UPDATE `hnust_document` SET `informid`='2cd063df54336a3d479d79650c9fb7ea' WHERE ( informid is null ) [ RunTime:0.0029s ]
+

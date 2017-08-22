@@ -1,0 +1,280 @@
+body{
+	min-width: 970px;
+	/*background-color: #F1F2F6;*/
+	background: url(../img/body_bg.jpg) repeat-x;
+	font-family: "STHeiti",'微软雅黑';
+}
+@media (max-width: 920px){
+	.list-group>li{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.list-group>li>p{
+		font-size: 10px;
+	}
+}
+/*[class*="col-"]{
+  background-color:rgba(7,17,27,.3);
+  background-clip: content-box; 
+}*/
+/*.body{
+	background-image: url(../img/bg.jpg);
+}*/
+.container{
+	min-width: 970px;
+	/*-moz-box-shadow: 0px -5px 10px #333;
+	-webkit-box-shadow:0px -5px 10px #333;
+	box-shadow: 0px -5px 10px #333;*/
+	/*background-color:rgba(7,17,27,.6);*/
+}
+.head{
+	position: relative;
+}
+
+/*logo的位置设置*/
+.logo{
+	position: absolute;
+	left: 0;
+	top:20px;
+}
+.searchText{
+	width: 200px;
+	display: inline-block;
+}
+.searchFrame .form{
+	position: absolute;
+	right: 20px;
+	top:60px;
+}
+
+.nav>li>a:hover{
+   background-color:#337ab7;
+   color: red;
+}
+.navwarp{
+	background-color: #2889dd;
+	margin-bottom:20px; 
+}
+.navbar{
+	margin-bottom:0; 
+}
+.navbar-nav>li>a{
+	color: white;
+	font-size: 16px;
+}
+@media (min-width: 992px){
+	.nav-pills>li+li{
+	margin-left: 26px;
+   }
+}
+@media (min-width: 1200px){
+	.nav-pills>li+li{
+	margin-left: 55px;
+}
+}
+
+/*通知栏的头设置*/
+.informhead{
+	height: 45px;
+	background: -moz-linear-gradient(left,transparent,#99CC00,#CCCC33);
+	background: -webkit-linear-gradient(left,transparent,#99CC00,#CCCC33);
+	background:linear-gradient(left,transparent,#99CC00,#CCCC33);
+	border-radius: 5px;
+}
+.list-group-item p{
+   display: inline-block;
+   margin: 0;
+   font-size: 12px;
+}
+/*通知栏左边的设置*/
+.inform-l{
+	padding: 10px;
+	height: 100%;
+	float: left;
+}
+.inform-l span{
+	display: block;
+	/*color: #FFD700;*/
+	/*color:#97FFFF;*/
+	font-weight: bold;
+	text-align: center;
+    font-size: 16px;
+}
+/*时间样式的设置*/
+.inform-time{
+	float: right;
+}
+.inform-time>a{
+	font-size: 10px;
+}
+/*标题的设置*/
+.inform-title a{
+	font-size: 14px;
+	color: #B0E0E6;
+}
+.inform-title a:hover{
+	color: #FFB90F;
+}
+/*取消左内边距*/
+.cancle_pading{
+	padding-left:0;
+	/*background-image:url(../img/bg3.jpg);*/
+	background-clip: content-box;
+	/*background-size:100% 100%; */
+}
+/*取消右内边距*/
+.cancle-right-pading{
+	padding-right: 0;
+}
+/*通知栏'显示更多'的设置*/
+.inform-r{
+	padding: 10px;
+	height: 100%;
+	float: right;
+}
+.inform-r a{
+	display: block;
+	color: #BABABA;
+	text-align: center;
+	font-size: 16px;
+}
+.inform-r a:hover{
+	color: red;
+}
+
+/*文字一行显示，超出显示省略号*/
+.show-oneline{
+	 overflow: hidden;
+	 white-space: nowrap;
+	 text-overflow: ellipsis;
+     vertical-align: middle;
+}
+.inform-title a{
+	color: #000;
+	/*font-weight: bold;*/
+}
+/*设置左边版块的宽度*/
+.list-group>li{
+	border:none;
+}
+.list-group li:not(:last-child){
+	border-bottom:3px dotted #ddd;
+}
+.list-group-item .inform-title{
+	 width: 58%;
+}
+/*设置右边版块的宽度*/
+.list-group-item .work-title{
+	width:70%;
+}
+.list-group>li{
+	/*background-color: #cce6ff;*/
+}
+/*轮播框*/
+/*.slider{
+	padding: 0;
+	box-sizing: content-box;
+}*/
+/*轮播的控制按钮*/
+.warp{
+	height: 301px;
+	position: relative;
+	overflow: hidden;
+}
+.ctrl{
+	width: 100%;
+	position:absolute;
+	bottom: 0;
+	/*margin-right: 10px;*/
+}
+.ctrl>a{
+	display: inline-block;
+	float: left;
+	height: 10px;
+	width: 20%;
+	padding: 1px;
+	background-color: #222;
+	background-clip: content-box;
+}
+.ctrl>a>img{
+   width: 117px;
+   height: 60px;
+   position: absolute;
+   bottom:50px;
+   opacity: 0;
+   z-index: -1;
+}
+.ctrl>a:hover{
+	background-color: #666;
+}
+.ctrl>a:hover img{
+	bottom: 10px;
+    opacity: 1;
+    transition: 1s bottom;
+    z-index: 10;
+}
+.inner{
+	/*width: inherit;*/
+	position: absolute;
+	top:0;
+	left: -100%;
+	/*margin-right: 10px;*/
+}
+/*轮播的图片大小*/
+.inner img{
+	/*width: 100%;*/
+	width: 652px;
+	height: 292px;
+}
+/*向左*/
+.to-left{
+	position: absolute;
+    top:50%;
+    left: 0;
+	display: inline-block;
+    width: 50px;
+    height: 60px;
+    margin-top:-30px;
+    color: #000;
+    background-color: rgba(7,17,27,.5);
+    z-index: 200;
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+     display: none;
+}
+/*向右*/
+.to-right{
+	position: absolute;
+    top:50%;
+    right: 0;
+	display: inline-block;
+    width: 50px;
+    height: 60px;
+    margin-top:-30px; 
+    color: #000;
+    background-color: rgba(7,17,27,.5);
+    z-index: 200;
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+    display: none;
+}
+.newsinfo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 32px;
+	width: 100%;
+	overflow: hidden;
+	background-color: rgba(2,10,16,.3);
+}
+/*底部设置*/
+.footer{
+	padding: 20px 30px;
+}
+.footer-center{
+   height:30px;
+   color: #666;
+   text-align: center;
+}

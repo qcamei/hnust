@@ -1,0 +1,27 @@
+[ 2017-06-19T00:50:01+08:00 ] ::1 /pinggu/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-06-19T00:58:59+08:00 ] ::1 /pinggu/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-06-19T01:08:07+08:00 ] ::1 /pinggu/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-06-19T04:06:33+08:00 ] ::1 /index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-06-19T15:11:01+08:00 ] ::1 /index.php/favicon.ico
+ERR: 无法加载模块:Favicon
+

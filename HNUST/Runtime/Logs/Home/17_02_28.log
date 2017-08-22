@@ -1,0 +1,84 @@
+[ 2017-02-28T22:36:31+08:00 ] 192.168.1.105 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.077163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.077290s ]
+SQL: SHOW COLUMNS FROM `work1` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `filename` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `filename`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.408275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.408402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.077806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.077885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.110030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.110179s ]
+
+[ 2017-02-28T22:57:22+08:00 ] ::1 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `work1` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `filename` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `filename`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002314s ]
+
+[ 2017-02-28T22:57:44+08:00 ] ::1 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `work1` [ RunTime:0.1736s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `filename` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `filename`  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `work1`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.168996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004116s ]
+

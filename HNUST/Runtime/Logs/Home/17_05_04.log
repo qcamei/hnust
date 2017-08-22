@@ -1,0 +1,486 @@
+[ 2017-05-04T09:05:21+08:00 ] 119.39.183.24 /hnust/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 16   [ RunTime:0.0297s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time desc LIMIT 8   [ RunTime:0.0177s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc LIMIT 8   [ RunTime:0.0091s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' AND `imgurl` is not null ORDER BY time desc LIMIT 3   [ RunTime:0.0272s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' AND `imgurl` is not null ORDER BY time desc LIMIT 5   [ RunTime:0.0093s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' AND `imgurl` is not null ORDER BY time desc LIMIT 3   [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000177s ]
+
+[ 2017-05-04T09:05:46+08:00 ] 119.39.183.24 /hnust/index.php/more?type=0&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/hnust/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-05-04T09:05:47+08:00 ] 119.39.183.24 /hnust/index.php/nextPage?type=0&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 0,8   [ RunTime:0.0217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time  [ RunTime:0.0074s ]
+
+[ 2017-05-04T09:06:14+08:00 ] 119.39.183.24 /hnust/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 14   [ RunTime:0.0287s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time desc LIMIT 8   [ RunTime:0.0191s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc LIMIT 8   [ RunTime:0.0104s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' AND `imgurl` is not null ORDER BY time desc LIMIT 3   [ RunTime:0.0095s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' AND `imgurl` is not null ORDER BY time desc LIMIT 5   [ RunTime:0.0098s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' AND `imgurl` is not null ORDER BY time desc LIMIT 3   [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-05-04T09:06:25+08:00 ] 119.39.183.24 /hnust/index.php/home/file/getfile?type=2&id=cbf1039b8a051e4ad812cab39ca34cf1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'cbf1039b8a051e4ad812cab39ca34cf1' LIMIT 1   [ RunTime:0.0078s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = 'cbf1039b8a051e4ad812cab39ca34cf1' [ RunTime:0.0077s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time desc LIMIT 6   [ RunTime:0.0152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-05-04T09:07:14+08:00 ] 119.39.183.24 /hnust/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 14   [ RunTime:0.0226s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time desc LIMIT 8   [ RunTime:0.0157s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc LIMIT 8   [ RunTime:0.0083s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time desc LIMIT 3   [ RunTime:0.0081s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' AND `imgurl` is not null ORDER BY time desc LIMIT 5   [ RunTime:0.2439s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time desc LIMIT 3   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-05-04T09:07:22+08:00 ] 119.39.183.24 /hnust/index.php/home/file/getfile?type=3&id=a089b45fd5b9a062c9365f83fdfb8eb7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'a089b45fd5b9a062c9365f83fdfb8eb7' LIMIT 1   [ RunTime:0.0089s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = 'a089b45fd5b9a062c9365f83fdfb8eb7' [ RunTime:0.0089s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time desc LIMIT 6   [ RunTime:0.0174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-05-04T09:07:28+08:00 ] 119.39.183.24 /hnust/index.php/home/file/getfile?type=3&id=8865fb8ecce6310244eb5c8e954ea5be
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '8865fb8ecce6310244eb5c8e954ea5be' LIMIT 1   [ RunTime:0.0092s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = '8865fb8ecce6310244eb5c8e954ea5be' [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time desc LIMIT 6   [ RunTime:0.0178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-05-04T09:11:24+08:00 ] 119.39.183.24 /hnust/index.php/home/file/getfile?type=3&id=8865fb8ecce6310244eb5c8e954ea5be
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '8865fb8ecce6310244eb5c8e954ea5be' LIMIT 1   [ RunTime:0.0096s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = '8865fb8ecce6310244eb5c8e954ea5be' [ RunTime:0.0096s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time desc LIMIT 6   [ RunTime:0.0189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-05-04T09:11:52+08:00 ] 119.39.183.24 /hnust/index.php/home/file/getfile?type=3&id=8865fb8ecce6310244eb5c8e954ea5be
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '8865fb8ecce6310244eb5c8e954ea5be' LIMIT 1   [ RunTime:0.0096s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = '8865fb8ecce6310244eb5c8e954ea5be' [ RunTime:0.0096s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time desc LIMIT 6   [ RunTime:0.0229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-05-04T09:12:08+08:00 ] 119.39.183.24 /hnust/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 14   [ RunTime:0.0248s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time desc LIMIT 8   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc LIMIT 8   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time desc LIMIT 3   [ RunTime:0.0087s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' AND `imgurl` is not null ORDER BY time desc LIMIT 5   [ RunTime:0.2957s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time desc LIMIT 3   [ RunTime:0.0248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-05-04T09:13:09+08:00 ] 119.39.183.24 /hnust/index.php/home/file/getfile?type=3&id=a089b45fd5b9a062c9365f83fdfb8eb7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'a089b45fd5b9a062c9365f83fdfb8eb7' LIMIT 1   [ RunTime:0.0097s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = 'a089b45fd5b9a062c9365f83fdfb8eb7' [ RunTime:0.0178s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time desc LIMIT 6   [ RunTime:0.0192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-05-04T09:13:21+08:00 ] 119.39.183.24 /hnust/index.php/home/file/getfile?type=3&id=8865fb8ecce6310244eb5c8e954ea5be
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '8865fb8ecce6310244eb5c8e954ea5be' LIMIT 1   [ RunTime:0.0084s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = '8865fb8ecce6310244eb5c8e954ea5be' [ RunTime:0.0083s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time desc LIMIT 6   [ RunTime:0.0164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-05-04T09:14:26+08:00 ] 119.39.183.24 /hnust/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 14   [ RunTime:0.0253s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time desc LIMIT 8   [ RunTime:0.0167s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc LIMIT 8   [ RunTime:0.0089s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time desc LIMIT 3   [ RunTime:0.0087s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' AND `imgurl` is not null ORDER BY time desc LIMIT 5   [ RunTime:0.2896s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time desc LIMIT 3   [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-05-04T09:15:50+08:00 ] 119.39.183.24 /hnust/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 14   [ RunTime:0.0256s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time desc LIMIT 8   [ RunTime:0.0171s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc LIMIT 8   [ RunTime:0.0092s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time desc LIMIT 3   [ RunTime:0.0094s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' AND `imgurl` is not null ORDER BY time desc LIMIT 5   [ RunTime:0.2947s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time desc LIMIT 3   [ RunTime:0.0254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000116s ]
+
+[ 2017-05-04T09:15:57+08:00 ] 119.39.183.24 /hnust/index.php/home/file/getfile?type=3&id=3f743c19a70a9d7d4bef4e90cff665ea
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '3f743c19a70a9d7d4bef4e90cff665ea' LIMIT 1   [ RunTime:0.0086s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = '3f743c19a70a9d7d4bef4e90cff665ea' [ RunTime:0.0087s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time desc LIMIT 6   [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-05-04T09:17:05+08:00 ] 119.39.183.24 /hnust/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 14   [ RunTime:0.0272s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time desc LIMIT 8   [ RunTime:0.0188s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc LIMIT 8   [ RunTime:0.0099s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time desc LIMIT 3   [ RunTime:0.0093s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' AND `imgurl` is not null ORDER BY time desc LIMIT 5   [ RunTime:0.2539s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time desc LIMIT 3   [ RunTime:0.0273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-05-04T09:24:17+08:00 ] 119.39.183.24 /hnust/index.php/more?type=0&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/hnust/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-05-04T09:24:18+08:00 ] 119.39.183.24 /hnust/index.php/nextPage?type=0&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc LIMIT 0,8   [ RunTime:0.0242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time  [ RunTime:0.0081s ]
+
+[ 2017-05-04T09:24:19+08:00 ] 119.39.183.24 /hnust/index.php//home/file/getfile?type=0&id=8bd1c8866badf736128b645959735a23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '8bd1c8866badf736128b645959735a23' LIMIT 1   [ RunTime:0.0078s ]
+SQL: UPDATE `hnust_supervisor` SET `clicknum`=clicknum+1 WHERE `id` = '8bd1c8866badf736128b645959735a23' [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+

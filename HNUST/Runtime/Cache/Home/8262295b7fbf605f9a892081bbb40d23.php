@@ -1,0 +1,7 @@
+<?php if (!defined('THINK_PATH')) exit();?><div class="col-md-12 col-sm-12">
+	<div  class="list">
+		<ul class="list-group list-style">
+			{{content}}
+	    </ul>
+	</div>
+</div>

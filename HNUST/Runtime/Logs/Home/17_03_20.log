@@ -1,0 +1,2522 @@
+[ 2017-03-20T02:09:31+08:00 ] 180.163.2.117 /mooc/index.php/home/file/getfile?type%253D0%2526id%253Dcd1e496a60cca220c44e1222914a0092
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-03-20T04:04:53+08:00 ] 119.147.207.158 /mooc/index.php/nextPage?type%3D2%26d%3Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T04:05:01+08:00 ] 180.163.2.88 /mooc/index.php/nextPage?type%3D2%26d%3Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T04:30:43+08:00 ] 183.57.53.177 /mooc/index.php/home/file/getfile?type%253D6%2526id%253Dc6aa0e9423b92ff052f19b07d69235eb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-03-20T04:30:52+08:00 ] 101.226.65.104 /mooc/index.php/home/file/getfile?type%253D6%2526id%253Dc6aa0e9423b92ff052f19b07d69235eb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-03-20T04:39:28+08:00 ] 183.57.53.222 /mooc/index.php/more?type%253D0%2526d%253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-03-20T04:39:37+08:00 ] 140.207.185.109 /mooc/index.php/more?type%253D0%2526d%253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-03-20T05:25:35+08:00 ] 183.57.53.196 /mooc/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003920s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003546s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000093s ]
+
+[ 2017-03-20T05:57:52+08:00 ] 101.226.66.174 /mooc/index.php/download?fileid%253D/file/file/20170319/1489905172122095.xls%2526filename%253D14%2525E7%2525BA%2525A7%2525E7%2525BD%252591%2525E7%2525BB%25259C%2525E5%2525B7%2525A5%2525E7%2525A8%25258B%2525E4%2525BA%25258C%2525E7%25258F%2525AD%2525E5%25259B%2525A2%2525E5%252591%252598%2525E6%252595%252599%2525E8%252582%2525B2%2525E8%2525AF%252584%2525E8%2525AE%2525AE%2525E7%2525AD%252589%2525E7%2525BA%2525A7%2525E7%252599%2525BB%2525E8%2525AE%2525B0%2525E7%2525AE%252580%2525E8%2525A1%2525A8.xls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-03-20T06:41:16+08:00 ] 101.226.65.105 /mooc/index.php/nextPage?type%253D2%2526d%253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T06:44:00+08:00 ] 101.226.33.240 /mooc/index.php/more?type%25253D0%252526d%25253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000111s ]
+
+[ 2017-03-20T06:58:29+08:00 ] 101.226.66.174 /mooc/index.php/home/file/getfile?type%25253D6%252526id%25253Dc6aa0e9423b92ff052f19b07d69235eb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-03-20T07:27:07+08:00 ] 61.151.228.22 /mooc/index.php/nextPage?type%3D7%26d%3Dfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T07:27:07+08:00 ] 180.153.205.252 /mooc/index.php/nextPage?type%3D7%26d%3Dfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T07:27:07+08:00 ] 180.153.214.190 /mooc/index.php/nextPage?type%3D7%26d%3Dfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T07:27:07+08:00 ] 61.151.217.45 /mooc/index.php/nextPage?type%3D7%26d%3Dfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T07:28:46+08:00 ] 183.57.53.177 /mooc/index.php/more?type%25252525253D2%252525252526d%25252525253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-03-20T07:28:55+08:00 ] 112.65.193.13 /mooc/index.php/more?type%25252525253D2%252525252526d%25252525253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-03-20T07:35:15+08:00 ] 101.226.64.177 /mooc/index.php/download?fileid%25253D1489817821312794.xls%252526filename%25253D2014%252525E7%252525BA%252525A7%252525E5%252525AD%252525A6%252525E7%25252594%2525259F%252525E5%2525259F%252525BA%252525E6%2525259C%252525AC%252525E4%252525BF%252525A1%252525E6%25252581%252525AF%252525E8%252525A1%252525A8%25252520-%25252520%252525E7%252525BD%252525912.xls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-03-20T08:06:52+08:00 ] 112.90.82.218 /mooc/index.php/download?fileid%25253D/file/file/20170319/1489905172122095.xls%252526filename%25253D14%252525E7%252525BA%252525A7%252525E7%252525BD%25252591%252525E7%252525BB%2525259C%252525E5%252525B7%252525A5%252525E7%252525A8%2525258B%252525E4%252525BA%2525258C%252525E7%2525258F%252525AD%252525E5%2525259B%252525A2%252525E5%25252591%25252598%252525E6%25252595%25252599%252525E8%25252582%252525B2%252525E8%252525AF%25252584%252525E8%252525AE%252525AE%252525E7%252525AD%25252589%252525E7%252525BA%252525A7%252525E7%25252599%252525BB%252525E8%252525AE%252525B0%252525E7%252525AE%25252580%252525E8%252525A1%252525A8.xls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-03-20T08:07:01+08:00 ] 101.226.33.218 /mooc/index.php/download?fileid%25253D/file/file/20170319/1489905172122095.xls%252526filename%25253D14%252525E7%252525BA%252525A7%252525E7%252525BD%25252591%252525E7%252525BB%2525259C%252525E5%252525B7%252525A5%252525E7%252525A8%2525258B%252525E4%252525BA%2525258C%252525E7%2525258F%252525AD%252525E5%2525259B%252525A2%252525E5%25252591%25252598%252525E6%25252595%25252599%252525E8%25252582%252525B2%252525E8%252525AF%25252584%252525E8%252525AE%252525AE%252525E7%252525AD%25252589%252525E7%252525BA%252525A7%252525E7%25252599%252525BB%252525E8%252525AE%252525B0%252525E7%252525AE%25252580%252525E8%252525A1%252525A8.xls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-03-20T08:13:39+08:00 ] 112.90.82.218 /mooc/index.php/more?type%3D2%26d%3Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-03-20T08:53:32+08:00 ] 180.153.214.152 /mooc/index.php/more?type%2525253D0%25252526d%2525253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-03-20T09:09:12+08:00 ] 183.57.53.222 /mooc/index.php/home/file/getfile?type%2525253D6%25252526id%2525253Dc6aa0e9423b92ff052f19b07d69235eb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-03-20T09:14:28+08:00 ] 183.57.53.196 /mooc/index.php/nextPage?type%25253D2%252526d%25253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T09:14:37+08:00 ] 117.185.27.115 /mooc/index.php/nextPage?type%25253D2%252526d%25253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:08:14+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003920s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003157s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-03-20T10:09:18+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003813s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003324s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-03-20T10:09:21+08:00 ] 119.39.148.160 /mooc/index.php/more?type=0&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-03-20T10:09:22+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=0&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 0,8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:09:30+08:00 ] 119.39.148.160 /mooc/index.php/more?type=2&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000132s ]
+
+[ 2017-03-20T10:09:31+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=2&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 0,8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:09:34+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-03-20T10:09:34+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:09:40+08:00 ] 119.39.148.160 /mooc/index.php/more?type=5&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-03-20T10:09:40+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=5&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 0,8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:09:41+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-03-20T10:09:41+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:09:42+08:00 ] 119.39.148.160 /mooc/index.php/more?type=3&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-03-20T10:09:42+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=3&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 0,8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:09:42+08:00 ] 119.39.148.160 /mooc/index.php/more?type=2&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-03-20T10:09:42+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=2&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:09:43+08:00 ] 119.39.148.160 /mooc/index.php/more?type=1&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-03-20T10:09:43+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=1&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:09:44+08:00 ] 119.39.148.160 /mooc/index.php/more?type=4&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-03-20T10:09:44+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=4&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 0,8   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:09:45+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003960s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003429s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-03-20T10:09:46+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-03-20T10:09:46+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:14+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-03-20T10:12:14+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:15+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-03-20T10:12:15+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:16+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-03-20T10:12:16+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:16+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-03-20T10:12:16+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:17+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-03-20T10:12:17+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:18+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-03-20T10:12:18+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:22+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000089s ]
+
+[ 2017-03-20T10:12:22+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:23+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-03-20T10:12:23+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:27+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003688s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-03-20T10:12:36+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-03-20T10:12:36+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:12:42+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005311s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004640s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-03-20T10:12:52+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-03-20T10:12:52+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:13:57+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadcontent?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-03-20T10:14:02+08:00 ] 180.153.206.24 /mooc/index.php/download?fileid%2525253D1489817821312794.xls%25252526filename%2525253D2014%25252525E7%25252525BA%25252525A7%25252525E5%25252525AD%25252525A6%25252525E7%2525252594%252525259F%25252525E5%252525259F%25252525BA%25252525E6%252525259C%25252525AC%25252525E4%25252525BF%25252525A1%25252525E6%2525252581%25252525AF%25252525E8%25252525A1%25252525A8%2525252520-%2525252520%25252525E7%25252525BD%25252525912.xls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-03-20T10:14:08+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadcontent?type=6&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-03-20T10:14:40+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadcontent?type=5&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-03-20T10:15:17+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadcontent?type=5&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-03-20T10:15:23+08:00 ] 119.39.148.160 /mooc/index.php/more?type=1&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-03-20T10:15:24+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=1&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:15:41+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadContent?type=1&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2017-03-20T10:15:47+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadContent?type=1&d=inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-03-20T10:17:05+08:00 ] 180.153.201.15 /mooc/index.php/nextPage?type%253D7%2526d%253Dfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T10:17:22+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadContent/type/1/d/inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-03-20T10:17:23+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadContent/type/1/d/inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-03-20T10:17:24+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadContent/type/1/d/inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-03-20T10:17:25+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadContent/type/1/d/inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-03-20T10:21:59+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003148s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-03-20T10:22:29+08:00 ] 119.39.148.160 /mooc/index.php/home/file/getfile?type=6&id=9be735f1fb2889cdbe99f5f06622bb8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0010s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '9be735f1fb2889cdbe99f5f06622bb8a' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-03-20T10:29:25+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004810s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2017-03-20T10:29:27+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-03-20T10:29:27+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:29:42+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000102s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003793s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003307s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000007s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-03-20T10:29:44+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-03-20T10:29:45+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+NOTIC: [8] Undefined index: filename /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 53 行.
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:39:03+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadContent/type/1/d/inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-03-20T10:39:05+08:00 ] 119.39.148.160 /mooc/index.php/home/file/loadContent/type/1/d/inform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-03-20T10:39:12+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005724s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005081s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000137s ]
+
+[ 2017-03-20T10:39:13+08:00 ] 119.39.148.160 /mooc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time LIMIT 5   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '5' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005550s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-03-20T10:39:15+08:00 ] 119.39.148.160 /mooc/index.php/more?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-03-20T10:39:15+08:00 ] 119.39.148.160 /mooc/index.php/nextPage?type=6&d=file
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '6' ORDER BY time LIMIT 0,6   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '6'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 59 行.
+
+[ 2017-03-20T10:59:58+08:00 ] 101.226.33.202 /mooc/index.php/more?type%2525252525253D2%25252525252526d%2525252525253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-03-20T11:06:45+08:00 ] 180.163.2.117 /mooc/index.php/more?type%253D2%2526d%253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000081s ]
+
+[ 2017-03-20T11:06:45+08:00 ] 101.226.33.202 /mooc/index.php/more?type%253D2%2526d%253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-03-20T11:06:45+08:00 ] 101.226.66.174 /mooc/index.php/more?type%253D2%2526d%253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-03-20T11:06:45+08:00 ] 61.151.226.189 /mooc/index.php/more?type%253D2%2526d%253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-03-20T11:16:21+08:00 ] 112.65.193.14 /mooc/index.php/download?fileid%2525253D/file/file/20170319/1489905172122095.xls%25252526filename%2525253D14%25252525E7%25252525BA%25252525A7%25252525E7%25252525BD%2525252591%25252525E7%25252525BB%252525259C%25252525E5%25252525B7%25252525A5%25252525E7%25252525A8%252525258B%25252525E4%25252525BA%252525258C%25252525E7%252525258F%25252525AD%25252525E5%252525259B%25252525A2%25252525E5%2525252591%2525252598%25252525E6%2525252595%2525252599%25252525E8%2525252582%25252525B2%25252525E8%25252525AF%2525252584%25252525E8%25252525AE%25252525AE%25252525E7%25252525AD%2525252589%25252525E7%25252525BA%25252525A7%25252525E7%2525252599%25252525BB%25252525E8%25252525AE%25252525B0%25252525E7%25252525AE%2525252580%25252525E8%25252525A1%25252525A8.xls
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-03-20T11:49:23+08:00 ] 101.226.125.100 /mooc/index.php/nextPage?type%253D0%2526d%253Dinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T13:00:33+08:00 ] 101.226.102.97 /mooc/index.php/more?type%3D6%26d%3Dfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: content /home/ubuntu/mooc/HNUST/Runtime/Cache/Home/78782fd6f7f1ba7737967cc554d01190.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-03-20T13:17:24+08:00 ] 183.57.53.197 /mooc/index.php/nextPage?type%3D6%26d%3Dfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T13:17:34+08:00 ] 180.153.206.20 /mooc/index.php/nextPage?type%3D6%26d%3Dfile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time LIMIT 0,8   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+SQL: SELECT count(*) FROM `hnust_supervisor` WHERE `type` = '' ORDER BY time  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: count(*) /home/ubuntu/mooc/HNUST/Home/Controller/FileController.class.php 第 96 行.
+
+[ 2017-03-20T13:44:26+08:00 ] 101.226.89.115 /mooc/index.php/home/file/getfile?type%3D6%26id%3D9be735f1fb2889cdbe99f5f06622bb8a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT `content` FROM `hnust_supervisor` WHERE `id` = '' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `hnust_supervisor` ORDER BY time LIMIT 7   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+

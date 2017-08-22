@@ -1,0 +1,6 @@
+[ 2017-04-03T17:23:11+08:00 ] 110.52.124.145 /mooc/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:Favicon
+

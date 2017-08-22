@@ -1,0 +1,18 @@
+body,div,ul,li{margin:0;padding:0;}
+ul{list-style:none;}
+img{border:0;}
+
+.banner{padding: 30px;overflow:hidden;}
+.large_box{margin-bottom:10px;width:100%;height:450px;overflow:hidden;}
+.large_box img{display:block;}
+.small_box{width:100%;height:73px;overflow:hidden;}
+.small_list{position:relative;float:left;width:736px;height:73px;overflow:hidden;}
+.small_list ul{height:73px;overflow:hidden;}
+.small_list ul li{position:relative;float:left;margin-right:10px;width:174px;}
+.small_list ul li img{display:block;}
+.small_list ul li .bun_bg{display:none;position:absolute;top:0;left:0;width:184px;height:73px;background:#000;filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity:0.6;opacity:0.6;}
+.small_list ul li.on .bun_bg{display:block;}
+.mybtn{display:block;width:20px;height:73px;background-color:#777;background-repeat:no-repeat;background-position:center center;cursor:pointer;}
+.mybtn:hover{background-color:#e7000e;}
+.left_btn{float:left;margin-right:10px;background-image:url(../img/left_btn.png);}
+.right_btn{float:right;background-image:url(../img/right_btn.png);}

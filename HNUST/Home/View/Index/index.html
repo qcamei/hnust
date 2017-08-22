@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="湖南科技大学本科教学评估网,湖南科技大学本科教学评估,评估网,教学评估,湖南科大评估">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>湖南科技大学本科教学工作审核评估网</title>
+    <import type="css" file="css/bootstrap#min" />
+    <import type="css" file="css/main" />
+    <import type="css" file="css/main_page" />
+    <import type="css" file="css/jquery-letterfx#min" />
+    <import type="js" file="js/jquery#min" />
+    <import type="js" file="js/tuxsudo#min" />
+    <import type="js" file="js/jquery-letterfx#min" />
+    <import type="js" file="js/main" />
+    <script type="text/javascript">
+    var imgs = new Image();
+    imgs.src = '__PUBLIC__/img/hnust.png';
+    </script>
+    <style type="text/css">
+    body {
+        background-color: #f4f4f4;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- 放置学校的logo,搜索框 -->
+    <include file="Index/banner" />
+    <!-- 导航栏设置 -->
+    <include file="Index/nav" />
+    <div class="container" style="background-color: #fff;">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="slider">
+                    <div class="informhead">
+                        <h4 class="pull-left">
+                               评估动态
+                               <small class="text-blue text-uppercase">assessment</small>
+                            </h4>
+                        <div class="inform-foot pull-right">
+                            <h5>
+                                  <a href="__APP__/more?type=4&d=inform" target="_blank">继续阅读</a>
+                                  <img src="__PUBLIC__/img/home_more.png" alt="" title="更多" />
+                                </h5>
+                        </div>
+                    </div>
+                    <div class="warp large-height">
+                        <span class="to-left">&lt</span>
+                        <span class="to-right">&gt</span>
+                        <volist name="pg" id="index" offset="0" length="5">
+                            <div class="inner">
+                                <div class="left-inner">
+                                    <a href="__APP__/{$index['link']}" title="{$index['title']}"><img src="__ROOT__/{$index['imgurl']}"></a>
+                                </div>
+                                <div class="right-inner">
+                                    <h3 class="news-title show-oneline"><a href="__APP__/{$index['link']}" title="{$index['title']}">{$index['title']}</a></h3>
+                                    <div class="news-content">
+                                        <p class="content">
+                                            {$index['content']|htmlspecialchars_decode|strip_tags}
+                                        </p>
+                                    </div>
+                                    <span class="news-time">{$index['time']}</span>
+                                    <span class="news-detail"><a href="__APP__/{$index['link']}">详细>></a></span>
+                                </div>
+                            </div>
+                        </volist>
+                        <div class="ctrl">
+                            <volist name="pg" id="index" offset="0" length="5">
+                                <a href="javascript:void(0)"><img src="__ROOT__/{$index['imgurl']}"></a>
+                            </volist>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 cancle_pading">
+                <div class="informhead">
+                    <h4 class="pull-left">
+                        公告通知
+                        <small class="text-blue text-uppercase">inform</small>
+                    </h4>
+                    <div class="inform-foot pull-right">
+                        <h5><a href="__APP__/more?type=0&d=inform" target="_blank">继续阅读</a>
+                    <img src="__PUBLIC__/img/home_more.png" alt="" title="更多" />
+                     </h5>
+                    </div>
+                </div>
+                <div class="large-height" style="overflow: hidden;" id="inform-item">
+                    <ul class="list-group show-item time-style">
+                        <if condition="empty($informodle) eq false">
+                            <volist name="informodle" id="index" mod="2">
+                                <li class="list-group-item">
+                                    <eq name="mod" value="1">
+                                        <span class="f1">
+                                        </eq>
+                                        <eq name="mod" value="0">
+                                           <span class="f2">
+                                        </eq>
+                                        <php>
+                                          $time=explode('-',$index['time']);
+                                        </php>
+                                        <b class="day">{$time[2]}</b>
+                                        <b class="year">{$time[0]}/{$time[1]}</b>
+
+                                    </span>
+                                        <a title="{$index['title']}" href="__APP__/{$index['link']}">{$index['title']}</a>
+                                </li>
+                            </volist>
+                            <else/>
+                            <p class="no-data">暂无数据</p>
+                        </if>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 cancle_pading">
+                <div class="informhead">
+                    <h4 class="pull-left">
+                        教学督导
+                        <small class="text-blue text-uppercase">evaluation</small>
+                    </h4>
+                    <div class="inform-foot pull-right">
+                        <h5><a href="__APP__/more?type=5&d=inform" target="_blank">继续阅读</a>
+                    <img src="__PUBLIC__/img/home_more.png" alt="" title="更多" />
+                     </h5>
+                    </div>
+                </div>
+                <div class="large-height">
+                    <ul class="list-group show-item show-line">
+                        <if condition="empty($evaluationmodle) eq false">
+                            <volist name="evaluationmodle" id="index">
+                                <li class="list-group-item"><a title="{$index['title']}" href="__APP__/{$index['link']}">{$index['title']}</a><span class="timer pull-right">{$index['time']}</span></li>
+                            </volist>
+                            <else/>
+                            <p class="no-data">暂无数据</p>
+                        </if>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 cancle_pading">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="informhead">
+                            <h4 class="pull-left">
+                        专项评估
+                        <small class="text-blue text-uppercase">steering</small>
+                    </h4>
+                            <div class="inform-foot pull-right">
+                                <h5><a href="__APP__/more?type=2&d=inform" target="_blank">继续阅读</a>
+                    <img src="__PUBLIC__/img/home_more.png" alt="" title="更多">
+                     </h5>
+                            </div>
+                        </div>
+                        <div class="small-height">
+                            <ul class="list-group show-item time-style">
+                                <if condition="empty($Steering) eq false">
+                                    <volist name="Steering" id="index" offset="0" length="3">
+                                        <li class="list-group-item">
+                                            <php>
+                                                $time=explode('-',$index['time']);
+                                            </php>
+                                            <span class="time-icon">{$time[1]}-{$time[2]}<br/>{$time[0]}</span>
+                                            <a title="{$index['title']}" href="__APP__/{$index['link']}">{$index['title']}</a>
+                                        </li>
+                                    </volist>
+                                    <else/>
+                                    <p class="no-data">暂无数据</p>
+                                </if>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="informhead">
+                            <h4 class="pull-left">
+                        政策文件
+                        <small class="text-blue text-uppercase">policydoc</small>
+                    </h4>
+                            <div class="inform-foot pull-right">
+                                <h5>
+                            <a href="__APP__/more?type=1&d=inform" target="_blank">继续阅读</a>
+                    <img src="__PUBLIC__/img/home_more.png" alt="" title="更多" />
+                     </h5>
+                            </div>
+                        </div>
+                        <div class="small-height">
+                            <ul class="list-group show-item show-line">
+                                <if condition="empty($qfile) eq false">
+                                    <volist name="qfile" id="index" offset="0" length="3">
+                                        <li class="list-group-item">
+                                            <a title="{$index['title']}" href="__APP__/{$index['link']}" style="max-width: 100%;">{$index['title']}</a></li>
+                                    </volist>
+                                    <else/>
+                                    <p class="no-data">暂无数据</p>
+                                </if>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 cancle_pading">
+                <div class="informhead">
+                    <h4 class="pull-left">
+                        教学礼拜
+                        <small class="text-blue text-uppercase">Teachingworship</small>
+                    </h4>
+                    <div class="inform-foot pull-right">
+                        <h5><a href="__APP__/more?type=3&d=inform" target="_blank">继续阅读</a>
+                    <img src="__PUBLIC__/img/home_more.png" alt="" title="更多" />
+                     </h5>
+                    </div>
+                </div>
+                <div class="large-height">
+                    <ul class="list-group show-item show-line">
+                        <if condition="empty($teacherWeek) eq false">
+                            <volist name="teacherWeek" id="index">
+                                <li class="list-group-item">
+                                    <a title="{$index['title']}" href="__APP__/{$index['link']}">{$index['title']}</a>
+                                    <span class="timer pull-right">{$index['time']}</span>
+                                </li>
+                            </volist>
+                            <else/>
+                            <p class="no-data">暂无数据</p>
+                        </if>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 cancle_pading">
+                <div class="flink-wrap">
+                    <div class="flink-top pull-left">
+                        友情链接
+                        <small class="text-blue text-uppercase">friendlink</small>
+                    </div>
+                </div>
+                <ul class="nav nav-tabs friendlink">
+                    <li>
+                        <a href="http://www.moe.gov.cn/" target="_blank"><img src="__PUBLIC__/img/01.png" title="" alt="" width="212" height="103"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.pgzx.edu.cn/" target="_blank"><img src="__PUBLIC__/img/02.png" title="" alt="" width="212" height="103"></a>
+                    </li>
+                    <li>
+                        <a href="http://gov.hnedu.cn/" target="_blank"><img src="__PUBLIC__/img/03.png" title="" alt="" width="212" height="103"></a>
+                    </li>
+                    <li>
+                        <a href="http://jwc.hnust.cn/" target="_blank"><img src="__PUBLIC__/img/04.png" title="" alt="" width="212" height="103"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 底部设置 -->
+    <include file="Index/footer" />
+    <script type="text/javascript">
+    // 文字超出部分显示省略号
+    overFlower('.content', 260);
+    overFlower('.time-style li a', 35);
+    // 动画类
+    var animition = new Animition();
+    animition.textAnimition();
+    animition.informRoll();
+    $('#inform-item>ul').hover(function() {
+        animition.Stop();
+    }, function() {
+        animition.informRoll();
+    });
+
+    $('.news-content > .content').each(function(){
+        $(this).text($(this).text().replace(/\s+/g, ''));
+    });
+    </script>
+    <!-- 轮播图 -->
+    <script type="text/javascript">
+    var Bind = function(object, fun) {
+        var args = Array.prototype.slice.call(arguments).slice(2);
+        return function() {
+            return fun.apply(object, args.concat(Array.prototype.slice.call(arguments)));
+        }
+    }
+    function Banner() {
+        this.innergroup = $('.inner');
+        this.length = this.innergroup.length;
+        this._index = 0;
+        this.pre = (this._index - 1 + this.length) % this.length;
+        this.left = 0;
+        this.opacity = 1;
+        this.dir = 1;
+        this.timer = null;
+        this.Option();
+        this.isAuto = true;
+    }
+    Banner.prototype = {
+        Option: function() {
+            $('.ctrl>a').each(function(i) {
+                $(this).click(function() {
+                    clearInterval(ban.timer);
+                    // this.isAuto=false;
+                    if (i == ban.pre)
+                        return;
+                    ban.pre = (ban._index - 1 + ban.length) % ban.length;
+                    ban._index = i;
+                    console.log(ban.pre);
+                    console.log(i);
+                    ban.dir = i > ban.pre ? 1 : -1;
+                    ban.Go();
+                    ban.dir = 1;
+                });
+            });
+            $('.to-left').click(function() {
+                clearInterval(ban.timer);
+                console.log(ban.timer);
+                ban.Go();
+            });
+            $('.to-right').click(function() {
+                clearInterval(ban.timer);
+                console.log(ban.timer);
+                ban.dir = -1;
+                ban.Go();
+                ban.dir = 1;
+            });
+            $('.inner').hover(function() {
+                clearInterval(ban.timer);
+
+                console.log('in');
+            }, function() {
+                ban.timer = setInterval(Bind(ban, ban.Show), 4000);
+                console.log('out');
+            });
+        },
+        Show: function() {
+            this.Move();
+            this._index = (this._index + 1) % this.length;
+            this.pre = (this._index - 1 + this.length) % this.length;
+        },
+        Go: function() {
+            this.Show();
+            this.timer = setInterval(Bind(this, this.Show), 4000);
+        },
+        Move: function() {
+            $('.inner').eq(this._index).css('left', 100 * this.dir + '%');
+            $('.inner').eq(this.pre).animate({
+                left: -100 * this.dir + '%'
+            }, 220);
+            $('.inner').eq(this._index).animate({
+                left: this.left + 'px'
+            }, 200);
+            $('.ctrl a').css('background-color', '#E87218');
+            $('.ctrl a').eq(this._index).css('background-color', '#6879F2');
+        }
+
+    };
+    ban = new Banner();
+    ban.Go();
+    </script>
+    <import type="js" file="js/bootstrap#min" />
+</body>
+
+</html>

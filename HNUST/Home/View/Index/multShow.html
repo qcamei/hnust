@@ -1,0 +1,31 @@
+
+<if condition="$content['newsimgs'] neq null">
+    <php>
+        $imgs = explode(',',$content['newsimgs']);
+    </php>
+    <div class="banner">
+        <div class="large_box">
+            <ul>
+                <volist name="imgs" id="img">
+                    <li style="display: none;">
+                        <img src="__ROOT__/{$img}" width="100%" height="450">
+                    </li>
+                </volist>
+            </ul>
+        </div>
+        <div class="small_box">
+            <span class="mybtn left_btn"></span>
+            <div class="small_list">
+                <ul>
+                    <volist name="imgs" id="img">
+                        <li class="">
+                            <img src="__ROOT__/{$img}" width="100%" height="73">
+                            <div class="bun_bg"></div>
+                        </li>
+                    </volist>
+                </ul>
+            </div>
+            <span class="mybtn right_btn"></span>
+        </div>
+    </div>
+</if>

@@ -1,0 +1,183 @@
+[ 2017-03-27T03:13:44+08:00 ] 180.153.214.182 /mooc/index.php/updateFile
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+NOTIC: [2] unlink(/home/ubuntu): Permission denied /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 146 行.
+NOTIC: [8] Undefined index: HTTP_REFERER /home/ubuntu/mooc/ThinkPHP/Library/Think/Controller.class.php 第 283 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-03-27T03:15:53+08:00 ] 101.226.89.120 /mooc/index.php/clogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `hnust_admin` [ RunTime:0.0006s ]
+SQL: SELECT `password` FROM `hnust_admin` WHERE `userid` = '' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-03-27T03:15:53+08:00 ] 101.226.89.120 /mooc/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-03-27T03:29:14+08:00 ] 61.151.226.202 /mooc/index.php/admin?target%3Dfile-manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 8 行.
+
+[ 2017-03-27T03:33:07+08:00 ] 183.57.53.222 /mooc/index.php/getinformList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` ORDER BY type  [ RunTime:0.0001s ]
+
+[ 2017-03-27T03:33:17+08:00 ] 101.226.65.104 /mooc/index.php/getinformList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` ORDER BY type  [ RunTime:0.0001s ]
+
+[ 2017-03-27T03:40:48+08:00 ] 101.226.64.174 /mooc/index.php/uploadinfor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: file /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 104 行.
+NOTIC: [8] Undefined index: tmp_name /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 280 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`simplecontent`,`link`,`author`,`source`,`time`,`type`) VALUES ('e3d08885d1fda1c7b5652ed837d867c5','',' <div class=\"panel\">
+    <div class=\"panel-heading\">
+      <h3 class=\"news-title\"></h3>
+      <div class=\"news-other\">
+        作者：<span id=\"author\"></span>&nbsp;&nbsp;&nbsp;&nbsp;来源：<span id=\"Source\"></span>&nbsp;&nbsp;&nbsp;&nbsp;上传时间：<span id=\"Time\"></span>
+      </div>
+      <div class=\"split\"></div>
+    </div>
+  <div class=\"panel-body\" id=\"panel-body\" style=\"padding: 20px\">
+     
+  </div>
+</div>','','/mooc/index.php/home/file/getfile?type=&id=e3d08885d1fda1c7b5652ed837d867c5','','','','') [ RunTime:0.0012s ]
+
+[ 2017-03-27T03:40:57+08:00 ] 101.226.66.173 /mooc/index.php/uploadinfor
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: file /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 104 行.
+NOTIC: [8] Undefined index: tmp_name /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [8] Undefined index: error /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 269 行.
+NOTIC: [8] Undefined index: tmp_name /home/ubuntu/mooc/ThinkPHP/Library/Think/Upload.class.php 第 280 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`simplecontent`,`link`,`author`,`source`,`time`,`type`) VALUES ('78d73144f327f7dde4804a3ae8c11f6d','',' <div class=\"panel\">
+    <div class=\"panel-heading\">
+      <h3 class=\"news-title\"></h3>
+      <div class=\"news-other\">
+        作者：<span id=\"author\"></span>&nbsp;&nbsp;&nbsp;&nbsp;来源：<span id=\"Source\"></span>&nbsp;&nbsp;&nbsp;&nbsp;上传时间：<span id=\"Time\"></span>
+      </div>
+      <div class=\"split\"></div>
+    </div>
+  <div class=\"panel-body\" id=\"panel-body\" style=\"padding: 20px\">
+     
+  </div>
+</div>','','/mooc/index.php/home/file/getfile?type=&id=78d73144f327f7dde4804a3ae8c11f6d','','','','') [ RunTime:0.0014s ]
+
+[ 2017-03-27T03:48:11+08:00 ] 180.153.205.254 /mooc/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-03-27T07:14:23+08:00 ] 101.226.51.229 /mooc/index.php/getinformList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` ORDER BY type  [ RunTime:0.0004s ]
+
+[ 2017-03-27T07:37:39+08:00 ] 101.226.64.177 /mooc/index.php/admin?target%253Dfile-manager
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/mooc/HNUST/Admin/Controller/IndexController.class.php 第 8 行.
+

@@ -1,0 +1,2295 @@
+[ 2017-05-15T15:53:38+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000090s ]
+
+[ 2017-05-15T15:53:55+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0089s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-05-15T15:53:55+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0093s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-05-15T15:53:58+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-05-15T15:54:40+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-05-15T15:56:56+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0097s ]
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`) VALUES ('800c00840def8413075b1b2facfcfba3','学校召开本科教学工作委员会会议','&lt;p style=&quot;margin: 0px; padding: 0px; border: 0px; border-image: none; text-align: left; color: rgb(0, 0, 0); line-height: 24px; text-indent: 2em; font-size: 14px; font-style: normal;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;img width=&quot;600&quot; height=&quot;337&quot; alt=&quot;&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170505105127014425.jpg&quot;/&gt;&lt;br/&gt;　　&lt;br/&gt;　　5月4日下午，我校本科教学工作委员会会议在综合楼417会议室召开。副校长胡石其、施式亮出席，相关部门及各学院分管教学工作负责人与会，会议由施式亮主持。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;　　&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;胡石其就“教学礼拜”主题活动的开展情况作总结。他指出，此次活动整体开展情况良好，相比以往有三点明显变化：一是老师上课水平明显提高，课堂趣味性增强；二是学风有明显改变，大部分学院考研率不断提高；三是学生的学习态度有明显改变，上课不认真听讲的现象有所减少。他强调，为提高学生的综合素质和专业能力，进一步提高本科教学质量，培养卓越学子，应该继续抓牢教风、学风和考风这“三风”建设。他还进一步强调了本科教学工作的目标，即抓两头、促中间。“抓两头”是指一头重点培养优生使其有机会拿到国家级别荣誉，一头帮扶差生，保证他们的身心安全，使其顺利毕业，促中间是实行评奖评优制度，让其向优秀行列迈进。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;　　&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;施式亮对“教学礼拜”主题活动与本科教学工作之间的关系作详细介绍。他表示，我校本科教学工作承担着本科人才培养的重要任务，要围绕教学质量和学生发展两大主题，坚持立德树人，持续推进“教学礼拜”主题活动全面深入地开展，将其升华为校园文化，固化成一种制度。同时，他希望各部门、学院要建立健全教学系统与学工系统，职能部门与学院、各职能部门之间、各学院之间要建立良好的工作联系机制，高效地解决教学管理和学风建设等各方面存在的问题。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;　　&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;随后，教务处处长杨清汇报了近期教学工作的基本情况，并针对其中的问题提出了相关措施。他指出，要全面贯彻落实卓越本科教学计划，加强人才队伍建设，推动我校“双一流”建设。他强调，人才培养是中心，本科教学工作是基础，因此加强教风和学风建设不容丝毫懈怠。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 学生工作处处长尹风雨对“教学礼拜”周期间学生的到课率、晚自习情况、晚归情况等作了汇报，并对出现的问题提出了相关建议。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;　　&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;交流讨论环节中，与会人员还就如何迎接本科教学工作审核评估、平衡教学与科研的关系、对青年教师的培养、本科教学质量的提高等方面提出了意见和建议。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','home/file/getfile?type=3&id=800c00840def8413075b1b2facfcfba3','文/董怀爱 图/袁颍璇','大学生通讯社','2017-5-5','3') [ RunTime:0.1264s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0097s ]
+SQL: UPDATE `hnust_document` SET `informid`='800c00840def8413075b1b2facfcfba3' WHERE ( informid is null ) [ RunTime:0.0094s ]
+
+[ 2017-05-15T16:01:55+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0099s ]
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`) VALUES ('aea78b232215cb41a08db8406cbdd273','教学院本科教学审核评估自评专家组工作会议召开','&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img width=&quot;600&quot; height=&quot;400&quot; alt=&quot;&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509091124054707.jpg&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img width=&quot;600&quot; height=&quot;400&quot; alt=&quot;&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509091147500885.jpg&quot;/&gt;&lt;span style=&quot;color: rgb(0, 0, 0);font-family: 宋体, 微软雅黑;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;letter-spacing: normal;line-height: normal;orphans: auto;text-align: start;text-indent: 0px;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px;display: inline !important;float: none&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;5&lt;/span&gt;月&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;5&lt;/span&gt;日上午，我校教学院本科教学审核评估自评专家组工作会议在工科楼&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;3-2&lt;/span&gt;会议室召开。校长李伯超、副校长施式亮出席，教务处、评建办和各教学院相关职能部门负责人与会。会议由施式亮主持。&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;李伯超表示，我校前期的本科教学工作审核评估准备工作已比较充分，相信后期审核评估工作也将取得良好成绩。他强调，本科教学工作审核评估是学校近期工作的重中之重，各职能部门要高度重视，加强沟通，协调配合，积极参与到评建工作中，切实做好审核评估的各方面工作，保障审核评估工作顺利开展。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;施式亮表示，此次审核评估是&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;用自己的尺子量自己&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;的重要体现，同时也是教育部对我校本科教学工作的又一次全面检查。各相关职能部门要严格按照&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;统一思想、统一标准、统一进程、统一要求&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;的原则开展工作，进一步提升自身能力和水平。在做好自评自审的同时，要为教育部专家组的考察和审核做好充分准备，为后期工作的开展打好扎实基础。&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 评建办主任杨清从&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;本科教学工作审核评估内涵&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;、&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;学校本科教学工作审核评估与建设工作&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;和&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;教学院本科教学工作审核评估工作&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;三个方面进行了汇报，并就审核评估的指导思想、工作目标和工作原则等作出了简要阐释和说明。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;会上，与会人员就自评准备工作中涉及的具体问题和事宜进行研究和讨论，并提出了建议和意见。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;据悉，参与自评的专家成员将分为四个小组，于&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;5&lt;/span&gt;月&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;8&lt;/span&gt;日至&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;12&lt;/span&gt;日开展教学院本科教学自评检查工作。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','home/file/getfile?type=4&id=aea78b232215cb41a08db8406cbdd273','文/王欣 图/柳姝萌','大学生通讯社','2017-05-05','4') [ RunTime:0.1228s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0099s ]
+SQL: UPDATE `hnust_document` SET `informid`='aea78b232215cb41a08db8406cbdd273' WHERE ( informid is null ) [ RunTime:0.0096s ]
+
+[ 2017-05-15T16:02:42+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-05-15T16:02:43+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-05-15T16:02:45+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0105s ]
+
+[ 2017-05-15T16:02:45+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-05-15T16:02:47+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-05-15T16:02:47+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0107s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0103s ]
+
+[ 2017-05-15T16:02:48+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-05-15T16:02:50+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-05-15T16:02:50+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0089s ]
+
+[ 2017-05-15T16:02:58+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0096s ]
+
+[ 2017-05-15T16:03:02+08:00 ] 218.75.247.247 /hnust/index.php/updateNews?id=aea78b232215cb41a08db8406cbdd273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'aea78b232215cb41a08db8406cbdd273'  [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000197s ]
+
+[ 2017-05-15T16:03:26+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-05-15T16:03:27+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0086s ]
+
+[ 2017-05-15T16:03:30+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc  [ RunTime:0.0104s ]
+
+[ 2017-05-15T16:03:36+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0085s ]
+
+[ 2017-05-15T16:03:42+08:00 ] 218.75.247.247 /hnust/index.php/updateNews?id=aea78b232215cb41a08db8406cbdd273
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'aea78b232215cb41a08db8406cbdd273'  [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-05-15T16:03:45+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-05-15T16:03:45+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0086s ]
+
+[ 2017-05-15T16:03:48+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0095s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0090s ]
+
+[ 2017-05-15T16:03:53+08:00 ] 218.75.247.247 /hnust/index.php/deleteinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0076s ]
+SQL: SELECT `link` FROM `hnust_document` WHERE `informid` = 'aea78b232215cb41a08db8406cbdd273'  [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0074s ]
+SQL: DELETE FROM `hnust_supervisor` WHERE `id` = 'aea78b232215cb41a08db8406cbdd273' [ RunTime:0.0075s ]
+
+[ 2017-05-15T16:03:55+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-05-15T16:05:48+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0095s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`,`imgurl`) VALUES ('14d223a024929a47fb23a439848449ea','教学院本科教学审核评估自评专家组工作会议召开','&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img width=&quot;600&quot; height=&quot;400&quot; alt=&quot;&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509091124054707.jpg&quot;/&gt;&lt;br/&gt;&lt;br/&gt;&lt;img width=&quot;600&quot; height=&quot;400&quot; alt=&quot;&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509091147500885.jpg&quot;/&gt;&lt;span style=&quot;color: rgb(0, 0, 0);font-family: 宋体, 微软雅黑;font-size: 12px;font-style: normal;font-variant: normal;font-weight: normal;letter-spacing: normal;line-height: normal;orphans: auto;text-align: start;text-indent: 0px;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px;display: inline !important;float: none&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;5&lt;/span&gt;月&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;5&lt;/span&gt;日上午，我校教学院本科教学审核评估自评专家组工作会议在工科楼&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;3-2&lt;/span&gt;会议室召开。校长李伯超、副校长施式亮出席，教务处、评建办和各教学院相关职能部门负责人与会。会议由施式亮主持。&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;李伯超表示，我校前期的本科教学工作审核评估准备工作已比较充分，相信后期审核评估工作也将取得良好成绩。他强调，本科教学工作审核评估是学校近期工作的重中之重，各职能部门要高度重视，加强沟通，协调配合，积极参与到评建工作中，切实做好审核评估的各方面工作，保障审核评估工作顺利开展。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;施式亮表示，此次审核评估是&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;用自己的尺子量自己&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;的重要体现，同时也是教育部对我校本科教学工作的又一次全面检查。各相关职能部门要严格按照&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;统一思想、统一标准、统一进程、统一要求&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;的原则开展工作，进一步提升自身能力和水平。在做好自评自审的同时，要为教育部专家组的考察和审核做好充分准备，为后期工作的开展打好扎实基础。&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 评建办主任杨清从&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;本科教学工作审核评估内涵&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;、&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;学校本科教学工作审核评估与建设工作&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;和&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;“&lt;/span&gt;教学院本科教学工作审核评估工作&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;”&lt;/span&gt;三个方面进行了汇报，并就审核评估的指导思想、工作目标和工作原则等作出了简要阐释和说明。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;会上，与会人员就自评准备工作中涉及的具体问题和事宜进行研究和讨论，并提出了建议和意见。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;padding: 0px;font-style: normal;border: 0px;text-indent: 2em;line-height: 24px;color: rgb(0, 0, 0);font-size: 14px;font-family: 宋体, 微软雅黑;font-variant: normal;font-weight: normal;letter-spacing: normal;orphans: auto;text-align: start;white-space: normal;widows: 1;word-spacing: 0px;-webkit-text-stroke-width: 0px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-size: 14px&quot;&gt;&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px;font-family: 宋体&quot;&gt;据悉，参与自评的专家成员将分为四个小组，于&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;5&lt;/span&gt;月&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;8&lt;/span&gt;日至&lt;span style=&quot;;padding: 0px;font-style: normal;border: 0px&quot;&gt;12&lt;/span&gt;日开展教学院本科教学自评检查工作。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','home/file/getfile?type=4&id=14d223a024929a47fb23a439848449ea','文/王欣 图/柳姝萌','大学生通讯社','2017-05-05','4','/hnust/Public/img/61a0192a441d4c30eb6951c8c7ab1540.jpg') [ RunTime:0.0203s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0095s ]
+SQL: UPDATE `hnust_document` SET `informid`='14d223a024929a47fb23a439848449ea' WHERE ( informid is null ) [ RunTime:0.0092s ]
+
+[ 2017-05-15T16:06:36+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-05-15T16:06:52+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0098s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000146s ]
+
+[ 2017-05-15T16:06:52+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0083s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-05-15T16:06:53+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0077s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2017-05-15T16:06:53+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0090s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-05-15T16:06:53+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-05-15T16:07:37+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-05-15T16:15:05+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-05-15T16:15:43+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000083s ]
+
+[ 2017-05-15T16:16:22+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0077s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-05-15T16:16:22+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-05-15T16:16:26+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-05-15T16:19:14+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000169s ]
+
+[ 2017-05-15T16:19:29+08:00 ] 218.75.230.12 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-05-15T16:19:36+08:00 ] 218.75.230.12 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0091s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000143s ]
+
+[ 2017-05-15T16:19:36+08:00 ] 218.75.230.12 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0091s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-05-15T16:19:36+08:00 ] 218.75.230.12 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-05-15T16:19:47+08:00 ] 218.75.230.12 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-05-15T16:20:39+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-05-15T16:25:10+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0095s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`,`imgurl`) VALUES ('256bdf8e7bd19bf114409c164f05a56f','我校开展教学院本科教学审核评估自评工作（一）','&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb1&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092400349910.jpg&quot;&gt;&lt;img class=&quot;image2&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092400349910.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb2&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092400362191.jpg&quot;&gt;&lt;img class=&quot;image3&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092400362191.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb3&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092400356060.jpg&quot;&gt;&lt;img class=&quot;image4&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092400356060.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb4&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092400375351.jpg&quot;&gt;&lt;img class=&quot;image5&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092400375351.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb5&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092431843888.jpg&quot;&gt;&lt;img class=&quot;image6&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092431843888.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb6&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092431817444.jpg&quot;&gt;&lt;img class=&quot;image7&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092431817444.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb7&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092431837707.jpg&quot;&gt;&lt;img class=&quot;image8&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092431837707.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb8&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092431830678.jpg&quot;&gt;&lt;img class=&quot;image9&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092431830678.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb10&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170509092510610011.jpg&quot;&gt;&lt;img class=&quot;image11&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170509092510610011.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; text-indent: 2em; line-height: 24px; color: rgb(0, 0, 0); font-size: 14px; font-family: 宋体, 微软雅黑; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;5月8日至12日，我校正式开展各教学院本科教学审核评估自评工作。8日，艺术学院、土木工程学院、数学与计算科学学院、法学与公共管理学院先行迎来审核评估，审核评估小组组长、党委副书记朱川曲，审核评估小组组长、副校长陈安华、胡石其、施式亮，学校本科教学指导委员会有关专家、教学院相关职能部门负责人一齐参与了各学院审核评估。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 上午8点，四个教学院分别在学院楼会议室召开本科教学工作审核评估专家见面会。学院负责人结合审核评估的具体内容，系统汇报了各学院近年来办学的基本状况、学院教学改革与建设的经验成效，并对本单位本科教育“十三五”规划的定位目标以及审核评估的各项准备工作进行了阐述。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 汇报会上，土木工程学院院长祝明桥针对本学院“创新特色人才培养模式”的特色工作重点进行说明，通过介绍学院“立足培养目标”、“优化学生实习实践环节”、“以竞赛为抓手充分利用第二课堂培养”等方式，明确了不断更新培养机制、培养卓越土木工程复合应用型人才的学院发展方向。&lt;br/&gt;　　法学与公共管理学院院长徐德刚表示，学院在结合学校以立德树人为根本任务的办学定位的前提下，坚持立足“以社会需求为导向，面向科学发展观视野下法治国家、法治政府、法治社会一体化建设”的基本点，遵循法学、公管专业教育规律，契合社会需求的评价体系，确立“理念-知识-能力”的人才培养理念，培养具有法学、公管专业知识、基本理论工作和较强实践创新能力的高级应用性专门人才的办学思路。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 针对新形势下的教学工作与学科前景，艺术学院院长李毅松从本科教学“目标定位、师资队伍、教学资源、培养过程、学生发展、质量监控”六方面工作进行自评汇报。他表示，按照学校的办学定位，艺术学院近年来着力开展了一系列实践教学活动与艺术展演,在取得较好的专业竞赛成绩的同时，也获得了良好的社会口碑。&lt;br/&gt;　　数学与计算机学院党委书记卢共平表示，学院高度重视本科教学工作审核评估的自评自建工作，自2016年10月成立本科教学审核评估工作组以来，学院领导结合学校审核评估各项工作进行动员宣传，组织各专业教师对近三年的课程考核材料和毕业设计进行自查自纠，立足于以本科教育为主体，逐步扩大研究生教育规模，着力培育信息与计算科学专业和应用统计学复合应用型人才。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 汇报会结束后，各专家组成员对各学院教学与评建工作的汇报情况展开提问，各组长就评估考核的具体情况提出相关要求。专家组成员现场审核各学院本科教学有关材料，并同时进行座谈会与个别访谈，会谈对象主要为学院领导、教师代表、教学管理人员与学生代表，多渠道多角度收集学院意见及建议，并于下午5点集中对审核评估意见进行反馈与点评。针对“实习基地不能满足实验教学的需要”、“学生就业前景指导还不够到位”、“实验教学效果还有待提高”、“创新创业教育力度还有待加强”等各学院高概率存在的问题，专家组结合学院具体情况，与学院有关机构负责人展开讨论，并有针对性地提出整改措施与完善建议。&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 据悉，我校将于今年11月份接受由教育部高等教育评估中心委托、湖南省教育厅组织的普通高等学校本科教学工作审核评估。我校已成立教学院评估专家组，逐步开展学院自查，学校专家组现场评估、以及相关教学检查与问题整改，接下来还将进一步推进教学建设，继续优化人才培养体系，不断提高本科人才培养质量。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','home/file/getfile?type=4&id=256bdf8e7bd19bf114409c164f05a56f','文/刘金艺 王颖 李琴 叶香渝 罗凯旋 图/袁颖璇 吴江铠 周瑾 张健','大学生通讯社','2017-05-09','4','/hnust/Public/img/bc4d53d3ca4f1747535f60a1e45570c5.jpg') [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0092s ]
+SQL: UPDATE `hnust_document` SET `informid`='256bdf8e7bd19bf114409c164f05a56f' WHERE ( informid is null ) [ RunTime:0.0092s ]
+
+[ 2017-05-15T16:27:26+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-05-15T16:27:33+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0093s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000136s ]
+
+[ 2017-05-15T16:27:33+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0097s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-05-15T16:27:33+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-05-15T16:27:35+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000175s ]
+
+[ 2017-05-15T16:32:13+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-05-15T16:32:23+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-05-15T16:32:33+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0096s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-05-15T16:32:33+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-05-15T16:33:29+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-05-15T16:33:32+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-05-15T16:33:37+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-05-15T16:33:42+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-05-15T16:35:14+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/hnust/HNUST/Admin/Controller/IndexController.class.php 第 162 行.
+
+[ 2017-05-15T16:35:14+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000096s ]
+
+[ 2017-05-15T16:35:23+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0090s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2017-05-15T16:35:23+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0092s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-05-15T16:35:23+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-05-15T16:35:33+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-05-15T16:43:48+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0091s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`,`imgurl`) VALUES ('a1be84743e9ba23720f2539cabba0913','我校开展教学院本科教学审核评估自评工作（二）','&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853792151.jpg&quot; width=&quot;573&quot; height=&quot;382&quot;/&gt;a&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853799287.jpg&quot; class=&quot;ad-thumb2&quot; style=&quot;text-decoration-line: none; color: rgb(65, 117, 190); margin: 0px; padding: 0px; display: block; text-align: center;&quot;&gt;&lt;img src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853799287.jpg&quot; class=&quot;image3&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853787093.jpg&quot; class=&quot;ad-thumb3&quot; style=&quot;text-decoration-line: none; color: rgb(65, 117, 190); margin: 0px; padding: 0px; display: block; text-align: center;&quot;&gt;&lt;img src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853787093.jpg&quot; class=&quot;image4&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853805399.jpg&quot; class=&quot;ad-thumb4&quot; style=&quot;text-decoration-line: none; color: rgb(65, 117, 190); margin: 0px; padding: 0px; display: block; text-align: center;&quot;&gt;&lt;img src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853805399.jpg&quot; class=&quot;image5&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853811421.jpg&quot; class=&quot;ad-thumb5&quot; style=&quot;text-decoration-line: none; color: rgb(65, 117, 190); margin: 0px; padding: 0px; display: block; text-align: center;&quot;&gt;&lt;img src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853811421.jpg&quot; class=&quot;image6&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; line-height: 24px; font-size: 14px; font-family: 宋体, 微软雅黑; white-space: normal; widows: 1; text-align: left; text-indent: 0em;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-family: 宋体;&quot;&gt;&amp;nbsp; &amp;nbsp;5月9日，我校物理与电子科学学院、商学院、体育学院、资源环境与安全工程学院分别展开了教学院本科教学审核评估自评工作。评估小组组长、党委副书记朱川曲，评估小组组长、副校长陈安华、胡石其、施式亮及评估专家组其他成员就学院基本情况、定位与目标、师资队伍、教学资源、培养过程、学生发展、质量保证及办学特色等方面展开评估。&lt;br/&gt;&amp;nbsp; &amp;nbsp;专家见面会上，四个学院分别作评估工作汇报。物理与电子科学学院负责人详细汇报了学院的“物理学专业校企合作创新创业教育基地”、第二课堂教学、物理学理论教学及实验教学三个特色项目。体育学院负责人重点提到该院发挥专业优势，开展“教学、训练、展演汇报”一体化活动的办学特色。“面向社会，面向现代化，注重实验与教学相结合，切实将专业知识落到实处”商学院负责人详细介绍了学院的实践办学特色及人才培养理念。资源环境与安全工程学院负责人表示，学院致力建立质量保障体系，稳固本科教学中心地位，促进教学研讨制度化，推进常规教学质量监控常态化，建立多元化评教体系。&lt;br/&gt;&amp;nbsp; &amp;nbsp;汇报会结束后，各专家组组长对各学院本科教学工作进行点评，并提出相关要求。&lt;br/&gt;&amp;nbsp; &amp;nbsp;朱川曲在专家意见反馈会上对物理与电子科学学院开展的教学工作以及自评工作上表示肯定。同时，他就该院在学院定位以及人才培养目标上提出建议：“学院开展的特色项目要加强整合，并以此作为独属于本学院的特色项目着重发展。&lt;br/&gt;&amp;nbsp; &amp;nbsp;对商学院的教学及自评工作，陈安华给予了高度评价：“该院建立覆盖教学全过程的监控体系，前期、中期、后期监控三个环节，环环相扣，质量稳步提高，学风良好。”同时，他指出，商学院应当加强教研与教学的互动，以科研促教学。&lt;br/&gt;&amp;nbsp; &amp;nbsp;胡石其在反馈会上表示：“体育学院的办学定位十分明确，近几年来引进的人才质量逐步提高，整体教学资源有明显优化。”他同时建议体育学院应增强开放办学的力度，充分利用学校的办学资源，强化办学特色。&lt;br/&gt;&amp;nbsp; &amp;nbsp;施式亮在专家意见反馈会上肯定了资源环境与安全工程学院在本科教学工作中取得的成效。对如何进一步提升本科教学质量，他指出，学院应该进一步凸显办学特色，丰富课程资源。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','home/file/getfile?type=4&id=a1be84743e9ba23720f2539cabba0913','文/德吉卓玛 康欣可 翁素丽 邓晓亿 图/孙继 何鑫 柳姝萌','大学生通讯社','2017-05-09','4','/hnust/Public/img/639726c15bd9e8a505b955fa1589cb8d.jpg') [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0088s ]
+SQL: UPDATE `hnust_document` SET `informid`='a1be84743e9ba23720f2539cabba0913' WHERE ( informid is null ) [ RunTime:0.0084s ]
+
+[ 2017-05-15T16:44:12+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-05-15T16:44:14+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-05-15T16:44:16+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0102s ]
+
+[ 2017-05-15T16:44:17+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0088s ]
+
+[ 2017-05-15T16:50:46+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000107s ]
+
+[ 2017-05-15T16:54:25+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0079s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`,`imgurl`) VALUES ('8bfc07d717dd325b9a56845db5eefd71','我校开展教学院本科教学审核评估自评工作（三）','&lt;p&gt;&lt;/p&gt;&lt;p class=&quot;ad-info&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; float: right; text-indent: 0em; line-height: 24px; color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;1 / 8&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb0 ad-active&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045406365.jpg&quot;&gt;&lt;img class=&quot;image1&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045406365.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb1&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045412493.jpg&quot;&gt;&lt;img class=&quot;image2&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045412493.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb2&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045420503.jpg&quot;&gt;&lt;img class=&quot;image3&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045420503.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb3&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045425668.jpg&quot;&gt;&lt;img class=&quot;image4&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045425668.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb4&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204052148.jpg&quot;&gt;&lt;img class=&quot;image5&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204052148.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb5&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204031863.jpg&quot;&gt;&lt;img class=&quot;image6&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204031863.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb6&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204039924.jpg&quot;&gt;&lt;img class=&quot;image7&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204039924.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb7&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204045088.jpg&quot;&gt;&lt;img class=&quot;image8&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204045088.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; text-indent: 2em; line-height: 24px; color: rgb(0, 0, 0); font-size: 14px; font-family: 宋体, 微软雅黑; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;5月10日，我校生命科学学院、外国语学院、马克思主义学院、机电工程学院展开本科教学审核评估自评工作。审核评估小组组长、党委副书记朱川曲，审核评估小组组长、副校长胡石其、施式亮，学校本科教学指导委员会专家组及相关职能部门负责人共同参与了本次学院审核评估自评。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 上午，四个教学院分别在学院楼会议室召开本科教学工作审核评估专家见面会。学院负责人向专家组系统汇报了本学院办学的基本状况、教学改革以及所取成效。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 汇报会上，生命科学学院负责人对学院的定位与目标、教师队伍、教学资源、培养方式、学生发展、质量保障、特色工作等方面做了介绍。他指出，为了增强学生实践活动能力与社会适应性，学院积极开展了“第二课堂”，使科研平台建设与本科人才培养得到有机结合。同时，学院也将生物科学专业与生物学列入国培省培计划，打造为优势学科。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在本科教学总体情况与特色工作方面，外国语学院负责人表示，学院坚持“立足湖南，面向全国，放眼世界”的办学理念。他指出，外国语学院的办学特色包括培养模式创新、以赛促学、以研促教、创新实验教育四个方面，有力促进了学院综合教学能力和教学质量的提升。对于今后工作，他表示，学院计划引进青年教师，优化教师结构；增强教师的科研与教学互动性，进一步完善培养方案。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 机电工程学院负责人表示，学院的办学定位是“立足湖南，面向长三角和珠三角，服务全国的专业服务”，以培养厚基础、宽口径、强适应、有特长、高素质的复合应用型高级人才为培养目标。他指出，学院始终以教学为中心，以培养人才为大局，优化师资队伍，将学生放在首要位置，全面梳理学院教学档案及教学体系，进一步完善规范管理制度。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 马克思主义学院负责人对本学院的自评自建工作开展情况、教学总体情况、工作亮点与特色进行说明。他认为，学院定位与目标较明确，师资队伍较雄厚，教学资源较丰富，培养过程较严谨，质量保障体系较完备，特色优势较明显；但今后还需要加大教研教改力度，完善课程体系建设，加大经费投入。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 汇报会结束后，各专家组成员于下午5点集中对各学院自评情况进行反馈与点评。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 专家首先对各学院材料的全面整理以及详细程度表示高度肯定。随后，他们有针对性的指出了各学院存在的问题，并提出了相应的整改措施。专家组成员认为，生命科学学院的定位与目标未能较好地与学校的办学定位与目标相呼应，学院特色不够鲜明。对此，他提出要从人才培养定位、服务面向定位、学院发展目标及发展理念定位、学院办学层次定位等四个方面对培养目标进行重新定位。专家组对外国语学院自评报告中的“教学资源”方面提出意见和建议，学院应根据教学需要，突出教学资源优势，明确学院定位和特色，完善教学体系。对于机电工程学院，专家们一致建议提高教师整体教学水平，增加教师数量，以符合学院&amp;quot;至2020年，学科整体实力进入全国50强&amp;quot;的建设目标。&lt;br/&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 反馈会上，对于专家组提出的整改措施与建议，各学院的相关负责人表示将会采取有力的整改措施，完善学院教学工作。&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','home/file/getfile?type=4&id=8bfc07d717dd325b9a56845db5eefd71','文/韦仙甜 罗佳祺 王颖 郭田甜 图/尹俊宇 陈勃鑫 李雅茹 李宇霞 张健 柳姝萌 田文艺','大学生通迅社','2017-05-11','4','/hnust/Public/img/bd2546e2d070e4317395758627219917.jpg') [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0083s ]
+SQL: UPDATE `hnust_document` SET `informid`='8bfc07d717dd325b9a56845db5eefd71' WHERE ( informid is null ) [ RunTime:0.0090s ]
+
+[ 2017-05-15T18:09:55+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/hnust/HNUST/Admin/Controller/IndexController.class.php 第 162 行.
+
+[ 2017-05-15T18:25:26+08:00 ] 218.75.230.17 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-05-15T18:25:28+08:00 ] 218.75.230.17 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0083s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000095s ]
+
+[ 2017-05-15T18:25:28+08:00 ] 218.75.230.17 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0089s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-05-15T18:25:28+08:00 ] 218.75.230.17 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-05-15T18:43:27+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: id /home/ubuntu/hnust/HNUST/Admin/Controller/IndexController.class.php 第 162 行.
+
+[ 2017-05-15T18:52:13+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-05-15T18:52:23+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0105s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-05-15T18:52:23+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0077s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = 'admin'  [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-05-15T18:52:23+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-05-15T18:52:25+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-05-15T18:53:55+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0085s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`,`imgurl`) VALUES ('bad8c95205cc59d2407a56faa62c72d8','cc','&lt;p&gt;　5月11日，化学化工学院、人文学院以及材料科学与工程学院展开教学院本科教学审核评估自评，审核小组组长、党委副书记朱川曲，审核小组组长、副校长陈安华、施式亮，以及学校本科教学指导委员会专家组及相关职能部门负责人分别对三个学院进行审核评估。&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;上午8点30分，三个教学院分别在学院会议室召开本科教学工作审核评估专家见面会。会上，学院相关负责人从学院基本情况、定位与目标、教师队伍、教学资源、培养过程、学生发展、质量保障、特色工作八个方面入手，向专家组作工作汇报。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;在化学化工学院的工作汇报中，学院负责人结合审核评估标准，从定位目标、质量保障等方面对本学院的各项审核评估准备工作进行了详细的阐述。他表示，学院将以“十三五”规划为建设蓝本，以师资队伍、课程体系与教材、实践教学、人才培养模式、教学研究与改革和大学生创业教育为主要建设内容，在培养德、智、体全面发展的高层次、复合型、具有创新意识的化学化工人才方面实现新的突破。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;　　人文学院负责人首先深入浅出地介绍了学院概况，他表示，学院在学科建设、教育和教学办法、师资队伍建设等方面取得了良好成果。他指出，在培养学生综合素质和提高学生创新能力方面，学院积极利用第二课堂，以艺术节和学校社团组织为核心，多次组织开展戏剧话剧艺术节、班刊设计大赛等大型活动；在规范教师伦理道德方面，学院制定了《人文学院教学伦理守则》。此外，他指出，学院近三年来，考研升学人数逐年攀升，学习与学风有了显著提升。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;材料科学与工程学院负责人在汇报中表示，学院成立之初，为整合资源，形成学院的凝聚力，培养良好的学习与科学研究氛围，学院创立了“才苑”文化品牌，品牌以“新材料、新思想、创新科技与文化”为核心价值，衍生出了“才苑讲堂”、“才苑学子计划”等一系列主题活动，目前，该系列主题活动的开展已取得了显著成效。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;汇报结束后，专家组成员分别对学院的汇报情况展开提问，审核小组组长就审核评估的具体情况提出相关要求，随后，专家组成员相继在现场审核各学院本科教学的有关材料，并召开了座谈会与个别访谈。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;下午5点，专家组成员和相关负责人集中对审核评估内容提出意见，并结合学院具体情况提出建设性的建议和整改措施。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;　　朱川曲在专家意见反馈会上对化学化工学院的自评与教学工作给予了肯定。他表示，学院的资料准备齐全，目录相对完备，工作部署完善。同时他希望化学与化工学院能够结合学院的优势与特色，大力发展特色专业，进一步提高教育教学水平，全面促进学院发展。&lt;br/&gt; 　　&lt;br/&gt; 　　陈安华在专家意见反馈会上对人文学院开展的自评工作及教学工作给予了充分肯定，他表示，该院审核评估基础材料准备齐全，目录完备，并在教学改革和课堂质量改革等方面取得了良好效果。同时，陈安华就教育资源和学科特色方面提出建议，他指出，人文学院要进一步明晰教学定位，突出特色亮点，充分整合社会资源，加强实验室等教学基础设施的建设。&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;施式亮表示，材料科学与工程学院作为一个新成立的学院，发展空间大，今后应以“卓越计划”为引领，制定科学合理规范的标准来丈量自己，明确四个如何，即如何说、如何做、效果如何、如何整改，以此进一步完善顶层设计，提高学院的综合办学水平和实力。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;听取专家组建议之后，各学院负责人纷纷表态，会后将提高认识、做好工作、加强学习，积极完善本科教学审核评估工作的各项材料。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;','home/file/getfile?type=4&id=bad8c95205cc59d2407a56faa62c72d8','dddd','杀杀杀','2017-05-06','4','/hnust/Public/img/c0272901cff0e66ed5a99d8121842c81.jpg') [ RunTime:0.0316s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0084s ]
+SQL: UPDATE `hnust_document` SET `informid`='bad8c95205cc59d2407a56faa62c72d8' WHERE ( informid is null ) [ RunTime:0.0081s ]
+
+[ 2017-05-15T18:54:57+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-05-15T18:54:57+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0086s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0097s ]
+
+[ 2017-05-15T18:55:01+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0094s ]
+
+[ 2017-05-15T18:55:08+08:00 ] 218.75.247.247 /hnust/index.php/updateNews?id=bad8c95205cc59d2407a56faa62c72d8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'bad8c95205cc59d2407a56faa62c72d8'  [ RunTime:0.0092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000192s ]
+
+[ 2017-05-15T18:55:47+08:00 ] 218.75.247.247 /hnust/index.php/updateinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0090s ]
+SQL: UPDATE `hnust_supervisor` SET `title`='cc',`content`='&lt;p&gt;　5月11日，化学化工学院、人文学院以及材料科学与工程学院展开教学院本科教学审核评估自评，审核小组组长、党委副书记朱川曲，审核小组组长、副校长陈安华、施式亮，以及学校本科教学指导委员会专家组及相关职能部门负责人分别对三个学院进行审核评估。&lt;/p&gt;&lt;div class=&quot;ad-prev&quot; style=&quot;height: 382px;&quot;&gt;&lt;/div&gt;&lt;p class=&quot;ad-info&quot;&gt;1 / 5&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;ad-slideshow-start&quot;&gt;Start&lt;/span&gt;&lt;span class=&quot;ad-slideshow-stop&quot;&gt;Stop&lt;/span&gt;&lt;span class=&quot;ad-slideshow-countdown&quot; style=&quot;display: none;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;width: 760px;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb0 ad-active&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700206959.jpg&quot;&gt;&lt;img class=&quot;image1&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700206959.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb1&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700199881.jpg&quot;&gt;&lt;img class=&quot;image2&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700199881.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb2&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700049727.jpg&quot;&gt;&lt;img class=&quot;image3&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700049727.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb3&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515113717747350.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;上午8点30分，三个教学院分别在学院会议室召开本科教学工作审核评估专家见面会。会上，学院相关负责人从学院基本情况、定位与目标、教师队伍、教学资源、培养过程、学生发展、质量保障、特色工作八个方面入手，向专家组作工作汇报。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;在化学化工学院的工作汇报中，学院负责人结合审核评估标准，从定位目标、质量保障等方面对本学院的各项审核评估准备工作进行了详细的阐述。他表示，学院将以“十三五”规划为建设蓝本，以师资队伍、课程体系与教材、实践教学、人才培养模式、教学研究与改革和大学生创业教育为主要建设内容，在培养德、智、体全面发展的高层次、复合型、具有创新意识的化学化工人才方面实现新的突破。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;　　人文学院负责人首先深入浅出地介绍了学院概况，他表示，学院在学科建设、教育和教学办法、师资队伍建设等方面取得了良好成果。他指出，在培养学生综合素质和提高学生创新能力方面，学院积极利用第二课堂，以艺术节和学校社团组织为核心，多次组织开展戏剧话剧艺术节、班刊设计大赛等大型活动；在规范教师伦理道德方面，学院制定了《人文学院教学伦理守则》。此外，他指出，学院近三年来，考研升学人数逐年攀升，学习与学风有了显著提升。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;材料科学与工程学院负责人在汇报中表示，学院成立之初，为整合资源，形成学院的凝聚力，培养良好的学习与科学研究氛围，学院创立了“才苑”文化品牌，品牌以“新材料、新思想、创新科技与文化”为核心价值，衍生出了“才苑讲堂”、“才苑学子计划”等一系列主题活动，目前，该系列主题活动的开展已取得了显著成效。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;汇报结束后，专家组成员分别对学院的汇报情况展开提问，审核小组组长就审核评估的具体情况提出相关要求，随后，专家组成员相继在现场审核各学院本科教学的有关材料，并召开了座谈会与个别访谈。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;下午5点，专家组成员和相关负责人集中对审核评估内容提出意见，并结合学院具体情况提出建设性的建议和整改措施。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;　　朱川曲在专家意见反馈会上对化学化工学院的自评与教学工作给予了肯定。他表示，学院的资料准备齐全，目录相对完备，工作部署完善。同时他希望化学与化工学院能够结合学院的优势与特色，大力发展特色专业，进一步提高教育教学水平，全面促进学院发展。&lt;br/&gt; 　　&lt;br/&gt; 　　陈安华在专家意见反馈会上对人文学院开展的自评工作及教学工作给予了充分肯定，他表示，该院审核评估基础材料准备齐全，目录完备，并在教学改革和课堂质量改革等方面取得了良好效果。同时，陈安华就教育资源和学科特色方面提出建议，他指出，人文学院要进一步明晰教学定位，突出特色亮点，充分整合社会资源，加强实验室等教学基础设施的建设。&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;施式亮表示，材料科学与工程学院作为一个新成立的学院，发展空间大，今后应以“卓越计划”为引领，制定科学合理规范的标准来丈量自己，明确四个如何，即如何说、如何做、效果如何、如何整改，以此进一步完善顶层设计，提高学院的综合办学水平和实力。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;听取专家组建议之后，各学院负责人纷纷表态，会后将提高认识、做好工作、加强学习，积极完善本科教学审核评估工作的各项材料。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;',`link`='home/file/getfile?type=4&id=bad8c95205cc59d2407a56faa62c72d8',`author`='dddd',`source`='杀杀杀',`time`='2017-10-13',`type`='4' WHERE `id` = 'bad8c95205cc59d2407a56faa62c72d8' [ RunTime:0.0229s ]
+
+[ 2017-05-15T18:55:49+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-05-15T18:55:49+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0104s ]
+
+[ 2017-05-15T18:56:36+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0091s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0112s ]
+
+[ 2017-05-15T18:56:39+08:00 ] 218.75.247.247 /hnust/index.php/updateNews?id=bad8c95205cc59d2407a56faa62c72d8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'bad8c95205cc59d2407a56faa62c72d8'  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2017-05-15T18:57:55+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-05-15T18:58:04+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0089s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000125s ]
+
+[ 2017-05-15T18:58:04+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0086s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-05-15T18:58:04+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-05-15T18:58:10+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-05-15T18:58:11+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-05-15T18:58:11+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0083s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0088s ]
+
+[ 2017-05-15T18:58:18+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '1' ORDER BY time desc  [ RunTime:0.0085s ]
+
+[ 2017-05-15T18:58:19+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0103s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '2' ORDER BY time desc  [ RunTime:0.0107s ]
+
+[ 2017-05-15T18:58:22+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0094s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time desc  [ RunTime:0.0106s ]
+
+[ 2017-05-15T18:58:27+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0088s ]
+
+[ 2017-05-15T18:58:36+08:00 ] 218.75.247.247 /hnust/index.php/deleteinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0095s ]
+SQL: SELECT `link` FROM `hnust_document` WHERE `informid` = 'bad8c95205cc59d2407a56faa62c72d8'  [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0095s ]
+SQL: DELETE FROM `hnust_supervisor` WHERE `id` = 'bad8c95205cc59d2407a56faa62c72d8' [ RunTime:0.0099s ]
+
+[ 2017-05-15T18:58:38+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000097s ]
+
+[ 2017-05-15T19:00:36+08:00 ] 218.75.247.247 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0087s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`,`imgurl`) VALUES ('cce0e9ae1770d0773a6381014558327f','我校开展教学院本科教学审核评估自评工作（四）','&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;img class=&quot;ad-loader&quot; src/&gt;&lt;/p&gt;&lt;div class=&quot;ad-next&quot; style=&quot;height: 382px;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;ad-prev&quot; style=&quot;height: 382px;&quot;&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p class=&quot;ad-info&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;width: 760px;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb0 ad-active&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700206959.jpg&quot;&gt;&lt;img class=&quot;image1&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700206959.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb1&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700199881.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb2&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700049727.jpg&quot;&gt;&lt;img class=&quot;image3&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700049727.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb3&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515113717747350.jpg&quot;&gt;&lt;img class=&quot;image4&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515113717747350.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb4&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515113052957991.jpg&quot;&gt;&lt;img class=&quot;image5&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515113052957991.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;&lt;br/&gt; 　　5月11日，化学化工学院、人文学院以及材料科学与工程学院展开教学院本科教学审核评估自评，审核小组组长、党委副书记朱川曲，审核小组组长、副校长陈安华、施式亮，以及学校本科教学指导委员会专家组及相关职能部门负责人分别对三个学院进行审核评估。&lt;br/&gt;&lt;br/&gt; 　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;上午8点30分，三个教学院分别在学院会议室召开本科教学工作审核评估专家见面会。会上，学院相关负责人从学院基本情况、定位与目标、教师队伍、教学资源、培养过程、学生发展、质量保障、特色工作八个方面入手，向专家组作工作汇报。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;在化学化工学院的工作汇报中，学院负责人结合审核评估标准，从定位目标、质量保障等方面对本学院的各项审核评估准备工作进行了详细的阐述。他表示，学院将以“十三五”规划为建设蓝本，以师资队伍、课程体系与教材、实践教学、人才培养模式、教学研究与改革和大学生创业教育为主要建设内容，在培养德、智、体全面发展的高层次、复合型、具有创新意识的化学化工人才方面实现新的突破。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;　　人文学院负责人首先深入浅出地介绍了学院概况，他表示，学院在学科建设、教育和教学办法、师资队伍建设等方面取得了良好成果。他指出，在培养学生综合素质和提高学生创新能力方面，学院积极利用第二课堂，以艺术节和学校社团组织为核心，多次组织开展戏剧话剧艺术节、班刊设计大赛等大型活动；在规范教师伦理道德方面，学院制定了《人文学院教学伦理守则》。此外，他指出，学院近三年来，考研升学人数逐年攀升，学习与学风有了显著提升。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;材料科学与工程学院负责人在汇报中表示，学院成立之初，为整合资源，形成学院的凝聚力，培养良好的学习与科学研究氛围，学院创立了“才苑”文化品牌，品牌以“新材料、新思想、创新科技与文化”为核心价值，衍生出了“才苑讲堂”、“才苑学子计划”等一系列主题活动，目前，该系列主题活动的开展已取得了显著成效。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;汇报结束后，专家组成员分别对学院的汇报情况展开提问，审核小组组长就审核评估的具体情况提出相关要求，随后，专家组成员相继在现场审核各学院本科教学的有关材料，并召开了座谈会与个别访谈。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;下午5点，专家组成员和相关负责人集中对审核评估内容提出意见，并结合学院具体情况提出建设性的建议和整改措施。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;　　朱川曲在专家意见反馈会上对化学化工学院的自评与教学工作给予了肯定。他表示，学院的资料准备齐全，目录相对完备，工作部署完善。同时他希望化学与化工学院能够结合学院的优势与特色，大力发展特色专业，进一步提高教育教学水平，全面促进学院发展。&lt;br/&gt; 　　&lt;br/&gt; 　　陈安华在专家意见反馈会上对人文学院开展的自评工作及教学工作给予了充分肯定，他表示，该院审核评估基础材料准备齐全，目录完备，并在教学改革和课堂质量改革等方面取得了良好效果。同时，陈安华就教育资源和学科特色方面提出建议，他指出，人文学院要进一步明晰教学定位，突出特色亮点，充分整合社会资源，加强实验室等教学基础设施的建设。&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;施式亮表示，材料科学与工程学院作为一个新成立的学院，发展空间大，今后应以“卓越计划”为引领，制定科学合理规范的标准来丈量自己，明确四个如何，即如何说、如何做、效果如何、如何整改，以此进一步完善顶层设计，提高学院的综合办学水平和实力。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;听取专家组建议之后，各学院负责人纷纷表态，会后将提高认识、做好工作、加强学习，积极完善本科教学审核评估工作的各项材料。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','home/file/getfile?type=4&id=cce0e9ae1770d0773a6381014558327f','文/蔡洁 康欣可 孙慧 吴美佳 王欣 图/刘丽姗 吴江铠 张健 袁颖璇','大学生通讯社','2017-05-12','4','/hnust/Public/img/e1b7661effe49bc46b9c313decadc56a.jpg') [ RunTime:0.0610s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0087s ]
+SQL: UPDATE `hnust_document` SET `informid`='cce0e9ae1770d0773a6381014558327f' WHERE ( informid is null ) [ RunTime:0.0084s ]
+
+[ 2017-05-15T19:00:57+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-05-15T19:01:00+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-05-15T19:01:01+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0083s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0088s ]
+
+[ 2017-05-15T19:01:03+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0095s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0101s ]
+
+[ 2017-05-15T19:01:06+08:00 ] 218.75.247.247 /hnust/index.php/updateNews?id=cce0e9ae1770d0773a6381014558327f
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'cce0e9ae1770d0773a6381014558327f'  [ RunTime:0.0092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-05-15T19:01:21+08:00 ] 218.75.247.247 /hnust/index.php/updateinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0093s ]
+SQL: UPDATE `hnust_supervisor` SET `title`='我校开展教学院本科教学审核评估自评工作（四）',`content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;width: 760px;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb0 ad-active&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700206959.jpg&quot;&gt;&lt;img class=&quot;image1&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700206959.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb1&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700199881.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb2&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700049727.jpg&quot;&gt;&lt;img class=&quot;image3&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515110700049727.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb3&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515113717747350.jpg&quot;&gt;&lt;img class=&quot;image4&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515113717747350.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb4&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170515113052957991.jpg&quot;&gt;&lt;img class=&quot;image5&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170515113052957991.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;&lt;br/&gt; 　　5月11日，化学化工学院、人文学院以及材料科学与工程学院展开教学院本科教学审核评估自评，审核小组组长、党委副书记朱川曲，审核小组组长、副校长陈安华、施式亮，以及学校本科教学指导委员会专家组及相关职能部门负责人分别对三个学院进行审核评估。&lt;br/&gt;&lt;br/&gt; 　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;上午8点30分，三个教学院分别在学院会议室召开本科教学工作审核评估专家见面会。会上，学院相关负责人从学院基本情况、定位与目标、教师队伍、教学资源、培养过程、学生发展、质量保障、特色工作八个方面入手，向专家组作工作汇报。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;在化学化工学院的工作汇报中，学院负责人结合审核评估标准，从定位目标、质量保障等方面对本学院的各项审核评估准备工作进行了详细的阐述。他表示，学院将以“十三五”规划为建设蓝本，以师资队伍、课程体系与教材、实践教学、人才培养模式、教学研究与改革和大学生创业教育为主要建设内容，在培养德、智、体全面发展的高层次、复合型、具有创新意识的化学化工人才方面实现新的突破。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;　　人文学院负责人首先深入浅出地介绍了学院概况，他表示，学院在学科建设、教育和教学办法、师资队伍建设等方面取得了良好成果。他指出，在培养学生综合素质和提高学生创新能力方面，学院积极利用第二课堂，以艺术节和学校社团组织为核心，多次组织开展戏剧话剧艺术节、班刊设计大赛等大型活动；在规范教师伦理道德方面，学院制定了《人文学院教学伦理守则》。此外，他指出，学院近三年来，考研升学人数逐年攀升，学习与学风有了显著提升。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;材料科学与工程学院负责人在汇报中表示，学院成立之初，为整合资源，形成学院的凝聚力，培养良好的学习与科学研究氛围，学院创立了“才苑”文化品牌，品牌以“新材料、新思想、创新科技与文化”为核心价值，衍生出了“才苑讲堂”、“才苑学子计划”等一系列主题活动，目前，该系列主题活动的开展已取得了显著成效。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;汇报结束后，专家组成员分别对学院的汇报情况展开提问，审核小组组长就审核评估的具体情况提出相关要求，随后，专家组成员相继在现场审核各学院本科教学的有关材料，并召开了座谈会与个别访谈。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;下午5点，专家组成员和相关负责人集中对审核评估内容提出意见，并结合学院具体情况提出建设性的建议和整改措施。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;　　朱川曲在专家意见反馈会上对化学化工学院的自评与教学工作给予了肯定。他表示，学院的资料准备齐全，目录相对完备，工作部署完善。同时他希望化学与化工学院能够结合学院的优势与特色，大力发展特色专业，进一步提高教育教学水平，全面促进学院发展。&lt;br/&gt; 　　&lt;br/&gt; 　　陈安华在专家意见反馈会上对人文学院开展的自评工作及教学工作给予了充分肯定，他表示，该院审核评估基础材料准备齐全，目录完备，并在教学改革和课堂质量改革等方面取得了良好效果。同时，陈安华就教育资源和学科特色方面提出建议，他指出，人文学院要进一步明晰教学定位，突出特色亮点，充分整合社会资源，加强实验室等教学基础设施的建设。&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;施式亮表示，材料科学与工程学院作为一个新成立的学院，发展空间大，今后应以“卓越计划”为引领，制定科学合理规范的标准来丈量自己，明确四个如何，即如何说、如何做、效果如何、如何整改，以此进一步完善顶层设计，提高学院的综合办学水平和实力。&lt;/span&gt;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt; 　　&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-family: 宋体&quot;&gt;听取专家组建议之后，各学院负责人纷纷表态，会后将提高认识、做好工作、加强学习，积极完善本科教学审核评估工作的各项材料。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`link`='home/file/getfile?type=4&id=cce0e9ae1770d0773a6381014558327f',`author`='文/蔡洁 康欣可 孙慧 吴美佳 王欣 图/刘丽姗 吴江铠 张健 袁颖璇',`source`='大学生通讯社',`time`='2017-05-12',`type`='4' WHERE `id` = 'cce0e9ae1770d0773a6381014558327f' [ RunTime:0.0110s ]
+
+[ 2017-05-15T19:01:22+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-05-15T19:01:22+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0094s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0099s ]
+
+[ 2017-05-15T19:02:12+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-05-15T19:02:19+08:00 ] 218.75.247.247 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0103s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-05-15T19:02:19+08:00 ] 218.75.247.247 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0083s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000080s ]
+
+[ 2017-05-15T19:02:19+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-05-15T19:03:11+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-05-15T19:03:11+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0107s ]
+
+[ 2017-05-15T19:03:13+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0082s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0088s ]
+
+[ 2017-05-15T19:03:20+08:00 ] 218.75.247.247 /hnust/index.php/updateNews?id=8bfc07d717dd325b9a56845db5eefd71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '8bfc07d717dd325b9a56845db5eefd71'  [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000084s ]
+
+[ 2017-05-15T19:03:36+08:00 ] 218.75.247.247 /hnust/index.php/updateinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0087s ]
+SQL: UPDATE `hnust_supervisor` SET `title`='我校开展教学院本科教学审核评估自评工作（三）',`content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;ad-info&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; float: right; text-indent: 0em; line-height: 24px; color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;1 / 8&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb0 ad-active&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045406365.jpg&quot;&gt;&lt;img class=&quot;image1&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045406365.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb1&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045412493.jpg&quot;&gt;&lt;img class=&quot;image2&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045412493.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb2&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045420503.jpg&quot;&gt;&lt;img class=&quot;image3&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045420503.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb3&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045425668.jpg&quot;&gt;&lt;img class=&quot;image4&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045425668.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb4&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204052148.jpg&quot;&gt;&lt;img class=&quot;image5&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204052148.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb5&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204031863.jpg&quot;&gt;&lt;img class=&quot;image6&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204031863.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb6&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204039924.jpg&quot;&gt;&lt;img class=&quot;image7&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204039924.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb7&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204045088.jpg&quot;&gt;&lt;img class=&quot;image8&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204045088.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; text-indent: 2em; line-height: 24px; color: rgb(0, 0, 0); font-size: 14px; font-family: 宋体, 微软雅黑; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;5月10日，我校生命科学学院、外国语学院、马克思主义学院、机电工程学院展开本科教学审核评估自评工作。审核评估小组组长、党委副书记朱川曲，审核评估小组组长、副校长胡石其、施式亮，学校本科教学指导委员会专家组及相关职能部门负责人共同参与了本次学院审核评估自评。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 上午，四个教学院分别在学院楼会议室召开本科教学工作审核评估专家见面会。学院负责人向专家组系统汇报了本学院办学的基本状况、教学改革以及所取成效。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 汇报会上，生命科学学院负责人对学院的定位与目标、教师队伍、教学资源、培养方式、学生发展、质量保障、特色工作等方面做了介绍。他指出，为了增强学生实践活动能力与社会适应性，学院积极开展了“第二课堂”，使科研平台建设与本科人才培养得到有机结合。同时，学院也将生物科学专业与生物学列入国培省培计划，打造为优势学科。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在本科教学总体情况与特色工作方面，外国语学院负责人表示，学院坚持“立足湖南，面向全国，放眼世界”的办学理念。他指出，外国语学院的办学特色包括培养模式创新、以赛促学、以研促教、创新实验教育四个方面，有力促进了学院综合教学能力和教学质量的提升。对于今后工作，他表示，学院计划引进青年教师，优化教师结构；增强教师的科研与教学互动性，进一步完善培养方案。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 机电工程学院负责人表示，学院的办学定位是“立足湖南，面向长三角和珠三角，服务全国的专业服务”，以培养厚基础、宽口径、强适应、有特长、高素质的复合应用型高级人才为培养目标。他指出，学院始终以教学为中心，以培养人才为大局，优化师资队伍，将学生放在首要位置，全面梳理学院教学档案及教学体系，进一步完善规范管理制度。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 马克思主义学院负责人对本学院的自评自建工作开展情况、教学总体情况、工作亮点与特色进行说明。他认为，学院定位与目标较明确，师资队伍较雄厚，教学资源较丰富，培养过程较严谨，质量保障体系较完备，特色优势较明显；但今后还需要加大教研教改力度，完善课程体系建设，加大经费投入。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 汇报会结束后，各专家组成员于下午5点集中对各学院自评情况进行反馈与点评。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 专家首先对各学院材料的全面整理以及详细程度表示高度肯定。随后，他们有针对性的指出了各学院存在的问题，并提出了相应的整改措施。专家组成员认为，生命科学学院的定位与目标未能较好地与学校的办学定位与目标相呼应，学院特色不够鲜明。对此，他提出要从人才培养定位、服务面向定位、学院发展目标及发展理念定位、学院办学层次定位等四个方面对培养目标进行重新定位。专家组对外国语学院自评报告中的“教学资源”方面提出意见和建议，学院应根据教学需要，突出教学资源优势，明确学院定位和特色，完善教学体系。对于机电工程学院，专家们一致建议提高教师整体教学水平，增加教师数量，以符合学院&amp;quot;至2020年，学科整体实力进入全国50强&amp;quot;的建设目标。&lt;br/&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 反馈会上，对于专家组提出的整改措施与建议，各学院的相关负责人表示将会采取有力的整改措施，完善学院教学工作。&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`link`='home/file/getfile?type=0&id=8bfc07d717dd325b9a56845db5eefd71',`author`='文/韦仙甜 罗佳祺 王颖 郭田甜 图/尹俊宇 陈勃鑫 李雅茹 李宇霞 张健 柳姝萌 田文艺',`source`='大学生通迅社',`time`='2017-05-11',`type`='0' WHERE `id` = '8bfc07d717dd325b9a56845db5eefd71' [ RunTime:0.1273s ]
+
+[ 2017-05-15T19:03:37+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-05-15T19:03:37+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0100s ]
+
+[ 2017-05-15T19:03:46+08:00 ] 218.75.247.247 /hnust/index.php/updateNews?id=8bfc07d717dd325b9a56845db5eefd71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '8bfc07d717dd325b9a56845db5eefd71'  [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000168s ]
+
+[ 2017-05-15T19:03:53+08:00 ] 218.75.247.247 /hnust/index.php/updateinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0084s ]
+SQL: UPDATE `hnust_supervisor` SET `title`='我校开展教学院本科教学审核评估自评工作（三）',`content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p class=&quot;ad-info&quot; style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; float: right; text-indent: 0em; line-height: 24px; color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;1 / 8&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb0 ad-active&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045406365.jpg&quot;&gt;&lt;img class=&quot;image1&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045406365.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb1&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045412493.jpg&quot;&gt;&lt;img class=&quot;image2&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045412493.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb2&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045420503.jpg&quot;&gt;&lt;img class=&quot;image3&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045420503.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb3&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045425668.jpg&quot;&gt;&lt;img class=&quot;image4&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095045425668.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb4&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204052148.jpg&quot;&gt;&lt;img class=&quot;image5&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204052148.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb5&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204031863.jpg&quot;&gt;&lt;img class=&quot;image6&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204031863.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb6&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204039924.jpg&quot;&gt;&lt;img class=&quot;image7&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204039924.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb7&quot; style=&quot;margin: 0px; padding: 0px; text-align: center; color: rgb(65, 117, 190); text-decoration: none; display: block;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204045088.jpg&quot;&gt;&lt;img class=&quot;image8&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170511095204045088.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; text-indent: 2em; line-height: 24px; color: rgb(0, 0, 0); font-size: 14px; font-family: 宋体, 微软雅黑; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-size: 14px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; font-style: normal; border: 0px; font-family: 宋体;&quot;&gt;5月10日，我校生命科学学院、外国语学院、马克思主义学院、机电工程学院展开本科教学审核评估自评工作。审核评估小组组长、党委副书记朱川曲，审核评估小组组长、副校长胡石其、施式亮，学校本科教学指导委员会专家组及相关职能部门负责人共同参与了本次学院审核评估自评。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 上午，四个教学院分别在学院楼会议室召开本科教学工作审核评估专家见面会。学院负责人向专家组系统汇报了本学院办学的基本状况、教学改革以及所取成效。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 汇报会上，生命科学学院负责人对学院的定位与目标、教师队伍、教学资源、培养方式、学生发展、质量保障、特色工作等方面做了介绍。他指出，为了增强学生实践活动能力与社会适应性，学院积极开展了“第二课堂”，使科研平台建设与本科人才培养得到有机结合。同时，学院也将生物科学专业与生物学列入国培省培计划，打造为优势学科。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 在本科教学总体情况与特色工作方面，外国语学院负责人表示，学院坚持“立足湖南，面向全国，放眼世界”的办学理念。他指出，外国语学院的办学特色包括培养模式创新、以赛促学、以研促教、创新实验教育四个方面，有力促进了学院综合教学能力和教学质量的提升。对于今后工作，他表示，学院计划引进青年教师，优化教师结构；增强教师的科研与教学互动性，进一步完善培养方案。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 机电工程学院负责人表示，学院的办学定位是“立足湖南，面向长三角和珠三角，服务全国的专业服务”，以培养厚基础、宽口径、强适应、有特长、高素质的复合应用型高级人才为培养目标。他指出，学院始终以教学为中心，以培养人才为大局，优化师资队伍，将学生放在首要位置，全面梳理学院教学档案及教学体系，进一步完善规范管理制度。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 马克思主义学院负责人对本学院的自评自建工作开展情况、教学总体情况、工作亮点与特色进行说明。他认为，学院定位与目标较明确，师资队伍较雄厚，教学资源较丰富，培养过程较严谨，质量保障体系较完备，特色优势较明显；但今后还需要加大教研教改力度，完善课程体系建设，加大经费投入。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 汇报会结束后，各专家组成员于下午5点集中对各学院自评情况进行反馈与点评。&lt;br/&gt;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 专家首先对各学院材料的全面整理以及详细程度表示高度肯定。随后，他们有针对性的指出了各学院存在的问题，并提出了相应的整改措施。专家组成员认为，生命科学学院的定位与目标未能较好地与学校的办学定位与目标相呼应，学院特色不够鲜明。对此，他提出要从人才培养定位、服务面向定位、学院发展目标及发展理念定位、学院办学层次定位等四个方面对培养目标进行重新定位。专家组对外国语学院自评报告中的“教学资源”方面提出意见和建议，学院应根据教学需要，突出教学资源优势，明确学院定位和特色，完善教学体系。对于机电工程学院，专家们一致建议提高教师整体教学水平，增加教师数量，以符合学院&amp;quot;至2020年，学科整体实力进入全国50强&amp;quot;的建设目标。&lt;br/&gt;&amp;nbsp;&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 反馈会上，对于专家组提出的整改措施与建议，各学院的相关负责人表示将会采取有力的整改措施，完善学院教学工作。&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`link`='home/file/getfile?type=4&id=8bfc07d717dd325b9a56845db5eefd71',`author`='文/韦仙甜 罗佳祺 王颖 郭田甜 图/尹俊宇 陈勃鑫 李雅茹 李宇霞 张健 柳姝萌 田文艺',`source`='大学生通迅社',`time`='2017-05-11',`type`='4' WHERE `id` = '8bfc07d717dd325b9a56845db5eefd71' [ RunTime:0.0086s ]
+
+[ 2017-05-15T19:03:54+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-05-15T19:03:55+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0079s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0085s ]
+
+[ 2017-05-15T19:04:00+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0097s ]
+
+[ 2017-05-15T19:04:10+08:00 ] 218.75.247.247 /hnust/index.php/updateNews?id=a1be84743e9ba23720f2539cabba0913
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = 'a1be84743e9ba23720f2539cabba0913'  [ RunTime:0.0091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000100s ]
+
+[ 2017-05-15T19:06:34+08:00 ] 218.75.247.247 /hnust/index.php/updateinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0092s ]
+SQL: UPDATE `hnust_supervisor` SET `title`='我校开展教学院本科教学审核评估自评工作（二）',`content`='&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img width=&quot;573&quot; height=&quot;382&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853792151.jpg&quot;/&gt;a&lt;/p&gt;&lt;ul class=&quot;ad-thumb-list list-paddingleft-2&quot; style=&quot;list-style-type: none;&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb2&quot; style=&quot;text-decoration-line: none; color: rgb(65, 117, 190); margin: 0px; padding: 0px; display: block; text-align: center;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853799287.jpg&quot;&gt;&lt;img class=&quot;image3&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853799287.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb3&quot; style=&quot;text-decoration-line: none; color: rgb(65, 117, 190); margin: 0px; padding: 0px; display: block; text-align: center;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853787093.jpg&quot;&gt;&lt;img class=&quot;image4&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853787093.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb4&quot; style=&quot;text-decoration-line: none; color: rgb(65, 117, 190); margin: 0px; padding: 0px; display: block; text-align: center;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853805399.jpg&quot;&gt;&lt;img class=&quot;image5&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853805399.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;a class=&quot;ad-thumb5&quot; style=&quot;text-decoration-line: none; color: rgb(65, 117, 190); margin: 0px; padding: 0px; display: block; text-align: center;&quot; href=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853811421.jpg&quot;&gt;&lt;img class=&quot;image6&quot; src=&quot;http://news.hnust.cn/images/content/2017-05/20170510133853811421.jpg&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; line-height: 24px; font-size: 14px; font-family: 宋体, 微软雅黑; white-space: normal; widows: 1; text-align: left; text-indent: 0em;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px; border: 0px; font-family: 宋体;&quot;&gt;&amp;nbsp; &amp;nbsp;5月9日，我校物理与电子科学学院、商学院、体育学院、资源环境与安全工程学院分别展开了教学院本科教学审核评估自评工作。评估小组组长、党委副书记朱川曲，评估小组组长、副校长陈安华、胡石其、施式亮及评估专家组其他成员就学院基本情况、定位与目标、师资队伍、教学资源、培养过程、学生发展、质量保证及办学特色等方面展开评估。&lt;br/&gt;&amp;nbsp; &amp;nbsp;专家见面会上，四个学院分别作评估工作汇报。物理与电子科学学院负责人详细汇报了学院的“物理学专业校企合作创新创业教育基地”、第二课堂教学、物理学理论教学及实验教学三个特色项目。体育学院负责人重点提到该院发挥专业优势，开展“教学、训练、展演汇报”一体化活动的办学特色。“面向社会，面向现代化，注重实验与教学相结合，切实将专业知识落到实处”商学院负责人详细介绍了学院的实践办学特色及人才培养理念。资源环境与安全工程学院负责人表示，学院致力建立质量保障体系，稳固本科教学中心地位，促进教学研讨制度化，推进常规教学质量监控常态化，建立多元化评教体系。&lt;br/&gt;&amp;nbsp; &amp;nbsp;汇报会结束后，各专家组组长对各学院本科教学工作进行点评，并提出相关要求。&lt;br/&gt;&amp;nbsp; &amp;nbsp;朱川曲在专家意见反馈会上对物理与电子科学学院开展的教学工作以及自评工作上表示肯定。同时，他就该院在学院定位以及人才培养目标上提出建议：“学院开展的特色项目要加强整合，并以此作为独属于本学院的特色项目着重发展。&lt;br/&gt;&amp;nbsp; &amp;nbsp;对商学院的教学及自评工作，陈安华给予了高度评价：“该院建立覆盖教学全过程的监控体系，前期、中期、后期监控三个环节，环环相扣，质量稳步提高，学风良好。”同时，他指出，商学院应当加强教研与教学的互动，以科研促教学。&lt;br/&gt;&amp;nbsp; &amp;nbsp;胡石其在反馈会上表示：“体育学院的办学定位十分明确，近几年来引进的人才质量逐步提高，整体教学资源有明显优化。”他同时建议体育学院应增强开放办学的力度，充分利用学校的办学资源，强化办学特色。&lt;br/&gt;&amp;nbsp; &amp;nbsp;施式亮在专家意见反馈会上肯定了资源环境与安全工程学院在本科教学工作中取得的成效。对如何进一步提升本科教学质量，他指出，学院应该进一步凸显办学特色，丰富课程资源。&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',`link`='home/file/getfile?type=4&id=a1be84743e9ba23720f2539cabba0913',`author`='文/德吉卓玛 康欣可 翁素丽 邓晓亿 图/孙继 何鑫 柳姝萌',`source`='大学生通讯社',`time`='2017-05-09',`type`='4' WHERE `id` = 'a1be84743e9ba23720f2539cabba0913' [ RunTime:0.0226s ]
+
+[ 2017-05-15T19:06:36+08:00 ] 218.75.247.247 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000127s ]
+
+[ 2017-05-15T19:06:36+08:00 ] 218.75.247.247 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0138s ]
+

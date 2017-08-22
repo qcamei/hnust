@@ -1,0 +1,424 @@
+[ 2017-06-13T15:43:25+08:00 ] 111.8.85.137 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2017-06-13T15:43:31+08:00 ] 111.8.85.137 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0092s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-06-13T15:43:31+08:00 ] 111.8.85.137 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0110s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-06-13T15:43:31+08:00 ] 111.8.85.137 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-06-13T15:54:18+08:00 ] 111.8.85.137 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-06-13T15:55:19+08:00 ] 111.8.85.137 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0078s ]
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`) VALUES ('559e86a4a2baf9e5a755dc9b7f1be591','【教学审核评估】土木工程学院：“教”与“学”双管齐下　全面护航教学工作','&lt;p&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;5&lt;/span&gt;月&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;8&lt;/span&gt;日至&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;12&lt;/span&gt;日，我校开展各教学院本科教学审核评估自评工作，在审核评估过程中，土木工程学院的本科教学工作赢得了我校专家组的好评。土木工程学院始终坚持以提高人才培养质量为工作中心，“全面提高教学质量，严格把控教学监管”是教学院的核心思想理念，形成了“教”与“学”双管齐下，学院制度、师资、科研以及管理服务全方面护航本科教学工作的良好格局。&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;&lt;strong&gt;&lt;br/&gt;　　课堂教学：教师首先要站稳讲台&lt;br/&gt;　　&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;“从这次成绩来看，学生的学习劲头整体呈上坡态势，这和分数的刺激以及‘班主任效应’都是有关的，但也可以看出仍有一部分学生对教材基础内容知识不够熟悉，接下来的教学工作要围绕此方面重点开展。”&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;4&lt;/span&gt;月底，潇湘学院&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;15&lt;/span&gt;级建筑工程专业的《结构力学（上）》期中考试刚刚结束，任课教师张鹄志便将自己对此次考试和教学过程进行的思考记录成文，并上交学院教务办存档，以便为后续工作开展作参考。&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;&lt;br/&gt;　　张鹄志来到土木工程学院任教已有两年，每一次组织完考试，他都会统计学生成绩并从中分析学生的学习态势，寻找学生成绩提高或降低的原因，以便更好地开展教学工作。在他看来，青年教师阅历浅，经验少，通过数据分析来提高自己的教学水平也不失为一种方法。“教师首先要站稳讲台，要不断学习，潜心教学，这是我刚来任教时在学院其他教师身上学到的第一件事。”张鹄志感慨道。&lt;br/&gt;&lt;br/&gt;　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;在土木工程学院，教师任课的第一天便要接收“站稳讲台，潜心教学”的教学理念。学院在《土木工程学院试讲、听课与查课管理规定》中明确要求，在每学期的开学第一天，新开课和开新课的教师必须在系主任组织下按指定的内容进行试讲，试讲时间一般为&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;45&lt;/span&gt;分钟，经集体讨论评议，确认能完成主讲任务才能上课，而青年教师的课堂教学尤其重要，是听课的重点，听课时老师要做记录，听课后要有信息反馈和交流。&lt;br/&gt;&lt;br/&gt;　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;工程力学系教师黄刚海去年刚来学院任教，一年下来，不仅被全体院系领导听了课，自己也向优秀教师“取经”，听了&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;70&lt;/span&gt;多节课，记满了&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;6&lt;/span&gt;本听课笔记。“我觉得，将听课制度化，这不是要求教师完成听课任务，而是提醒我们教师，在教学工作中要不断学习，不断对比。”黄刚海对听课制度深有感触，他的教学因此更加得心应手。&lt;br/&gt;&lt;br/&gt;　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;“青年教师们的教学劲头越来越大自然也少不了学院的支持与鼓励。”去年&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;9&lt;/span&gt;月份，建工系系主任李永贵荣获全国高校青年教师教学竞赛三等奖，提到学院对青年教师的鼓励措施，他如数家珍，“学院每年都会积极鼓励青年教师参加各类讲课比赛，支持青年教师开展交流、培训、出国进修。”在学院的关心与重视下，近年来学院各系部涌现出一大批教学水平高的教师，获省部级以上教学奖励&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;33&lt;/span&gt;项，在全国及湖南省普通高校教师课堂教学竞赛中，获国家三等奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;1&lt;/span&gt;项，省级一等奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;2&lt;/span&gt;项，省级二等奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;1&lt;/span&gt;项，三等奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;3&lt;/span&gt;项，居全校各学院前列。&lt;br/&gt;&lt;br/&gt;　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;“一个学院的教学工作要做好，就要充分发挥所有教师的优势，不能单看青年教师。”土木工程学院院长祝明桥介绍，学院制定了《土木工程学院教师评价体系方案》，要求具有高级职称的老师每年都必须给本科生上课，近年来，学院教授、副教授为本科生上课比例也达到&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;98%&lt;/span&gt;，让课堂教学水平稳步提高。&lt;br/&gt;&lt;br/&gt;　　&lt;strong&gt;学生培养：“动手”与“动脑”同等重要&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;　　“非常感谢这次实习让我找到了工作的感觉，实践中学到的东西都是课堂上难以提及的或是容易忽视的。”&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;13&lt;/span&gt;级岩土与城市地下方向专业的周普在完成大三的专业基础课和主干专业课学习后，便直接去了一家工程单位进行了为期&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;18&lt;/span&gt;周的综合实习，实习结束后，他感慨这是“从动脑学习到动手学习”的一大转变。&lt;br/&gt;&lt;br/&gt;　　市场竞争日益激烈，市场对人才的需求也更加多样化、多层次化。为在市场经济的大潮中处于不败之地，土木工程学院基于高素质应用型人才的培养目标定位，创新特色人才培养模式，注重实践教学环节的改革，培养学生的创新意识，锻炼学生的综合实践能力与就业创业能力。&lt;br/&gt;&lt;br/&gt;　　“在实践教学环节，学院进行了优化，按&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;PBL&lt;/span&gt;项目式学习模式对学生进行课程设计、毕业设计。”学院教务办主任罗小红介绍，这种模式主要包括调整课程设置、整合实习类别、延长实习时间、打破学期与假期限制，“学生在上完大三的课程后，拥有了比较丰富的理论储备，再进行实习，更能够胜任工程单位安排的技术工作，同时也能真正了解如何‘动手’。”罗小红表示，学院已建立近&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;20&lt;/span&gt;个校外实习基地，其中与湘潭路桥集团建立了湖南省教育厅校企合作人才培养示范基地，与湖南凌天科技股份有限公司建立了湖南省优秀实习基地，给学生打造了更优质的实习后盾。&lt;br/&gt;&lt;br/&gt;　　实践教学贯穿学院本科教学始终，&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;PBL&lt;/span&gt;项目式学习模式也包括增设创新试验课程，构建综合性、设计性试验教学体系，为暂不能外出实习的学生提供了各类学科竞赛与科研实践，让他们也体会到动手学习的滋味。&lt;br/&gt;&lt;br/&gt;　　从大一抱着玩玩的心态参加竞赛到大三头悬梁、锥刺股投入竞赛，&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;14&lt;/span&gt;级建筑工程专业的李顺业对竞赛“上瘾”了。三年间，他参加大学生挑战杯竞赛、节能减排大赛、结构设计竞赛等科研实践和学科竞赛十余次，获得校级奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;10&lt;/span&gt;个，省级奖两个。在竞赛过程中，李顺业和团队成员们不仅没有落下日常学习，反而对知识的掌握越来越快，越来越深，这令老师们惊在眼里，喜在心里。“我之所以不断参加竞赛，首先是因为在实践中学习更能体会到成就感，其次才是想获奖。”&lt;br/&gt;&lt;br/&gt;　　“学生在第一课堂上学到理论知识，那第二课堂就是他们大展身手的舞台。”罗小红认为，高素质应用型人才的培养，创新意识与动手实践能力缺一不可，“以赛代训”无疑是一个不错的选择。而对于打造学生的第二课堂，土木工程学院也建立了公平竞争的选拔机制、高效运作的联动机制以及配套奖励的激励机制，以各类学科竞赛和科研实践为抓手，促进学生创新培养。&lt;br/&gt;&lt;br/&gt;　　据了解，土木工程学院每年都有&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;500&lt;/span&gt;余人参加大学生挑战杯竞赛、节能减排大赛、结构设计竞赛、力学竞赛等各类科研实践和学科竞赛。近五年来，已有&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;15&lt;/span&gt;支学生团队在省级及以上结构设计竞赛上获奖。&lt;br/&gt;&lt;br/&gt;　　&lt;strong&gt;质量保障：“教”与“学”协同进步&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;　　“禹老师讲课生动，理论结合事例深入浅出，课堂纪律严格，无人玩手机。”此句评语出自&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;14&lt;/span&gt;级工程力学二班学习委员朱明沁记录的课堂日志，日志中详细记录了学生对该堂课提出的优、缺点以及对任课教师的建议和意见。据朱明沁说，学院要求每班学习委员每节课如实填写班级“课堂日志”，并每周汇总统计一次反馈到学院及任课老师。这一项“接地气”的“课堂日志”制度在土木工程学院已经实行多年，学生“监控”课堂也保障了课堂教学质量。&lt;br/&gt;&lt;br/&gt;　　“人才培养是车轮，教学工作是推动其前进的发动机，而教学质量保障体系与监控是连接二者的车链，三者缺一不可。”祝明桥表示，“课堂日志”制度是学院本科教学质量监控中的一项特色内容。近年来，学院制定了《土木工程学院教风学风状态定期分析制度》、《本科毕业设计（论文）管理规定》等&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;23&lt;/span&gt;项规章制度，规范了教学运行与管理、教学质量与监控、教学奖励与惩罚等各环节的教学工作，保证了教学工作有章可循。&lt;br/&gt;&lt;br/&gt;　　教学质量监控以课堂教学为主，并延伸到教学各环节。对于课堂教学的教风监控，学院通过坚持每学期组织“期初”“期中”“期末”三次教学检查、领导听课制度、教师听课评课制度、“课堂日志”制度等八项具体制度加以落实。比如《土木工程学院试讲、听课与查课管理规定》中便明确提出，学院分管教学的院领导每学期听课应不少于&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;10&lt;/span&gt;次，其他院领导、系主任和教务秘书每学期听课不少于&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;6&lt;/span&gt;次，主讲教师相互听课每学期不少于&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;4&lt;/span&gt;次。&lt;br/&gt;&lt;br/&gt;　　“坚持院系领导听课制度化，就是把好课堂教学质量关，同时也能督促任课教师潜心教学，促进教师间交流学习，何乐而不为？”祝明桥表示，学院也会根据《土木工程学院教风学风状态定期分析制度》，定期召开教风学风分析大会，了解当前教学状态，让教师始终保持学习意识与紧迫感。&lt;br/&gt;&lt;br/&gt;　　“教”与“学”息息相关，质量监控也督促学院学风日臻改善。土木工程学院制定和完善了《辅导员、班主任工作条例》、《土木工程学院国家奖学金、国家励志奖学金综合评定办法》等&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;10&lt;/span&gt;余项相关制度，规范了学习和考试纪律，促进学风；同时，建立了家校联系平台，实现家校共同管理和教育。近年来，学院已通过学院网上平台向学生家长通告学习情况&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;2000&lt;/span&gt;余次，实现了学校教育与家庭教育的有效互动。&lt;br/&gt;&lt;br/&gt;　　“教学质量保障体系与监控的建立是为了寻找教学问题也是为了督促解决问题，学院多年来一直认识到位，重视教学，从多个方面推动教学质量改进，取得了一定的效果。”祝明桥以&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;13&lt;/span&gt;级学生为例，“四级过级率达到&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;73.71%&lt;/span&gt;，考研率达到&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;24%&lt;/span&gt;以上，重修补考率逐年下降，就业率和考研率稳步提升，教学工作成效喜人。”&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;','home/file/getfile?type=4&id=559e86a4a2baf9e5a755dc9b7f1be591','文/彭澎 ','大学生通讯社','2017-06-09','4') [ RunTime:0.0505s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0077s ]
+SQL: UPDATE `hnust_document` SET `informid`='559e86a4a2baf9e5a755dc9b7f1be591' WHERE ( informid is null ) [ RunTime:0.0075s ]
+
+[ 2017-06-13T15:57:30+08:00 ] 111.8.85.137 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000091s ]
+
+[ 2017-06-13T15:57:32+08:00 ] 111.8.85.137 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-06-13T15:57:32+08:00 ] 111.8.85.137 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-06-13T15:57:35+08:00 ] 111.8.85.137 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0104s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0106s ]
+
+[ 2017-06-13T15:57:39+08:00 ] 111.8.85.137 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0114s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0113s ]
+
+[ 2017-06-13T15:57:47+08:00 ] 111.8.85.137 /hnust/index.php/deleteinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0112s ]
+SQL: SELECT `link` FROM `hnust_document` WHERE `informid` = '3d08b99a6fe8e38a958d2595c0efb14f'  [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0112s ]
+SQL: DELETE FROM `hnust_supervisor` WHERE `id` = '3d08b99a6fe8e38a958d2595c0efb14f' [ RunTime:0.0111s ]
+
+[ 2017-06-13T19:38:05+08:00 ] 119.39.148.198 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: error /home/ubuntu/hnust/HNUST/Runtime/Cache/Admin/50d2c8a1262c3fe8cb5c41323de340c0.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-06-13T19:38:08+08:00 ] 119.39.148.198 /hnust/index.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0099s ]
+SQL: SELECT `password` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000195s ]
+
+[ 2017-06-13T19:38:08+08:00 ] 119.39.148.198 /hnust/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `hnust_user` [ RunTime:0.0088s ]
+SQL: SELECT `authority`,`nickname` FROM `hnust_user` WHERE `username` = '1405020204'  [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-06-13T19:38:11+08:00 ] 119.39.148.198 /hnust/index.php/admin?target=index_v1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-06-13T19:39:34+08:00 ] 119.39.148.198 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-06-13T19:39:37+08:00 ] 119.39.148.198 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0109s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0114s ]
+
+[ 2017-06-13T19:39:40+08:00 ] 119.39.148.198 /hnust/index.php/getinformList?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0103s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '4' ORDER BY time desc  [ RunTime:0.0104s ]
+
+[ 2017-06-13T19:39:42+08:00 ] 119.39.148.198 /hnust/index.php/updateNews?id=559e86a4a2baf9e5a755dc9b7f1be591
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `hnust_supervisor` WHERE `id` = '559e86a4a2baf9e5a755dc9b7f1be591'  [ RunTime:0.0207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000078s ]
+
+[ 2017-06-13T19:39:57+08:00 ] 119.39.148.198 /hnust/index.php/updateinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0119s ]
+SQL: UPDATE `hnust_supervisor` SET `title`='土木工程学院：“教”与“学”双管齐下　全面护航教学工作',`content`='&lt;p&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;5&lt;/span&gt;月&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;8&lt;/span&gt;日至&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;12&lt;/span&gt;日，我校开展各教学院本科教学审核评估自评工作，在审核评估过程中，土木工程学院的本科教学工作赢得了我校专家组的好评。土木工程学院始终坚持以提高人才培养质量为工作中心，“全面提高教学质量，严格把控教学监管”是教学院的核心思想理念，形成了“教”与“学”双管齐下，学院制度、师资、科研以及管理服务全方面护航本科教学工作的良好格局。&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;&lt;strong&gt;&lt;br/&gt;　　课堂教学：教师首先要站稳讲台&lt;br/&gt;　　&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;“从这次成绩来看，学生的学习劲头整体呈上坡态势，这和分数的刺激以及‘班主任效应’都是有关的，但也可以看出仍有一部分学生对教材基础内容知识不够熟悉，接下来的教学工作要围绕此方面重点开展。”&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;4&lt;/span&gt;月底，潇湘学院&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;15&lt;/span&gt;级建筑工程专业的《结构力学（上）》期中考试刚刚结束，任课教师张鹄志便将自己对此次考试和教学过程进行的思考记录成文，并上交学院教务办存档，以便为后续工作开展作参考。&lt;br/&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;&lt;br/&gt;　　张鹄志来到土木工程学院任教已有两年，每一次组织完考试，他都会统计学生成绩并从中分析学生的学习态势，寻找学生成绩提高或降低的原因，以便更好地开展教学工作。在他看来，青年教师阅历浅，经验少，通过数据分析来提高自己的教学水平也不失为一种方法。“教师首先要站稳讲台，要不断学习，潜心教学，这是我刚来任教时在学院其他教师身上学到的第一件事。”张鹄志感慨道。&lt;br/&gt;&lt;br/&gt;　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;在土木工程学院，教师任课的第一天便要接收“站稳讲台，潜心教学”的教学理念。学院在《土木工程学院试讲、听课与查课管理规定》中明确要求，在每学期的开学第一天，新开课和开新课的教师必须在系主任组织下按指定的内容进行试讲，试讲时间一般为&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;45&lt;/span&gt;分钟，经集体讨论评议，确认能完成主讲任务才能上课，而青年教师的课堂教学尤其重要，是听课的重点，听课时老师要做记录，听课后要有信息反馈和交流。&lt;br/&gt;&lt;br/&gt;　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;工程力学系教师黄刚海去年刚来学院任教，一年下来，不仅被全体院系领导听了课，自己也向优秀教师“取经”，听了&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;70&lt;/span&gt;多节课，记满了&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;6&lt;/span&gt;本听课笔记。“我觉得，将听课制度化，这不是要求教师完成听课任务，而是提醒我们教师，在教学工作中要不断学习，不断对比。”黄刚海对听课制度深有感触，他的教学因此更加得心应手。&lt;br/&gt;&lt;br/&gt;　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;“青年教师们的教学劲头越来越大自然也少不了学院的支持与鼓励。”去年&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;9&lt;/span&gt;月份，建工系系主任李永贵荣获全国高校青年教师教学竞赛三等奖，提到学院对青年教师的鼓励措施，他如数家珍，“学院每年都会积极鼓励青年教师参加各类讲课比赛，支持青年教师开展交流、培训、出国进修。”在学院的关心与重视下，近年来学院各系部涌现出一大批教学水平高的教师，获省部级以上教学奖励&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;33&lt;/span&gt;项，在全国及湖南省普通高校教师课堂教学竞赛中，获国家三等奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;1&lt;/span&gt;项，省级一等奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;2&lt;/span&gt;项，省级二等奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;1&lt;/span&gt;项，三等奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;3&lt;/span&gt;项，居全校各学院前列。&lt;br/&gt;&lt;br/&gt;　　&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体, 微软雅黑;font-size: 14px;line-height: 24px;text-indent: 28px;&quot;&gt;&lt;span style=&quot;;padding: 0px;border: 0px;font-family: 宋体&quot;&gt;“一个学院的教学工作要做好，就要充分发挥所有教师的优势，不能单看青年教师。”土木工程学院院长祝明桥介绍，学院制定了《土木工程学院教师评价体系方案》，要求具有高级职称的老师每年都必须给本科生上课，近年来，学院教授、副教授为本科生上课比例也达到&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;98%&lt;/span&gt;，让课堂教学水平稳步提高。&lt;br/&gt;&lt;br/&gt;　　&lt;strong&gt;学生培养：“动手”与“动脑”同等重要&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;　　“非常感谢这次实习让我找到了工作的感觉，实践中学到的东西都是课堂上难以提及的或是容易忽视的。”&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;13&lt;/span&gt;级岩土与城市地下方向专业的周普在完成大三的专业基础课和主干专业课学习后，便直接去了一家工程单位进行了为期&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;18&lt;/span&gt;周的综合实习，实习结束后，他感慨这是“从动脑学习到动手学习”的一大转变。&lt;br/&gt;&lt;br/&gt;　　市场竞争日益激烈，市场对人才的需求也更加多样化、多层次化。为在市场经济的大潮中处于不败之地，土木工程学院基于高素质应用型人才的培养目标定位，创新特色人才培养模式，注重实践教学环节的改革，培养学生的创新意识，锻炼学生的综合实践能力与就业创业能力。&lt;br/&gt;&lt;br/&gt;　　“在实践教学环节，学院进行了优化，按&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;PBL&lt;/span&gt;项目式学习模式对学生进行课程设计、毕业设计。”学院教务办主任罗小红介绍，这种模式主要包括调整课程设置、整合实习类别、延长实习时间、打破学期与假期限制，“学生在上完大三的课程后，拥有了比较丰富的理论储备，再进行实习，更能够胜任工程单位安排的技术工作，同时也能真正了解如何‘动手’。”罗小红表示，学院已建立近&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;20&lt;/span&gt;个校外实习基地，其中与湘潭路桥集团建立了湖南省教育厅校企合作人才培养示范基地，与湖南凌天科技股份有限公司建立了湖南省优秀实习基地，给学生打造了更优质的实习后盾。&lt;br/&gt;&lt;br/&gt;　　实践教学贯穿学院本科教学始终，&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;PBL&lt;/span&gt;项目式学习模式也包括增设创新试验课程，构建综合性、设计性试验教学体系，为暂不能外出实习的学生提供了各类学科竞赛与科研实践，让他们也体会到动手学习的滋味。&lt;br/&gt;&lt;br/&gt;　　从大一抱着玩玩的心态参加竞赛到大三头悬梁、锥刺股投入竞赛，&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;14&lt;/span&gt;级建筑工程专业的李顺业对竞赛“上瘾”了。三年间，他参加大学生挑战杯竞赛、节能减排大赛、结构设计竞赛等科研实践和学科竞赛十余次，获得校级奖&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;10&lt;/span&gt;个，省级奖两个。在竞赛过程中，李顺业和团队成员们不仅没有落下日常学习，反而对知识的掌握越来越快，越来越深，这令老师们惊在眼里，喜在心里。“我之所以不断参加竞赛，首先是因为在实践中学习更能体会到成就感，其次才是想获奖。”&lt;br/&gt;&lt;br/&gt;　　“学生在第一课堂上学到理论知识，那第二课堂就是他们大展身手的舞台。”罗小红认为，高素质应用型人才的培养，创新意识与动手实践能力缺一不可，“以赛代训”无疑是一个不错的选择。而对于打造学生的第二课堂，土木工程学院也建立了公平竞争的选拔机制、高效运作的联动机制以及配套奖励的激励机制，以各类学科竞赛和科研实践为抓手，促进学生创新培养。&lt;br/&gt;&lt;br/&gt;　　据了解，土木工程学院每年都有&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;500&lt;/span&gt;余人参加大学生挑战杯竞赛、节能减排大赛、结构设计竞赛、力学竞赛等各类科研实践和学科竞赛。近五年来，已有&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;15&lt;/span&gt;支学生团队在省级及以上结构设计竞赛上获奖。&lt;br/&gt;&lt;br/&gt;　　&lt;strong&gt;质量保障：“教”与“学”协同进步&lt;/strong&gt;&lt;br/&gt;&lt;br/&gt;　　“禹老师讲课生动，理论结合事例深入浅出，课堂纪律严格，无人玩手机。”此句评语出自&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;14&lt;/span&gt;级工程力学二班学习委员朱明沁记录的课堂日志，日志中详细记录了学生对该堂课提出的优、缺点以及对任课教师的建议和意见。据朱明沁说，学院要求每班学习委员每节课如实填写班级“课堂日志”，并每周汇总统计一次反馈到学院及任课老师。这一项“接地气”的“课堂日志”制度在土木工程学院已经实行多年，学生“监控”课堂也保障了课堂教学质量。&lt;br/&gt;&lt;br/&gt;　　“人才培养是车轮，教学工作是推动其前进的发动机，而教学质量保障体系与监控是连接二者的车链，三者缺一不可。”祝明桥表示，“课堂日志”制度是学院本科教学质量监控中的一项特色内容。近年来，学院制定了《土木工程学院教风学风状态定期分析制度》、《本科毕业设计（论文）管理规定》等&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;23&lt;/span&gt;项规章制度，规范了教学运行与管理、教学质量与监控、教学奖励与惩罚等各环节的教学工作，保证了教学工作有章可循。&lt;br/&gt;&lt;br/&gt;　　教学质量监控以课堂教学为主，并延伸到教学各环节。对于课堂教学的教风监控，学院通过坚持每学期组织“期初”“期中”“期末”三次教学检查、领导听课制度、教师听课评课制度、“课堂日志”制度等八项具体制度加以落实。比如《土木工程学院试讲、听课与查课管理规定》中便明确提出，学院分管教学的院领导每学期听课应不少于&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;10&lt;/span&gt;次，其他院领导、系主任和教务秘书每学期听课不少于&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;6&lt;/span&gt;次，主讲教师相互听课每学期不少于&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;4&lt;/span&gt;次。&lt;br/&gt;&lt;br/&gt;　　“坚持院系领导听课制度化，就是把好课堂教学质量关，同时也能督促任课教师潜心教学，促进教师间交流学习，何乐而不为？”祝明桥表示，学院也会根据《土木工程学院教风学风状态定期分析制度》，定期召开教风学风分析大会，了解当前教学状态，让教师始终保持学习意识与紧迫感。&lt;br/&gt;&lt;br/&gt;　　“教”与“学”息息相关，质量监控也督促学院学风日臻改善。土木工程学院制定和完善了《辅导员、班主任工作条例》、《土木工程学院国家奖学金、国家励志奖学金综合评定办法》等&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;10&lt;/span&gt;余项相关制度，规范了学习和考试纪律，促进学风；同时，建立了家校联系平台，实现家校共同管理和教育。近年来，学院已通过学院网上平台向学生家长通告学习情况&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;2000&lt;/span&gt;余次，实现了学校教育与家庭教育的有效互动。&lt;br/&gt;&lt;br/&gt;　　“教学质量保障体系与监控的建立是为了寻找教学问题也是为了督促解决问题，学院多年来一直认识到位，重视教学，从多个方面推动教学质量改进，取得了一定的效果。”祝明桥以&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;13&lt;/span&gt;级学生为例，“四级过级率达到&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;73.71%&lt;/span&gt;，考研率达到&lt;span style=&quot;;padding: 0px;border: 0px&quot;&gt;24%&lt;/span&gt;以上，重修补考率逐年下降，就业率和考研率稳步提升，教学工作成效喜人。”&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;',`link`='home/file/getfile?type=4&id=559e86a4a2baf9e5a755dc9b7f1be591',`author`='文/彭澎 ',`source`='大学生通讯社',`time`='2017-06-09',`type`='4' WHERE `id` = '559e86a4a2baf9e5a755dc9b7f1be591' [ RunTime:0.0235s ]
+
+[ 2017-06-13T19:39:59+08:00 ] 119.39.148.198 /hnust/index.php/admin?target=inform_notice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-06-13T19:40:00+08:00 ] 119.39.148.198 /hnust/index.php/getinformList?type=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '0' ORDER BY time desc  [ RunTime:0.0096s ]
+
+[ 2017-06-13T19:40:04+08:00 ] 119.39.148.198 /hnust/index.php/getinformList?type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0119s ]
+SQL: SELECT `id`,`title`,`author`,`time`,`source`,`type` FROM `hnust_supervisor` WHERE `type` = '3' ORDER BY time desc  [ RunTime:0.0116s ]
+
+[ 2017-06-13T19:40:13+08:00 ] 119.39.148.198 /hnust/index.php/admin?target=editorNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000099s ]
+
+[ 2017-06-13T19:42:08+08:00 ] 119.39.148.198 /hnust/index.php/uploadinform
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `hnust_supervisor` [ RunTime:0.0112s ]
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path /home/ubuntu/hnust/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: INSERT INTO `hnust_supervisor` (`id`,`title`,`content`,`link`,`author`,`source`,`time`,`type`) VALUES ('1b6a89ea013fef4b52804823f7340e87','教育学院：打造教学新模式 “三位一体”助力卓越教师培养','&lt;p&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;大一师范在校生就可以到地方中小学实习，这样的机会你见识过吗？&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　见习后直接留在当地任教，这样的故事你听说过吗？&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　地方中小学优秀教师来到校内课堂进行实践指导，这样的课堂你参与过吗？&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　5月8日至12日，各教学院首轮本科教学审核评估自评工作正式展开。在审核评估过程中，教育学院的本科教学工作赢得专家组一致好评。教育学院积极探索“U-S-G”三位一体协同培养卓越教师培养模式，研制教学新“秘方”，助力学院学生“教”与“学”的实践。&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　所谓“U-G-S”协同培养卓越教师，即统筹高校（University）、地方政府（Government）、中小学（School）三方的不同教育资源和力量，协同培养全面掌握教育理论、学科知识与教学技能的高素质中小学教师。由高校对学生开展系统理论学习，地方政府统一协调、搭建桥梁，中小学为师范生开展教育见习、实习提供场所和指导，“三位一体”打造教学新模式。&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　&lt;/span&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　“‘三位一体’协同培养模式机制是独特的，是一种接地气的人才培养模式，带来的好处是多方面的。”教育学院教务办主任王方表示。在他看来，这不仅能为地方中小学带去了更系统的理论指导，更让我校学生真正走进了实际课堂，提升了自我实践能力，同时也有利于政府了解整个地区的中小学教师和学生发展状况。&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　2011年，教育学院推动成立了湖南省首个“教师专业发展联盟学校”组织，全省先后有180多所中小学校接受授牌，成为“联盟学校”的成员，初步搭建了我校与中小学协同培养优秀教师的合作平台。&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　2014年，在学校的支持下，教育学院联合教育科学研究院统筹教师教育人才培养资源和教育科学研究成果，申报创建湖南科技大学教师教育大学生创新训练中心，获得了湖南省2014年普通高校教学建设项目立项，成为了湖南省唯一的省级教师教育大学生创新训练中心，为湖南科技大学的师范类专业师生提供了一个一体化、综合性、开放式的教师教育教学与训练平台。&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　教育学院对“U-G-S”三位一体协同培养卓越教师模式进行的初步探索，已初步获得了一定的成效与认可，由陈春萍教授领导的《全科小学教师“三位一体”协同培养模式的探索与实践》教学改革成果获湖南科技大学2015年教学成果奖一等奖、湖南省2016年省级教学成果奖二等奖。&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　我校12级教育学院学生邓春芳就是“三位一体”协同培养模式的受益者。2015年11月8日，邓春芳作为我校代表参加了湖南省普通高等学校首届师范生教学技能竞赛，并成功获得一等奖。“我的成绩离不开学校组织我们去中小学实习，这些经历让我对课堂氛围、讲课内容有了更充分的把握，同时也让我更从容更自信。”同月，邓春芳通过学院的安排到株洲八达小学开始了新的实习生活。2016年5月，邓春芳圆满渡过试岗期，留在八达小学，正式成为一名小学教师。&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　“三位一体的教学模式对于我成为一名教师有很大的帮助，多方位的平台让我更贴近实际教学，在讲课的过程中我得到了很多一线教师的指导，我对未来充满信心！”参与了“三位一体”协同培养模式的13级教育学院学生何淑娟说道。她在校学习期间积极参与学院组织的实习与见习，不断收获课堂经验的同时，更懂得了智慧教学。&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot;font-family: 宋体; font-size: 14px; text-indent: 28px;&quot;&gt;　　据了解，教育学院目前正努力打通本科师范生与教育硕士之间的学历层次，实现卓越教师“本硕一体化”培养。2016年12月，在教育学院的积极策划与运作下，我校与湘潭市第一中学合作建立了“卓越教师与教育硕士联合培养基地”，也是“全国教育硕士专业学位研究生联合培养基地示范基地”。以此融合教育学院的教育硕士学位点与湘潭市一中优良的中学教育平台，在湘潭市教育局的政策支持与统筹协调下，三位一体，协同育人，联合培养具有教育硕士专业学位的卓越教师，切实提高中学师资的培养质量。&lt;/span&gt;&lt;/p&gt;','home/file/getfile?type=4&id=1b6a89ea013fef4b52804823f7340e87','文/张小琴','大学生通讯社','2017-06-12','4') [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `hnust_document` [ RunTime:0.0110s ]
+SQL: UPDATE `hnust_document` SET `informid`='1b6a89ea013fef4b52804823f7340e87' WHERE ( informid is null ) [ RunTime:0.0108s ]
+

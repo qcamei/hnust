@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> - jqGird</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> 
+    <import type="css" file="css/bootstrap#min?v=3.3.6"/>
+    <import type="css" file="css/font-awesome?v=4.4.0"/>
+    
+    <import type="css" file="css/plugins/jqgrid/ui#jqgrid?0820"/>
+  
+    <import type="css" file="css/animate" />
+    <import type="css" file="css/style?v=4.1.0" />
+    <style>
+        /* Additional style to fix warning dialog position */
+
+        #alertmod_table_list_2 {
+            top: 900px !important;
+        }
+    </style>
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content  animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-12">
+                
+                    <div class="ibox-content">
+
+                        <div class="jqGrid_wrapper">
+                            <table id="table_list_2"></table>
+                            <div id="pager_list_2"></div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 全局js -->
+    <import type="js" file="js/jquery#min?v=2.1.4" />
+    <import type="js" file="js/bootstrap#min?v=3.3.6" />
+    <import type="js" file="js/plugins/peity/jquery#peity#min" />
+    <import type="js" file="js/plugins/jqgrid/i18n/grid#locale-cn?0820" />
+    <import type="js" file="js/plugins/jqgrid/jquery#jqGrid#min?0820" />
+    <!-- 自定义js -->
+    <import type="js" file="js/content?v=1.0.0" />
+
+    <!-- Page-Level Scripts -->
+    <script>
+     var ROOT="__ROOT__";
+     var APP="__APP__";
+     var URL="__URL__";
+        $.ajax({
+            type:"GET",
+            url:APP+"/getfileList",
+            success:successget,
+            error:errorfun
+        });
+        function errorfun(){
+            alert('获取数据失败');
+        }
+        function successget(data){
+             $.jgrid.defaults.styleUI = 'Bootstrap';
+             var mydata =data;
+             console.log(data);
+            $("#table_list_2").jqGrid({
+                data: mydata,
+                datatype: "local",
+                height: 450,
+                autowidth: true,
+                shrinkToFit: true,
+                rowNum: 15,
+                rowList: [10, 20, 30],
+                cellsubmit:'remote',
+                editurl:APP+'/updateFile',
+                colNames: ['序号', '文件名', '分类', '作者', '来源', '时间'],
+                colModel: [
+                    {
+                        name: 'id',
+                        index: 'id',
+                        editable: true,
+                        width: 20,
+                        sorttype: "int",
+                        search: true
+                    },
+                    {
+                        name: 'filename',
+                        index: 'filename',
+                        editable: true,
+                        width: 130,
+                        sorttype: "text",
+                        formatter: "text"
+                    },
+                    {
+                        name: 'type',
+                        index: 'type',
+                        editable: true,
+                        width: 100
+                    },
+                    {
+                        name: 'author',
+                        index: 'author',
+                        editable: true,
+                        width: 80,
+                        align: "right",
+                        sorttype: "float",
+                    },
+                    {
+                        name: 'link',
+                        index: 'link',
+                        editable: true,
+                        width: 80,
+                        align: "right",
+                        sorttype: "float"
+                    },
+                    {
+                        name: 'time',
+                        index: 'time',
+                        editable: true,
+                        width: 80,
+                        align: "right",
+                        sorttype: "float"
+                    },
+                ],
+                pager: "#pager_list_2",
+                viewrecords: true,
+                caption: "文件列表",
+                add: true,
+                edit: true,
+                addtext: 'Add',
+                edittext: 'Edit',
+                hidegrid: false
+            });
+
+            // Add selection
+            $("#table_list_2").setSelection(4, true);
+
+
+            // Setup buttons
+            $("#table_list_2").jqGrid('navGrid', '#pager_list_2', {
+                edit: true,
+                add: true,
+                del: true,
+                search: true
+            }, {
+                height: 200,
+                reloadAfterSubmit: true,
+            });
+
+            // Add responsive to jqGrid
+            $(window).bind('resize', function () {
+                var width = $('.jqGrid_wrapper').width();
+                $('#table_list_2').setGridWidth(width);
+            });
+
+        }     
+    </script>
+</body>
+
+</html>

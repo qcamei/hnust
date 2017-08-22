@@ -1,0 +1,6 @@
+[ 2017-05-04T09:14:31+08:00 ] 119.39.183.24 /hnust/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Favicon
+
